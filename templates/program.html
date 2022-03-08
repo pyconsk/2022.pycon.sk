@@ -1,0 +1,61 @@
+{% extends "body.html" %}
+
+{% block content %}
+<section class="inner-page-banner {{ background}}">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="breadcrumbs-area">
+          <h1>{{ _('Program') }}</h1>
+          <ul>
+            <li>
+              <a href="{{ url_for('index', lang_code=lang_code) }}">PyCon SK 2022</a>
+            </li>
+            <li>{{ _('Program') }}</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Inne Page Banner Area End Here -->
+<!-- Schedule Area Start Here -->
+            <section class="section-space-default bg-light">
+                <div class="container">
+                    <div class="schedule-layout2">
+                        <ul class="schedule-nav nav nav-tabs">
+                            <li class="nav-item">
+                                <a href="#talks_list" data-toggle="tab" aria-expanded="false" class="active">
+                                    <div class="day-number">Talks</div>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#workshops_link" data-toggle="tab" aria-expanded="false">
+                                    <div class="day-number">Workshops</div>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="schedule-content">
+                            <div class="tab-content">
+                                <div role="tabpanel" class="tab-pane fade active show" id="talks_list">
+                                    <div role="tabpanel" class="tab-pane fade active show" id="talks_list">
+                                        {% with day=talks_list, name='talks_list' %}
+                                        {% include 'includes/program_table.html' %}
+                                        {% endwith %}
+                                    </div>
+                                </div>
+
+                                <div role="tabpanel" class="tab-pane fade" id="workshops_link">
+                                    <div role="tabpanel" class="tab-pane fade active show" id="workshops_link">
+                                        {% with day=workshops_link, name='workshops_link' %}
+                                        {% include 'includes/program_table.html' %}
+                                        {% endwith %}
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Schedule Area End Here -->{% endblock %}

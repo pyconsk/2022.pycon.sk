@@ -1,0 +1,169 @@
+.sponsor-web-link a i{
+	font-size: 14px;
+   width: 36px;
+   height: 36px;
+   line-height: 36px;
+   background: #303030;
+   border-radius: 100%;
+   margin: 10px 3px 0 3px;
+}
+
+.sponsors-title {
+    border-bottom: 1px solid
+    #dadada;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.sponsor-details {
+    margin-top: 20px;
+}
+
+.sponsor-info, .sponsor-name {
+    font-size: 23px;
+    margin-top: 20px;
+    color:
+    #ea531c;
+}
+
+.sponsor-row {
+    vertical-align:middle;
+	margin-bottom: 5em;
+}
+
+.diamond a img {
+  max-width: 35rem;
+}
+
+.platinum a img {
+  max-width: 30rem;
+}
+
+.gold a img {
+  max-width: 25rem;
+}
+
+.silver a img {
+  max-width: 20rem;
+}
+
+.bronze a img, .partners a img {
+  max-width: 15rem;
+}
+
+/* Accordion */
+
+.panel-default>.panel-heading{
+	 background: none;
+	 border-radius: 0;
+	 position: relative;
+	 padding: 6px 6px;
+     border: 1px;
+}
+
+.panel-group .panel{
+	 border-radius: 0;
+	 margin-bottom: 10px;
+}
+
+.panel-body{
+	 padding: 20px 20px 10px 20px;
+}
+
+.panel-body > img{
+	 max-width: 100px;
+	 margin-bottom: 10px;
+     border:1px;
+}
+
+h4.panel-title{
+	 font-size: 16px;
+	 background: none;
+	 border: 1px;
+	 padding: 8px 0 8px 0;
+	 line-height: normal;
+	 border-radius: 0;
+}
+
+h4.panel-title a{
+	 color: #ea531c;
+}
+
+h4.panel-title span{
+	 float: right;
+}
+
+h4.panel-title a.collapsed{
+	 color: #333;
+}
+
+h4.panel-title a:before{
+		background: #ea531c;
+		color: #fff;
+		width: 26px;
+		height: 26px;
+		line-height: 26px;
+}
+
+h4.panel-title a.collapsed:before{
+	 background: #303030;
+	 color: #fff;
+}
+
+h4.panel-title a:before,
+h4.panel-title a.collapsed:before{
+	 font-family: "FontAwesome";
+	 position: absolute;
+	 z-index: 0;
+	 font-size: 14px;
+	 right: 15px;
+	 padding: 0 5px;
+	 text-align: center;
+	 top: 50%;
+	 -webkit-transform: translateY(-50%);
+		transform: translateY(-50%);
+}
+
+h4.panel-title a:before {
+	 content: "\f106";
+}
+
+h4.panel-title a.collapsed:before {
+	 content: "\f107";
+}
+
+
+/* Accordion classic */
+
+.panel-classic .panel-heading{
+	 padding-left: 15px;
+}
+
+.panel-classic h4.panel-title a:before,
+.panel-classic h4.panel-title a.collapsed:before{
+	 position: relative;
+	 content: '';
+	 font-size: 0;
+}
+
+.panel-default>.panel-heading {
+    color: #333;
+    background-color: #f5f5f5;
+    border-color: #ddd;
+}
+
+.panel-default>.panel-heading:hover {
+    color: #222;
+    background-color: #f0f0f0;
+    border-color: #ccc;
+}
+
+ul.discs {
+  display: block;
+  list-style-type: disc;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding-left: 30px;
+}

@@ -1,0 +1,233 @@
+{% extends "body.html" %}
+
+{% block content %}
+<!-- Slider Area Start Here -->
+<section class="slider-layout2 overlay-icon-layout6">
+  <img src="{{ url_for('static', filename=background_filename) }}" class="img-fluid" alt="banner">
+  <div class="comingsoon-inner">
+    <div class="container">
+      <div class="comingsoon-content">
+        <p class="text-underline">PyCon SK 2022</p>
+        <ul class="upcoming-event-info">
+          <li>{{ _('Bratislava, Slovakia') }}</li>
+        </ul>
+        <div class="countdown-layout2 d-none d-sm-block">
+          <!-- <div id="countdown"></div> -->
+        </div>
+        <div class="row">
+          <div class="col-12 text-center d-none d-md-block ">
+            <a href="{{ url_for('tickets', lang_code=lang_code) }}" title="{{ _('Buy Tickets') }}" class="btn-fill size-lg border-radius-5 color-yellow">{{ _('Buy Tickets') }}</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Slider Area End Here -->
+<!-- About Area Start Here -->
+<section class="section-space-default bg-common bg-accent bg-figure3">
+  <div class="container">
+    <div class="section-heading title-black color-dark text-center">
+      <h2>{{ _('About PyCon SK') }}</h2>
+    </div>
+    <div class="about-layout2">
+      <div class="media align-items-center media-none--md">
+        <div class="video-area overlay-primary60">
+          <img src="{{ url_for('static', filename='img/about/lecture.jpg') }}" alt="about" class="img-fluid width-100">
+          <a class="play-btn popup-youtube" href="http://www.youtube.com/watch?v=rOlGoEaz-DA">
+            <img src="{{ url_for('static', filename='img/figure/play.svg') }}" alt="play" class="img-fluid">
+          </a>
+        </div>
+        <div class="media-body media-body-box">
+          <h3 class="title-bold color-primary size-lg margin-b-10">{{ _('2022') }}</h3>
+          <p>
+            {{ _('The PyCon SK 2022 conference, which will be held in Bratislava, is an annual gathering of the community using and developing the open-source Python programming language.') }}
+            {{ _('It is organized by volunteers from the SPy o.z., civic association dedicated to advancing and promoting Python and other Open Source technologies and ideas.') }}
+            {{ _('Through PyCon, the SPy o.z. advances its mission of growing the Slovak (and also international) community of Python programmers and Open Source supporters.') }}
+          </p>
+        </div>
+      </div>
+    </div>
+    <br/>
+    <div class="about-layout2">
+      <div class="media align-items-center media-none--md">
+        <div class="media-body media-body-box">
+          <h3 class="title-bold color-primary size-lg margin-b-10">{{ _('Edu Summit') }}</h3>
+          <p>
+            {{ _('EduSummit is a special section of the conference focused on teaching programming at primary and secondary schools.') }}
+            {{ _('We are now organising the fourth edition, a two day summit during which teachers will be introduced to innovative ways and methods of teaching programming, share their knowledge of useful tools and last but not least participate in numerous workshops given by experienced educators.') }}
+          </p>
+        </div>
+        <div class="video-area overlay-primary60">
+          <img src="{{ url_for('static', filename='img/about/edu_summit.jpg') }}" alt="about" class="img-fluid width-100">
+          <a class="play-btn popup-youtube" href="http://www.youtube.com/watch?v=ioJjB5RUqTE">
+            <img src="{{ url_for('static', filename='img/figure/play.svg') }}" alt="play" class="img-fluid">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- About Area End Here -->
+<!-- Progress Area Start Here -->
+<section class="progress-section-space bg-common progress-bg-color"
+         style="background-image: url(img/figure/figure1.png);">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 col-12">
+        <div class="progress-layout1">
+          <div class="media">
+            <div class="item-icon">
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
+            </div>
+            <div class="media-body">
+              <h3>FIIT STU<br >Bratislava</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-12">
+        <div class="progress-layout1">
+          <div class="media">
+            <div class="item-icon">
+              <i class="fa fa-microphone" aria-hidden="true"></i>
+            </div>
+            <div class="media-body">
+              <h3>50+<br />{{ _('Speakers') }}</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-12">
+        <div class="progress-layout1">
+          <div class="media">
+            <div class="item-icon">
+              <i class="fa fa-users" aria-hidden="true"></i>
+            </div>
+            <div class="media-body">
+              <h3>250+<br />{{ _('Participants') }}</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Progress Area End Here -->
+<!-- Blog Area Start Here -->
+            <section class="section-space-default-less30 bg-accent">
+                <div class="container">
+                    <div class="section-heading title-black color-dark text-center">
+                        <h2>{{ _('News') }}</h2>
+                        <p>{{ _('There are a lot of things going on around conference... Here are some of them...') }}</p>
+                    </div>
+                    <div class="row">
+                        {% for item in news %}
+                        <div class="col-12">
+                            <div class="blog-layout2">
+                                <div class="media align-items-center media-none--sm">
+                                    <div class="item-img">
+                                        <img src="img/blog/blog4.jpg" alt="blog" class="img-fluid">
+                                        <div class="item-date">
+                                            {{ item.date.strftime('%d') }}
+                                            <span> {{ item.date.strftime('%b') }}</span>
+                                        </div>
+                                    </div>
+                                    <div class="media-body media-body-box">
+                                        <div class="item-title">
+                                            <h3 class="title title-medium color-dark hover-primary">
+                                              {% if item['url'] %}<a href="{{ item.url }}"{% if item['url']|first != '/' %} target="_blank"{% endif %}>{% endif %}{{ item.title }}{% if item['url'] %}</a>{% endif %}
+                                            </h3>
+                                        </div>
+                                        <div class="item-description">
+                                            {% set paragraph = item.meta.split('\n') %}
+                                            {% for p in paragraph %}
+                                            <p>{% if p %}{{ p }}{% else %}&nbsp;{% endif %}</p>
+                                            {% endfor %}
+                                            {% if item['url'] %}
+                                                <a href="{{ item.url }}" title="{{ _('Read more') }}"{% if item['url']|first != '/' %} target="_blank"{% endif %} class="btn-text color-green hover-yellow pull-right">{{ _('Read more') }}</a>
+                                            {% endif %}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </section>
+            <!-- Blog Area End Here -->
+
+{#<!-- Speaker Area Start Here -->#}
+{#<section class="section-space-top-default bg-light">#}
+{#    <div class="container-fluid">#}
+{#        <div class="section-heading title-black color-dark text-center">#}
+{#            <h2>{{ _('Speakers') }}</h2>#}
+{#            <p>#}
+{#              {{ _('Speakers that who have already confirmed attendance at PyCon SK 2022.') }}#}
+{#              {{ _('You can fill the Call for Proposals and join this list...') }}#}
+{#            </p>#}
+{#        </div>#}
+{#        <div class="row no-gutters full-width">#}
+{#{% for speaker in speakers %}#}
+{#            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-6 col-6">#}
+{#                <div class="speaker-layout2">#}
+{#                    <img src="{{ url_for('static', filename=speaker['avatar']) }}" alt="speaker" class="img-fluid">#}
+{#                    <div class="item-title">#}
+{#                        <h3 class="title-medium size-md color-light hover-yellow">#}
+{#                            <a href="{{ url_for('profile', lang_code=lang_code, name=speaker['name'].lower().replace(' ', '-')) }}">{{ speaker['name'] }}</a>#}
+{#                        </h3>#}
+{#                    </div>#}
+{#                    <div class="item-social">#}
+{#                        <ul>{% for link, url in speaker['links'].items() %}#}
+{#                            <li>#}
+{#                                <a href="{{ url }}" title="{{ link }}" target="_blank">#}
+{#                                    <i class="fa fa-{{ link }}" aria-hidden="true"></i>#}
+{#                                </a>#}
+{#                            </li>{% endfor %}#}
+{#                        </ul>#}
+{#                    </div>#}
+{#                </div>#}
+{#            </div>#}
+{#{% endfor %}#}
+{#        </div>#}
+{#    </div>#}
+{#</section>#}
+{#<!-- Speaker Area End Here -->#}
+
+<!-- Call To Action Area Start Here -->
+<section class="overlay-primary90 overlay-icon-layout1 section-space-default bg-common"
+         style="background-image: url(img/figure/figure1.jpg);">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="call-to-action-layout1 zindex-up">
+          <h2>{{ _('Get Your Ticket Now') }}</h2>
+          <p>{{ _('Conference tickets are available for purchase. So far each PyCon SK edition has sold out, so do not leave buying your ticket to the last moment, because they might be gone...') }}</p>
+          <a href="{{ url_for('tickets', lang_code=lang_code) }}" title="{{ _('Buy Tickets') }}" class="btn-fill size-lg border-radius-5 color-yellow">{{ _('Buy Tickets') }}</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Call To Action Area End Here -->
+
+<!-- Sponsonrs Area Start Here -->
+<section class="section-space-default bg-light">
+  <div class="container">
+    <div class="section-heading title-black color-dark text-center">
+      <h2>{{ _("Official Sponsors &amp; Partners") }}</h2>
+      <p>{{ _("We are looking for sponsors and partners. Please get in touch with us.") }}</p>
+<!--      <p>{{ _("Check Who Makes This Event Possible!") }}</p>-->
+    </div>
+    <div class="row">
+      <div class="col-12 text-center">
+        <a href="mailto:sponsors@pycon.sk" title="{{ _('Become a Sponsor') }}" class="btn-fill size-lg color-yellow border-radius-5 margin-t-30">
+            {{ _('Become a Sponsor') }}
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Sponsonrs Area End Here -->
+{% endblock %}

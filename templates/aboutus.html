@@ -1,0 +1,64 @@
+{% extends "body.html" %}
+
+{% block content %}
+<!-- Inner Page Banner Area Start Here -->
+<section class="inner-page-banner {{ background}}">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="breadcrumbs-area">
+          <h1>{{ _('About Us') }}</h1>
+          <ul>
+            <li>
+              <a href="{{ url_for('index', lang_code=lang_code) }}">PyCon SK 2022</a>
+            </li>
+            <li>{{ _('About Us') }}</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <section class="section-space-less30">
+<!--    <section id="main-container" class="main-container">-->
+        <div class="container mrb-30">
+            <div class="row">
+
+                <div class="col-md-8">
+                    <h3 class="title-classic left">{{ _('About Us') }}</h3>
+
+                    <p>{{ _('The mission of the SPy civic association (SPy is the abbreviation of "Slovak Python", or sometimes we say "Slovak Python User Group") is to support developers and users of the Python programming language. We support and we spread the programming language Python and other open source technologies and open source ideas in our society.') }}
+                    </p>
+                    <p>{{ _('Our goal is to provide help and support for beginners and people who are new to programming. Another goal is to work with schools and other educational institutions, and promote programming (independent of the programming language) in children and young people from the earliest age.') }}
+                    </p>
+                    <p>{{ _('We support the area of software development in socially vulnerable or otherwise disadvantaged social groups. We are dedicated to practical use of software development.') }}
+
+                    </p>
+                    <p>{{ _('We want to work on various open source projects, to create open educational content for use in schools as well as self-study and advocate for the use of open technologies in society and the public sector.') }}
+                    </p>
+                    <p>{{ _('Since 2015 we have organized dozens of events and projects. If you would like to know more, talk to us during the conference...') }}
+                        <a href="https://spy.python.sk/{{ lang_code }}/">{{ _('Or visit our website') }}</a></p>
+
+
+                </div><!-- Col end -->
+
+                <div class="col-md-4">
+                    <img class="img-responsive" src="{{ url_for('static', filename='img/pycon_logo_square_400x400.png') }}"
+                         alt="img">
+                </div><!-- Col end -->
+
+                <div class="col-md-12">
+                    <p class="text-center">
+                      <a href="{{ url_for('cfv', lang_code=lang_code) }}" class="btn-fill size-lg border-radius-5 color-yellow">{{ _('Call for volunteers') }}</a>
+                    </p>
+                </div>
+
+            </div><!-- Content row end -->
+        </div>
+
+    </section><!-- Main container end --><!-- Content Page Area End Here -->
+{% endblock %}
+
+{% block js %}
+{% endblock %}

@@ -1,0 +1,19 @@
+[
+  {
+    "date": "2022-03-09",
+    "title_en": "The Call for Proposals is open!",
+    "meta_en": "Do you know anyone in underrepresented group in IT who would like to do a conference talk? Let us know, and try to encourage him/her to submit Call for Proposals for PyCon SK 2020. We are trying to support diversity. Anyone can be part of the conference.",
+    "title_sk": "Predkladanie prednášok a workshopov je otvorené!",
+    "meta_sk": "Poznáš niekoho z málo zastúpenej skupiny v IT, kto by chcel urobiť prednášku na konferencii? Daj nám vedieť a povzbuď ho/ju, aby si podal/a návrh na prednášku na PyCon SK 2020. Snažíme sa podporovať rôznorodosť.",
+    "categories": ["speakers"],
+    "url": "/en/cfp.html"
+  },
+  {
+    "date": "2022-03-09",
+    "title_en": "PyCon SK 2022",
+    "meta_en": "Due to the COVID-19 situation PyCon SK 2020 was postponed. We are happy to announce that PyCon SK 2022 will happen 9-11. September 2022. For more details subscribe to our Newsletter.",
+    "title_sk": "PyCon SK presunutý na rok 2022",
+    "meta_sk": "Vzhľadom na pretrvávajúcu pandemickú situáciu sa PyCon SK 2020 neuskutočnil. Sme veľmi radi, že môžeme oznámiť PyCon SK 2022 bude 9-11. Septembra 2022. Pre viac info sa prihláste na odber nižšie.",
+    "categories": ["conference"]
+  }
+]

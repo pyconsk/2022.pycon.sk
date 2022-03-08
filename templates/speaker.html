@@ -1,0 +1,88 @@
+{% extends "body.html" %}
+
+{% block content %}
+<section class="inner-page-banner {{ background}}">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="breadcrumbs-area">
+          <h1>{{ speaker['name'] }}</h1>
+          <ul>
+            <li>
+              <a href="{{ url_for('index', lang_code=lang_code) }}">PyCon SK 2022</a>
+            </li>
+            <li><a href="{{ url_for('speakers', lang_code=lang_code) }}">{{ _('Speakers') }}</a></li>
+            <li>{{ speaker['name'] }}</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+    <a id=bio></a>
+<!-- Inne Page Banner Area End Here -->
+<!-- Speaker Page Area Start Here -->
+<section class="section-space-less30">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5 col-md-12 col-sm-12">
+                <div class="single-speaker-img">
+                    <img src="{{ url_for('static', filename=speaker['avatar']) }}" class="img-fluid" alt="single-speaker">
+                </div>
+            </div>
+            <div class="col-lg-7 col-md-12 col-sm-12">
+                <div class="speaker-profile">
+                    <h2 class="title title-black color-dark">{{ speaker['name'] }}</h2>
+                    <div class="sub-title">{{ speaker['country'] }}</div>
+                    <div class="profile-social">
+                        <ul>{% for link, url in speaker['links'].items() %}
+                            <li>
+                                <a href="{{ url }}" title="{{ link }}" target="_blank">
+                                    <i class="fa fa-{{ link }}" aria-hidden="true"></i>
+                                </a>
+                            </li>{% endfor %}
+                        </ul>
+                    </div>
+                    {% set bio = speaker['bio'].split('\n') %}
+                    {% for p in bio %}
+                    <p>{{ p }}</p>
+                    {% endfor %}
+                </div>
+            </div>
+            {% for abstract in speaker['abstracts'] %}
+            <div class="col-12">
+                <a id="abstract{{ loop.index }}"></a>
+                <div class="pt-5 event-description">
+                    <h2 class="title title-bold color-dark">{{ abstract['title'] }} <span class="pull-right badge badge-pill badge-primary">{{ abstract['type'] }}</span></h2>
+                    <p><span class="pull-right badge badge-pill badge-primary">
+                        {% if abstract['lang'] == 'sk' %}{{ _('Slovak language') }}
+                        {% elif abstract['lang'] == 'en' %}{{ _('English language') }}
+                        {% elif abstract['lang'] == 'cz' %}{{ _('Czech language') }}{% endif %}
+                    </span></p>
+
+                    {% set paragraph = abstract['text'].split('\n') %}
+                    {% for p in paragraph %}
+                    <p>{{ p }}</p>
+                    {% endfor %}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+<!--    <div class="container">-->
+<!--        <h3 class="title-bold color-dark title-bar">All Sessions By {{ speaker['name'] }}</h3>-->
+<!--        <div class="row">-->
+<!--            {% for abstract in speaker['abstracts'] %}-->
+<!--            <div class="col-lg-4 col-md-12 col-sm-12">-->
+<!--                <div class="profile-event">-->
+<!--                    <h3 class="title title-bold color-dark">{{ abstract['title'] }}</h3>-->
+<!--                    <div class="profile-event-date">July 23, 2018 10.00-11.30</div>-->
+<!--                    <div class="profile-event-place">CineHall_1</div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            {% endfor %}-->
+<!--        </div>-->
+<!--    </div>-->
+</section>
+<!-- Speaker Page Area End Here -->
+{% endblock %}

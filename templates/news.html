@@ -1,0 +1,154 @@
+{% extends "body.html" %}
+{% block content %}
+<!-- Inner Page Banner Area Start Here -->
+<section class="inner-page-banner {{ background }}">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="breadcrumbs-area">
+          <h1>
+            {{ _('Newsroom') }}{% if category %}: {{ category }}{% endif %}
+          </h1>
+          <ul>
+            <li>
+              <a href="{{ url_for('index', lang_code=lang_code) }}">PyCon SK 2022</a>
+            </li>
+            <li>
+              {% if category %}<a href="{{ url_for('news', lang_code=lang_code) }}">{% endif %}
+              {{ _('Newsroom') }}
+              {% if category %}</a>{% endif %}
+            </li>
+            {% if category %}
+            <li>{{ _('Category') }}: {{ category }}</li>
+            {% endif %}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Inner Page Banner Area End Here -->
+<!-- Blog Page Area Start Here -->
+<section class="section-space-less30">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-12 margin-b-30rem">
+                {% for item in news %}
+                <div class="blog-layout5">
+                    <div class="entry-image">
+                        <div class="item-content">
+                            <h3 class="title title-bold color-dark size-lg hover-primary">
+                              {% if item['url'] %}<a href="{{ item.url }}">{% endif %}
+                                {{ item.title }}
+                              {% if item.url %}</a>{% endif %}
+                            </h3>
+                            <ul class="news-meta-info">
+                                <li>{{ item.date }}</li>
+                                {% for category in item.categories %}
+                                <li>
+                                    <a href="{{ url_for('news_category', lang_code=lang_code, category=category) }}">{{ categories[category] }}</a>
+                                </li>
+                                {% endfor %}
+                            </ul>
+                            {% set paragraph = item.meta.split('\n') %}
+                            {% for p in paragraph %}
+                            <p>{{ p }}</p>
+                            {% endfor %}
+                            {% if item['url'] %}
+                              <a href="{{ item.url }}" title="{{ _('Read more') }}" class="btn-text color-green hover-yellow">{{ _('Read more') }}</a>
+                            {% endif %}
+
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+
+<!--                <div class="pagination-area margin-t-30">-->
+<!--                    <ul>-->
+<!--                        <li class="active">-->
+<!--                            <a href="#">1</a>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <a href="#">2</a>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <a href="#">3</a>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <a href="#">4</a>-->
+<!--                        </li>-->
+<!--                    </ul>-->
+<!--                </div>-->
+
+            </div>
+            <div class="sidebar-widget-area sidebar-break-md col-lg-4 col-md-12">
+
+                <div class="widget widget-categories">
+                    <h3 class="title title-bold color-dark sidebar-title-bar">{{ _('Categories') }}</h3>
+                    <ul>
+                        {% for key, value in categories.items() %}
+                        <li>
+                            <a href="{{ url_for('news_category', lang_code=lang_code, category=key) }}">{{ value }}</a>
+                        </li>
+                        {% endfor %}
+                        <li>
+                            <a href="{{ url_for('news', lang_code=lang_code) }}">{{ _('All') }}</a>
+                        </li>
+                    </ul>
+                </div>
+<!--                <div class="widget widget-recent-entries">-->
+<!--                    <h3 class="title title-bold color-dark sidebar-title-bar">Recent Posts</h3>-->
+<!--                    <ul>-->
+<!--                        <li>-->
+<!--                            <a href="#">How to Select a Small Business Coach or Consultant</a>-->
+<!--                            <span class="post-date">10th Oct 2018</span>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <a href="#">How to Select a Small Business Coach or Consultant</a>-->
+<!--                            <span class="post-date">10th Oct 2018</span>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <a href="#">How to Select a Small Business Coach or Consultant</a>-->
+<!--                            <span class="post-date">10th Oct 2018</span>-->
+<!--                        </li>-->
+<!--                    </ul>-->
+<!--                </div>-->
+<!--                <div class="widget widget-archives">-->
+<!--                    <h3 class="title title-bold color-dark sidebar-title-bar">Archives</h3>-->
+<!--                    <ul>-->
+<!--                        <li>-->
+<!--                            <a href="#">March 2016 (4)</a>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <a href="#">Febuary 2016 (9)</a>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <a href="#">January 2016 (34)</a>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <a href="#">December 2015 (22)</a>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <a href="#">November 2015 (35)</a>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <a href="#">Octorber 2015 (4)</a>-->
+<!--                        </li>-->
+<!--                    </ul>-->
+<!--                </div>-->
+<!--                <div class="widget widget-tag">-->
+<!--                    <h3 class="title title-bold color-dark sidebar-title-bar">{{ _('Categories') }}</h3>-->
+<!--                    <ul>-->
+<!--                        {% for key, value in categories.items() %}-->
+<!--                        <li>-->
+<!--                            <a href="{{ url_for('news_category', lang_code=lang_code, category=key) }}">{{ value }}</a>-->
+<!--                        </li>-->
+<!--                        {% endfor %}-->
+<!--                    </ul>-->
+<!--                </div>-->
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Blog Page Area End Here -->
+{% endblock %}
