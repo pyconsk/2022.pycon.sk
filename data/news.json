@@ -1,5 +1,14 @@
 [
   {
+    "date": "2022-03-13",
+    "title_en": "Donate your 2% to SPy",
+    "meta_en": "Besides PyCon SK, our non-profit organisation actively supports Slovak ICT teachers, mainly by organising workshops and creating teacher content. Please, consider supporting us by donating your 2% of your paid tax (applicable only to Slovak tax payers).",
+    "title_sk": "Dve percentá pre SPy",
+    "meta_sk": "Okrem konferencie PyCon SK naše občianske združenie organizuje aj projekt Učíme s Hardvérom, v rámci ktorého sa nám podarilo dostať micro:bity na vyše 300 základných a stredných škôl, vyškolili sme približne 750 učiteľov a naše aktivity zasiahli vyše 10 000 žiakov a žiačok. Ak by ste nás chceli v týchto aktivitách podporiť, zvážte darovanie vašich 2%",
+    "categories": [],
+    "url": "https://python.sk/daruj/"
+  },
+  {
     "date": "2022-03-09",
     "title_en": "The Call for Proposals is open!",
     "meta_en": "Do you know anyone in underrepresented group in IT who would like to do a conference talk? Let us know, and try to encourage him/her to submit Call for Proposals for PyCon SK 2022. We are trying to support diversity. Anyone can be part of the conference.",
