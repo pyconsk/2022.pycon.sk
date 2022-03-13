@@ -1266,7 +1266,7 @@ msgstr "O konferencii PyCon SK"
 
 #: templates/index.html:43
 msgid "2022"
-msgstr ""
+msgstr "2022"
 
 #: templates/index.html:45
 msgid ""
@@ -1274,6 +1274,9 @@ msgid ""
 "annual gathering of the community using and developing the open-source "
 "Python programming language."
 msgstr ""
+"Konferencia PyCon SK 2022, ktorá sa bude konať v Bratislave, je každoročné"
+" stretnutie komunity využívajúcej a vyvíjajúcej open sourcový programovací jazyk"
+" Python."
 
 #: templates/index.html:46
 msgid ""
