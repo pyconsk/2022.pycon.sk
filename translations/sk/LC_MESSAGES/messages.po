@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-03-13 19:08+0100\n"
+"POT-Creation-Date: 2022-05-17 23:13+0200\n"
 "PO-Revision-Date: 2018-11-27 22:00+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sk\n"
@@ -284,8 +284,8 @@ msgid ""
 " <b>The deadline for submissions is 30 June 2022.</b>"
 msgstr ""
 "Snažíme sa uzavrieť program konferencie čo najskôr; čím skôr podáte svoj "
-"návrh, tým je vyššia šanca prijatia. <b>Termín ukončenia predkladania návrhov je "
-"30. jún 2022.</b>"
+"návrh, tým je vyššia šanca prijatia. <b>Termín ukončenia predkladania "
+"návrhov je 30. jún 2022.</b>"
 
 #: templates/cfp.html:50
 msgid ""
@@ -1274,9 +1274,9 @@ msgid ""
 "annual gathering of the community using and developing the open-source "
 "Python programming language."
 msgstr ""
-"Konferencia PyCon SK 2022, ktorá sa bude konať v Bratislave, je každoročné"
-" stretnutie komunity využívajúcej a vyvíjajúcej open sourcový programovací jazyk"
-" Python."
+"Konferencia PyCon SK 2022, ktorá sa bude konať v Bratislave, je "
+"každoročné stretnutie komunity využívajúcej a vyvíjajúcej open sourcový "
+"programovací jazyk Python."
 
 #: templates/index.html:46
 msgid ""
@@ -1812,11 +1812,11 @@ msgstr "Strieborní sponzori"
 msgid "Bronze sponsors"
 msgstr "Bronzoví sponzori"
 
-#: templates/sponsors.html:113
+#: templates/sponsors.html:120
 msgid "Main media partner"
 msgstr "Hlavný mediálny partner"
 
-#: templates/sponsors.html:124
+#: templates/sponsors.html:131
 msgid "Partners"
 msgstr "Partneri"
 
