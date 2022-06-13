@@ -1,3 +1,65 @@
 [
-
+  {
+    "speakers": [
+      "Tom Dyson"
+    ],
+    "type": "Talk",
+    "lang": "en",
+    "title": "To be announced...",
+    "text": "To be announced..."
+  },
+  {
+    "speakers": [
+      "Tom Dyson"
+    ],
+    "type": "Workshop",
+    "lang": "en",
+    "title": "Wagtail workshop",
+    "text": "To be announced..."
+  },
+  {
+    "speakers": [
+      "Mauro Pelucchi"
+    ],
+    "type": "Talk",
+    "lang": "en",
+    "title": "Nowcasting financial crisis with deep learning techniques",
+    "text": "This tutorial shows how apply Regression Models and Deep Learning Models to \nnowcasting stock markets crisis events.\nSpecifically, we'll how the transmission mechanisms across stock markets can \nbe used to train machine learning models to predict crisis events. The tutorial'll show \nthe entire pipeline: from the preparation of the dataset,\nhow balance observations and how measure our performances."
+  },
+  {
+    "speakers": [
+      "Mauro Pelucchi"
+    ],
+    "type": "Workshop",
+    "lang": "en",
+    "title": "Data Ingestion and Big Data",
+    "text": "Web scraping, crawling and API are the first step to retrieve information to use for analysis\nand to start a new business.\nIn this tutorial I'll show you how to use python to set up scraping and crawling processes,\nhow to simulate users navigation and browser behavior with a ghost browser and how to hook up and use data APIs.\nI will also try to explain the technical and ethical aspects that we have to consider when we approach these kinds of challenges."
+  },
+  {
+    "speakers": [
+      "Dmitry Dygalo"
+    ],
+    "type": "Talk",
+    "lang": "en",
+    "title": "Stop writing tests for your web API! Try to generate them first.",
+    "text": "Having a comprehensive test suite is a crucial part of modern software development. But often, writing tests at scale is a tiresome and error-prone process. \n\nYou will learn how to save time on testing web APIs, see real-life examples, and tools that will improve your web APIs with minimal effort. \n\nThere will be a showcase of the Hypothesis & Schemathesis libraries that bring property-based testing to the world of web applications. To illustrate its effectiveness I'll share the results from our recent research paper, where we evaluated 8 API fuzzers against 16 real-world open-source services and found over 100 internal server errors."
+  },
+  {
+    "speakers": [
+      "Luka Raljević"
+    ],
+    "type": "Talk",
+    "lang": "en",
+    "title": "Dive into codebase like a pro",
+    "text": "How to get familiar with codebase you need to maintain with minimum suffering? How to leave codebase easier to deal with for your colleagues so they don’t have to suffer like you did? \nIf you are experienced developer or a junior just starting your journey, inheriting codebase can be a very challenging task. Especially if the codebase is not quite up to your standards, or it’s just huge and complex beast. \nI will convey my experience and tips and tricks on inheriting code I acquired during 12 years of software development on new and old projects. \nThe talk will provide guidelines to ease taking over code from somebody else, as well as remind developers of the importance that planning, preparation and documentation have in facilitating code change and project growth."
+  },
+  {
+    "speakers": [
+      "Dom Weldon"
+    ],
+    "type": "Talk",
+    "lang": "en",
+    "title": "It's Your Call(able): a tour of Python's callable (function) interface",
+    "text": "Functions are fundamental to python, and are amongst the first features of python that most users learn. We call a function with arguments, and it returns a value. However, there is more to this callable interface than meets the eye, and there are lots of useful and powerful things we can do with the callable interface. You may have come across many of these already: (anonymous) lambda functions, the call magic method, the decorator pattern, the doc property, and modules like functools and inspect which provide detailed about functions and allow us to alter functions at runtime. The now-retired Python 3.6 release added typing annotations to this mix, and opened up a new world of metadata to use alongside your callables.\n\nLots of libraries, particularly web frameworks like Flask, Django, and FastAPI, and testing toolkits like pytest, use this callable interface to implement their API. As developers, understanding these advanced features of python’s callable interface is particularly useful when writing generic, automation focused code, and understanding how such prominent libraries work.\n\nThis talk gives a deep-dive into python functions, and the associated callable interface. We’ll start with a quick tour of the basics, before covering python’s more advanced callable features, and exploring some examples about how, why, and when you may wish to use these features yourself."
+  }
 ]

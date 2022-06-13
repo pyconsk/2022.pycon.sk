@@ -1,3 +1,49 @@
 [
-
+    {
+        "name": "Tom Dyson",
+        "bio": "Tom graduated from Balliol College, Oxford, in 1995, swapping the later philosophy of Wittgenstein for Netscape 2 and a 9600 baud modem. He ran a little agency called Naïve (“Why don’t you just call yourselves ‘Stupid’?”) until he joined forces with Olly in 2000, starting Torchbox with the aim of building beautiful online software for people who make the world a better place. As Technical Director, Tom is responsible for making sure the things we build are fast and reliable and easy to maintain. He manages the tech team and account directs many of our large technical projects. Along with Olly, Tom tries to make Torchbox a fun and inspiring place to work. Tom lives with his family in the countryside. He reads novels and gets cross at tennis. He plays in three bands who will probably never make it. He composed the theme tune to Charlie and Lola.",
+        "country": "United Kingdom",
+        "avatar": "img/speakers/tom_dyson.jpg",
+        "links": {
+            "linkedin": "https://www.linkedin.com/in/tomdyson/",
+            "link": "https://torchbox.com/team/tom-dyson/"
+        }
+    },
+    {
+        "name": "Mauro Pelucchi",
+        "bio": "Mauro Pelucchi is a senior data scientist and big data engineer responsible for the design of the \"Real-Time Labour Market Information System on Skill Requirements\" for CEDEFOP. He currently works as Head of Global Data Science @ EMSI Burning-Glass with the goal to develop innovative models, methods and deployments of labour market data and other data to meet customer requirements and prototype new potential solutions. His main tasks are related to advanced machine learning modelling, labour market analyses, and the design of big data pipelines to process large datasets of online job vacancies.\nIn collaboration with the University of Milano-Bicocca, he took part in many research projects related to the labour market intelligence systems.\nHe collaborates with the University of Milano-Bicocca as a lecturer at the Master Business Intelligence and Big Data Analytics and with the University of Bergamo as a lecturer in Computer Engineering.",
+        "country": "Italy",
+        "avatar": "img/speakers/mauro_pelucchi.jpg",
+        "links": {
+            "linkedin": "https://www.linkedin.com/in/mauropelucchi/",
+            "link": "http://www.mauropelucchi.com"
+        }
+    },
+    {
+        "name": "Luka Raljević",
+        "bio": "I am Python software developer since 2010. Mostly web applications. I have made right choices, wrong choices and had to maintain someone else’s choices. I have built simple and complex web applications from scratch, took over complex systems, endured countless upgrades and dependency changes. I started as a fullstack developer and system administrator. I have been a team lead, a mentor and a software architect. However, I was always, first and foremost, a developer.",
+        "country": "Croatia",
+        "avatar": "img/speakers/luka_raljevic.jpg",
+        "links": {
+        }
+    },
+    {
+        "name": "Dmitry Dygalo",
+        "bio": "A lazy developer from Prague, that doesn't like writing boring tests. Building a platform for effortless API testing at Schemathesis.io",
+        "country": "Czech Republic",
+        "avatar": "img/speakers/dmitry_dygalo.jpg",
+        "links": {
+            "github": "https://github.com/Stranger6667",
+            "twitter": "https://twitter.com/Stranger6667"
+        }
+    },
+    {
+        "name": "Dom Weldon",
+        "bio": "Dom Weldon is a Principal Software Engineer at decisionLab, a London-based mathematical modelling consultancy with expertise in machine learning, simulation, optimization and visualization. Dom's team specialize in taking models from data scientists and turning them into production ready tools. Current clients include the Royal Navy, Siemens and various UK public bodies.\n\nDom came to decisionLab from his PhD studies in Computational Geography at King's College London, his initial degree was in Natural Sciences at the University of Cambridge, and holds a master's in the historical and cultural geography of the Cold War United States. Outside of work, Dom is interested in languages and travelling, and holds a voluntary statutory appointment on a board monitoring the welfare and dignity of prisoners in a challenging North London jail.",
+        "country": "United Kingdom",
+        "avatar": "img/speakers/dom_weldon.jpg",
+        "links": {
+            "link": "https://www.decisionlab.co.uk/"
+        }
+    }
 ]

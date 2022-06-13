@@ -19,6 +19,7 @@ app.jinja_options = {'extensions': ['jinja2.ext.with_', 'jinja2.ext.i18n']}
 babel = Babel(app)  # pylint: disable=invalid-name
 
 CATEGORIES = {
+    'tickets': lazy_gettext('Tickets'),
     'conference': lazy_gettext('Conference'),
     'media': lazy_gettext('Media'),
     'speakers': lazy_gettext('Speakers'),

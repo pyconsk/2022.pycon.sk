@@ -119,12 +119,12 @@
     <!--                                                    <i class="fa fa-angle-down"></i>-->
                                                     </a>
                                                     <ul class="rt-dropdown-menu" role="menu">
-{#                                                        <li{% if li_program %} class="menu-justify current"{% endif %}>#}
-{#                                                            <a href="{{ url_for('program', lang_code=lang_code) }}">{{ _('Program') }}</a>#}
-{#                                                        </li>#}
-{#                                                        <li{% if li_speakers %} class="menu-justify current"{% endif %}>#}
-{#                                                            <a href="{{ url_for('speakers', lang_code=lang_code) }}">{{ _('Speakers') }}</a>#}
-{#                                                        </li>#}
+                                                        <li{% if li_program %} class="menu-justify current"{% endif %}>
+                                                            <a href="{{ url_for('program', lang_code=lang_code) }}">{{ _('Program') }}</a>
+                                                        </li>
+                                                        <li{% if li_speakers %} class="menu-justify current"{% endif %}>
+                                                            <a href="{{ url_for('speakers', lang_code=lang_code) }}">{{ _('Speakers') }}</a>
+                                                        </li>
                                                         <li{% if li_cfp %} class="menu-justify current"{% endif %}>
                                                             <a href="{{ url_for('cfp', lang_code=lang_code) }}">{{ _('Call for proposals') }}</a>
                                                         </li>
