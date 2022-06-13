@@ -1,3 +1,11 @@
 [
-
+ {
+    "speakers": [
+      "Zuzana Tkáčová"
+    ],
+    "type": "Talk",
+    "lang": "sk",
+    "title": "Creative coding ako cesta k S.T.E.A.M. projektom",
+    "text": "Mnoho žiakov si ešte stále myslí, že programovanie je nudné a náročné. Programovanie  je pre „kockaté hlavy“. A nie hocijaké, ale také, ktoré vynikajú v matematike a žijú tajný binárny život so svojimi počítačmi. Aj keď je to čiastočne pravda, je tu – ako vždy – aj druhá strana mince, ktorú každý nevidí. Keď sa umenie a veda správne spoja, vytvoria niečo nečakané a osviežujúco nové. Programovanie môže byť ako umenie. Začína to nápadom, potom si vyberiete tie správne nástroje, vytvoríte svoj prvý návrh a budete ho zdokonaľovať, kým sa vám výsledok nebude páčiť. Svet kreatívneho programovania tak umožní žiakom stať sa umelcami v digitálnom svete, vdýchnuť umeniu život a experimentovať s ním. A niekedy na to stačí len pár riadkov kódu..."
+ }
 ]
