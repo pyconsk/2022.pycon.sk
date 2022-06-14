@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-05-18 20:48+0200\n"
+"POT-Creation-Date: 2022-06-14 20:10+0200\n"
 "PO-Revision-Date: 2018-11-27 22:00+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sk\n"
@@ -123,10 +123,17 @@ msgstr ""
 msgid "Newsroom"
 msgstr "Novinky"
 
-#: templates/body.html:118 templates/body.html:188 templates/program.html:9
-#: templates/program.html:14
+#: templates/body.html:118 templates/body.html:123 templates/body.html:188
+#: templates/program.html:9 templates/program.html:14
 msgid "Program"
 msgstr "Program"
+
+#: templates/body.html:126 templates/cfp.html:14 templates/cfp_form.html:14
+#: templates/includes/program_table.html:4 templates/index.html:97
+#: templates/recording.html:14 templates/speaker.html:14
+#: templates/speaker_list.html:14 templates/speaker_list2.html:14
+msgid "Speakers"
+msgstr "Rečníci a rečníčky"
 
 #: templates/body.html:129 templates/body.html:199 templates/cfp_form.html:16
 #: templates/recording.html:16
@@ -230,13 +237,6 @@ msgstr ""
 #: templates/cfp.html:9 templates/cfp.html:15
 msgid "Call for Proposals"
 msgstr "Prihlás svoj príspevok"
-
-#: templates/cfp.html:14 templates/cfp_form.html:14
-#: templates/includes/program_table.html:4 templates/index.html:97
-#: templates/recording.html:14 templates/speaker.html:14
-#: templates/speaker_list.html:14 templates/speaker_list2.html:14
-msgid "Speakers"
-msgstr "Rečníci a rečníčky"
 
 #: templates/cfp.html:28
 msgid "Anyone can be part of the conference."
@@ -1772,6 +1772,14 @@ msgstr "Anglický jazyk"
 msgid "Czech language"
 msgstr "Český jazyk"
 
+#: templates/speaker_list.html:26
+msgid "Our amazing speakers"
+msgstr "Naši úžasní rečníci"
+
+#: templates/speaker_list.html:27
+msgid "Current list is not final, full list will be published during summer..."
+msgstr "Aktuálny zoznam nie je konečný, celý zoznam bude zverejnený počas leta..."
+
 #: templates/sponsors.html:8 templates/sponsors.html:13
 msgid "Our sponsors"
 msgstr "Naši sponzori"
@@ -1800,23 +1808,23 @@ msgstr "Diamantový sponzor"
 msgid "Platinum sponsors"
 msgstr "Platinoví sponzori"
 
-#: templates/sponsors.html:52
+#: templates/sponsors.html:58
 msgid "Gold sponsors"
 msgstr "Zlatí sponzori"
 
-#: templates/sponsors.html:63
+#: templates/sponsors.html:69
 msgid "Silver sponsors"
 msgstr "Strieborní sponzori"
 
-#: templates/sponsors.html:74
+#: templates/sponsors.html:80
 msgid "Bronze sponsors"
 msgstr "Bronzoví sponzori"
 
-#: templates/sponsors.html:120
+#: templates/sponsors.html:126
 msgid "Main media partner"
 msgstr "Hlavný mediálny partner"
 
-#: templates/sponsors.html:131
+#: templates/sponsors.html:137
 msgid "Partners"
 msgstr "Partneri"
 
@@ -1833,7 +1841,8 @@ msgid ""
 "We will be putting a limited number of tickets on sale, so sign up on the"
 " waiting list to get early notice."
 msgstr ""
-"Budeme dávať do predaja obmedzený počet lístkov, tak sa zapíšte na waiting list, aby ste dostali včas vedieť."
+"Budeme dávať do predaja obmedzený počet lístkov, tak sa zapíšte na "
+"waiting list, aby ste dostali včas vedieť."
 
 #: templates/tickets.html:38
 msgid ""
