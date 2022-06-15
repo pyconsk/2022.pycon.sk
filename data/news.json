@@ -1,5 +1,14 @@
 [
   {
+    "date": "2022-06-15",
+    "title_en": "Ticket sales for PyCon SK 2022 are open!",
+    "meta_en": "As you might know, the PyCon SK conference was moved from 2020 and a large part of the people had purchased a ticket for the original conference date. As anti-pandemic measures were still in place at the time of the launch of this year's conference, which limited the capacity of mass events, we decided not to sell any more tickets.\n \nCurrently, capacity restrictions at mass events are lifted and we are reopening ticket sales. We firmly believe that the favorable pandemic situation will continue in early September. However, we care about the health of all participants, so we decided to sell additional tickets with a potential restriction. Should it be necessary to reduce the capacity of the conference due to pandemic measures, the tickets from the current sale will be canceled. Holders of such tickets will have access to the live stream from the conference and at the same time an aliquot of the ticket price will be refunded.\n \nWe thank all members of the Python community for their interest and support. We look forward to seeing you on September 9-11 in Bratislava!",
+    "title_sk": "Dopredaj lístkov na PyCon SK 2022 je otvorený!",
+    "meta_sk": "Ako iste viete, konferencia PyCon SK bola presunutá z roku 2020 a veľká časť ľudí mala zakúpený lístok už na pôvodný termín konferencie. Keďže v čase spustenia organizácie najbližšieho ročníka konferencie boli ešte v platnosti protipandemické opatrenia, ktoré obmedzovali kapacitu hromadných podujatí, rozhodli sme sa dočasne nepredávať ďalšie lístky.\n \nAktuálne sú kapacitné obmedzenia na hromadných podujatiach zrušené a znovu preto otvárame predaj lístkov. Pevne veríme, že priaznivá pandemická situácia bude pretrvávať aj začiatkom septembra. Záleží nám však na zdraví všetkých účastníkov a účastníčok a preto sme sa rozhodli predávať dodatočné lístky s potenciálnym obmedzením. Ak by z dôvodu pandemických opatrení bolo potrebné znížiť kapacitu konferencie, stornované budú práve lístky zo súčasného dopredaja. Držitelia takýchto lístkov budú mať prístup k live streamu z konferencie a zároveň im bude alikvotná časť z ceny lístka vrátená.\n \nĎakujeme všetkým členom a členkám Python komunity za prejavený záujem a podporu. Ťešíme sa na Vás 9. až 11. septembra v Bratislave!",
+    "categories": ["tickets"],
+    "url": "/en/tickets.html"
+  },
+  {
     "date": "2022-06-13",
     "title_en": "Announcing first speakers.",
     "meta_en": "We are glad to announce the first speakers at PyCon SK 2022. If you want to see your photo among the speakers, do not hesitate and submit your talk proposal.",
