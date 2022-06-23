@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-06-14 20:10+0200\n"
+"POT-Creation-Date: 2022-06-23 10:25+0200\n"
 "PO-Revision-Date: 2018-11-27 22:00+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sk\n"
@@ -1774,11 +1774,11 @@ msgstr "Český jazyk"
 
 #: templates/speaker_list.html:26
 msgid "Our amazing speakers"
-msgstr "Naši úžasní rečníci"
+msgstr "Naši úžasní speakeri"
 
 #: templates/speaker_list.html:27
 msgid "Current list is not final, full list will be published during summer..."
-msgstr "Aktuálny zoznam nie je konečný, celý zoznam bude zverejnený počas leta..."
+msgstr "Zoznam nie je uzavretý, finálny zoznam bude zverejnený v priebehu leta..."
 
 #: templates/sponsors.html:8 templates/sponsors.html:13
 msgid "Our sponsors"
@@ -1812,19 +1812,19 @@ msgstr "Platinoví sponzori"
 msgid "Gold sponsors"
 msgstr "Zlatí sponzori"
 
-#: templates/sponsors.html:69
+#: templates/sponsors.html:76
 msgid "Silver sponsors"
 msgstr "Strieborní sponzori"
 
-#: templates/sponsors.html:80
+#: templates/sponsors.html:87
 msgid "Bronze sponsors"
 msgstr "Bronzoví sponzori"
 
-#: templates/sponsors.html:126
+#: templates/sponsors.html:133
 msgid "Main media partner"
 msgstr "Hlavný mediálny partner"
 
-#: templates/sponsors.html:137
+#: templates/sponsors.html:144
 msgid "Partners"
 msgstr "Partneri"
 
