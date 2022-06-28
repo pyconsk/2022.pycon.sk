@@ -92,7 +92,7 @@ Anything committed to master branch will be automatically deployed on live serve
 Links
 -----
 
-- web: https://2020.pycon.sk
+- web: https://2022.pycon.sk
 - facebook: https://facebook.com/pyconsk
 - twitter: https://twitter.com/pyconsk
 
