@@ -1,5 +1,14 @@
 [
   {
+    "date": "2022-07-11",
+    "title_en": "Call for Proposals closed",
+    "meta_en": "The call for proposals has been closed. In the next few days the PyCon SK commission will decide which talks will be presented at the conference. Thank you all for the well prepared submissions, unfortunately we only have limited amount of time slots so we will have to choose just a few of them. We have received dozens of high-quality proposals, so the decision is not going to be an easy one.",
+    "title_sk": "Návrhy na prednášky sú uzavreté",
+    "meta_sk": "Predkladanie návrhov na prednášky bolo uzavreté. V najbližších dňoch komisia rozhodne, ktoré prednášky dostanú na konferencii priestor. Ďakujeme predkladateľom za výborne pripravené návrhy, žiaľ priestor na konferencii je obmedzený a preto budeme musieť vybrať iba niektoré z nich. Nakoľko sme dostali desiatky kvalitných a  zaujímavých návrhov, naša komisia nebude mať výber jednoduchý.",
+    "categories": ["speakers"],
+    "url": "/en/program/index.html"
+  },
+  {
     "date": "2022-06-15",
     "title_en": "Ticket sales for PyCon SK 2022 are open!",
     "meta_en": "As you might know, the PyCon SK conference was moved from 2020 and a large part of the people had purchased a ticket for the original conference date. As anti-pandemic measures were still in place at the time of the launch of this year's conference, which limited the capacity of mass events, we decided not to sell any more tickets.\n \nCurrently, capacity restrictions at mass events are lifted and we are reopening ticket sales. We firmly believe that the favorable pandemic situation will continue in early September. However, we care about the health of all participants, so we decided to sell additional tickets with a potential restriction. Should it be necessary to reduce the capacity of the conference due to pandemic measures, the tickets from the current sale will be canceled. Holders of such tickets will have access to the live stream from the conference and at the same time an aliquot of the ticket price will be refunded.\n \nWe thank all members of the Python community for their interest and support. We look forward to seeing you on September 9-11 in Bratislava!",
@@ -10,9 +19,9 @@
   },
   {
     "date": "2022-06-13",
-    "title_en": "Announcing first speakers.",
+    "title_en": "Announcing first speakers",
     "meta_en": "We are glad to announce the first speakers at PyCon SK 2022. If you want to see your photo among the speakers, do not hesitate and submit your talk proposal.",
-    "title_sk": "Ohlásenie prvých rečníkov.",
+    "title_sk": "Ohlásenie prvých rečníkov",
     "meta_sk": "Sme radi že môžeme ohlásiť prvých rečníkov na našej konferencii. Ak sa chcete pripojiť a uvidieť aj Vašu fotku medzi rečníkmi neváhajte a prihláste svoj príspevok.",
     "categories": ["speakers"],
     "url": "/en/speakers/index.html"
