@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-07-12 22:24+0200\n"
+"POT-Creation-Date: 2022-07-21 21:58+0200\n"
 "PO-Revision-Date: 2018-11-27 22:00+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sk\n"
@@ -1669,23 +1669,27 @@ msgstr "Diamantový sponzor"
 msgid "Platinum sponsors"
 msgstr "Platinoví sponzori"
 
-#: templates/sponsors.html:65
+#: templates/sponsors.html:79
 msgid "Gold sponsors"
 msgstr "Zlatí sponzori"
 
-#: templates/sponsors.html:83
+#: templates/sponsors.html:97
 msgid "Silver sponsors"
 msgstr "Strieborní sponzori"
 
-#: templates/sponsors.html:94
+#: templates/sponsors.html:108
 msgid "Bronze sponsors"
 msgstr "Bronzoví sponzori"
 
-#: templates/sponsors.html:147
+#: templates/sponsors.html:168
 msgid "Main media partner"
 msgstr "Hlavný mediálny partner"
 
-#: templates/sponsors.html:158
+#: templates/sponsors.html:179
+msgid "Media partners"
+msgstr "Mediálni partneri"
+
+#: templates/sponsors.html:197
 msgid "Partners"
 msgstr "Partneri"
 
