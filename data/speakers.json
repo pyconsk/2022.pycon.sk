@@ -93,5 +93,30 @@
         "avatar": "img/speakers/miroslav_sedivy.jpg",
         "links": {
         }
+    },
+    {
+        "name": "Vojta Filipec",
+        "bio": "Since my graduation in physics I spent a dozen of years doing data science. My professional experience covers both quantitative work (predictive models and data mining) and a load of soft-skills (consultancy). I enjoy working with maps and doing applied statistics. More at www.linkedin.com/in/vojtech-filipec",
+        "country": "Czechia",
+        "avatar": "img/speakers/vojtech_filipec.jpg",
+        "links": {
+            "linkedin": "https://www.linkedin.com/in/vojtech-filipec/"
+        }
+    },
+    {
+        "name": "Tomás Sabat",
+        "bio": "Tomás is the Chief Operating Officer at Vaticle, creators of TypeDB and TypeQL. He works closely with their open source and enterprise users who use TypeDB to build applications in a wide number of industries including financial services, life sciences, cyber security and supply chain management. A graduate of the University of Cambridge, Tomás has spent the last eight years founding and building businesses in the technology industry.",
+        "country": "Netherlands",
+        "avatar": "img/speakers/tomas_sabat.jpg",
+        "links": {
+        }
+    },
+    {
+        "name": "Anastasiia Tymoshchuk",
+        "bio": "Anastasiia works in the development for more than of 10 years, including experience in e-commerce as well as game development. Every day she deals with lots of challenges when she has to consider software or library to start with, starting from the question how to build architecture and finishing with a deployment. Currently she works as a Head of Engineering, helping to build an engineering culture in her teams and serve her team’s needs as a Servant Leader.\n\nAnastasiia is also one of the organisers of PyBerlin meetup based in Berlin.",
+        "country": "Germany",
+        "avatar": "img/speakers/anastasiia_tymoshchuk.jpg",
+        "links": {
+        }
     }
 ]
