@@ -69,5 +69,29 @@
         "avatar": "img/speakers/artur_patoka.jpg",
         "links": {
         }
+    },
+    {
+        "name": "Umut Nefta Kanilmaz",
+        "bio": "I am a researcher and PhD candidate at the department of Geoinformatics Z_GIS at the Paris-Lodron-University Salzburg. Previously, I worked as a software engineer with focus on scalable big data pipelines for machine learning applications. Prior to the COVID pandemic, I liked to organize Python Meetups in Hamburg, nowadays I use my free time to go bikepacking and explore local beer gardens in Salzburg.",
+        "country": "Germany",
+        "avatar": "img/speakers/nefta_kanilmaz.jpg",
+        "links": {
+        }
+    },
+    {
+        "name": "Štěpán Bechynský",
+        "bio": "Po skoro devíti letech opustil Štěpán Bechynsky společnost Microsoft, kde pracoval jako Technical Evangelist se zaměřením na Microsoft Azure a zakotvil v klidnějších vodách farmaceutické společnosti MSD, kde měl na starost infrastrukturu v Amazon Web Services. V klidných vodách získal titul MVP a v roce 2016 se vrátil do společnosti Microsoft, kde se staral o IoT projekty v Německu jako technický konzultant. Od roku 2020 pracuje na pozici Microsoft Technical Trainer a vzdělává zákazníky a partnery společnosti Microsoft. Volné chvíle tráví nejraději u plotny.\nhttps://cz.linkedin.com/in/stepanbechynsky",
+        "country": "Czechia",
+        "avatar": "img/speakers/stepan_bechynsky.png",
+        "links": {
+        }
+    },
+    {
+        "name": "Miroslav Šedivý",
+        "bio": "Using Python to make the sun shine, the wind blow, and the gas flow. Greedy polyglot, sustainable urbanist, unicode collector, PSF Fellow.",
+        "country": "Austria",
+        "avatar": "img/speakers/miroslav_sedivy.jpg",
+        "links": {
+        }
     }
 ]

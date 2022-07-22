@@ -89,5 +89,32 @@
     "lang": "en",
     "title": "Accelerate Python development using live PyCharm debugging",
     "text": "In this workshop we’ll walk through some of the awesome features of the built-in PyCharm debugger. I’ll start with a quick overview of the fundamentals and then move on to how to use the debugger as a highly efficient development tool, much more than a simple bug finder. We’ll focus on examples - in a live coding session I’ll show you some super simple demos using Flask, Selenium, pandas and pytest. Most of this workshop’s content will be applicable regardless of the Python area you are interested in. I’ll be using PyCharm Pro but most of the features discussed are available in the community edition and those exclusive to the paid version will be marked."
+  },
+  {
+    "speakers": [
+      "Umut Nefta Kanilmaz"
+    ],
+    "type": "Talk",
+    "lang": "en",
+    "title": "Understanding the evolution and spread of conspiracy theories using Twitter user network data",
+    "text": "In the beginning of 2020, the so-called \"Querdenken\" movement formed: a protest movement that critized government regulations concerning the containment of the COVID-19 pandemic. This movement reached popularity in Austria and radicalized as more and more right-wing extremist players appeared.\n\nI want to show you how I study the spatio-temporal evolution of the Querdenken movement in Austria by analyzing the social network of Twitter users. For this, I will briefly explain how social networks can be modeled with basic graph theory. This approach then allows to determine central players and learn about potential communities within the movement. Combining the user information with the geographic view, we can understand how the movement organized and spread across Central Europe. I will lay a particular focus on how I retrieve, store and handle the data needed for my analysis and talk about the Python libraries and database tools I considered and used."
+  },
+  {
+    "speakers": [
+      "Štěpán Bechynský"
+    ],
+    "type": "Talk",
+    "lang": "cz",
+    "title": "Python, Raspberry Pi a Grove",
+    "text": "Elektronická stavebnice Grove od společnosti Seeed https://wiki.seeedstudio.com/Grove_System/ je určena zejména začítečníkům bez znalosti elektroniky. V přednášce uvidíte, jak nainstalovat Python SDK, jak stavebnice vypadá a jak se připojuje k Raspberry Pi."
+  },
+  {
+    "speakers": [
+      "Miroslav Šedivý"
+    ],
+    "type": "Talk",
+    "lang": "en",
+    "title": "Your Name is Invalid!",
+    "text": "People have names. Most people do. People have first names and last names. Many people do. People have any sorts of names that often don’t fit fixed fields in the forms. These names may contain letters, accented letters, and other characters, that may cause problems to your code depending on the encoding you use. They may look differently in uppercase and lowercase, or may not be case foldable at all. Searching and sorting these names may be tricky too. And if you design an application, web form, and/or database dealing with personal names, you’ll have to take that into account."
   }
 ]
