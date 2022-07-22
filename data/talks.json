@@ -143,5 +143,23 @@
     "lang": "en",
     "title": "Continuous Documentation for your Python code",
     "text": "Do you document your code? Do you think it is important?\n\nImagine that you need to get back to your code in 6 month after you wrote it, there is always a big possibility that you will have to spend some time to find out how this code works. Or if someone else wrote some code, which is already in production and your task is to fix a bug in it and there is no documentation and no one actually knows what this code does.\n\nThere are more benefits of implementing continuous documentation for the code:\n\n- easy to onboard new team members,\n- easy to share knowledge,\n- if this code is open source - easy to start contributing,\n- easy to see purpose and motivation of each piece of code,\n- easy to keep versioning for each new release of the code.\n\nIt this talk I will show the difference between documentation types and will show a demo in the end of the talk."
+  },
+  {
+    "speakers": [
+      "Lilian Nandi"
+    ],
+    "type": "Talk",
+    "lang": "en",
+    "title": "Creating the Next Generation of Billionaires ",
+    "text": "Our generation of young people in school (aged 5-18) have noticed the connection between Computer pRogramming, Technology, Bitcoinism Success, Climate Change and Billionaires.\n\nOn mass young people are clamouring to master the skill of Computer pRogramming. It has been dubbed the ‘4th’ R’ (computer pRogramming) along with Reading, wRiting and aRithmetic. So, governments worldwide have launched initiatives to have it taught in schools from Kindergarten to all the way to high school. And now young people are successfully mastering this skill.\n\nThis talk will describe a case study whereby Computer Programming (Python) was introduced for the first time to a group of young people and how the young people are using it to explore and understand real world problems and data such as those relating to climate change, world population growth and carbon dioxide emissions with Python visualisation libraries such as Matplotlib, Numpy and Pandas. We will talk about the joys and challenges and discoveries made by the young people. We will conclude with suggestions on how to proceed in this area."
+  },
+  {
+    "speakers": [
+      "Maarten Huijsmans"
+    ],
+    "type": "Talk",
+    "lang": "en",
+    "title": "5 Things we've learned building large APIs with FastAPI",
+    "text": "FastAPI follows the UNIX philosophy of \"do one thing, and do it well\". By using Starlette and Pydantic, FastAPI \nprovides you with powerful tools to build a beautiful API. This gives you a lot of freedom to decide how you organize \nthe rest of your codebase. The level of freedom also comes with some challenges once a codebase grows.\n\nIn this talk we explore some of the common challenges in building FastAPI apps, and share how we solved them:\n\n1. Minimizing the global state with dependency injection\n2. Reducing the complexity of testing a FastAPI app\n3. Pitfalls of async FastAPI\n4. Supporting multiple authentication schemes\n5. Modeling the relations between patch, response, and database models\n\n\n"
   }
 ]

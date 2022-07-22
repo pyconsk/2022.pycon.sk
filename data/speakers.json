@@ -118,5 +118,21 @@
         "avatar": "img/speakers/anastasiia_tymoshchuk.jpg",
         "links": {
         }
+    },
+    {
+        "name": "Lilian Nandi",
+        "bio": "TBD",
+        "country": "United Kingdom",
+        "avatar": "img/speakers/female.png",
+        "links": {
+        }
+    },
+    {
+        "name": "Maarten Huijsmans",
+        "bio": "I'm a python developer with a few years of experience. I enjoy putting easter eggs in my code. Besides that, I also build useful stuff. Two years ago I started using FastAPI and was impressed by the powerful combination of Starlette and Pydantic to quickly build a well-documented API.\n\nI work at InvestSuite, a Belgian fintech scaleup. I work on multiple microservices: public & private APIs, streaming financial data, machine learning models, etc.\n\n",
+        "country": "Belgium",
+        "avatar": "img/speakers/maarten_huijsmans.jpg",
+        "links": {
+        }
     }
 ]
