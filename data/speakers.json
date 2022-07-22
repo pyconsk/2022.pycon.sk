@@ -45,5 +45,29 @@
         "links": {
             "link": "https://www.decisionlab.co.uk/"
         }
+    },
+    {
+        "name": "Petr Šebek",
+        "bio": "Petr has been working professionally with Python for nearly a decade. During the time he was processing millions of products in ROI Hunter, trading on stock exchanges using asynchronous Python at Quantlane and now he’s following his passion in clean code at ThreatMark.\nHe’s interested in working, understandable, and performant code in this order and strives to improve in each of the areas every day.",
+        "country": "Czechia",
+        "avatar": "img/speakers/petr_sebek.jpg",
+        "links": {
+        }
+    },
+    {
+        "name": "Michal Kaukič",
+        "bio": "Učil som hlavne matematiku, ale venoval som sa aj Linuxu, Pythonu, Open Source. Organizovali sme OSS konferencie v Žiline. Sledoval som vývoj interaktívnych nástrojov od prvopočiatkov IPythonu po Jupyterlab, lebo ich považujem  za veľmi vhodné pre výučbu informatiky a programovania. Rád chodím po horách, cestujem.",
+        "country": "Slovakia",
+        "avatar": "img/speakers/michal_kaukic.jpg",
+        "links": {
+        }
+    },
+    {
+        "name": "Artur Patoka",
+        "bio": "I'm a lead software engineer in test at PacketFabric, a young and dynamic network automation startup from California and I'm totally loving it. Over the last 9 years I've also worked for a few huge companies (Intel, arm, Finastra), in totally different domains (CPUs, GPUs, mobile hardware, finance, network) but my main interest has always been automation. It's amazing to see how universally useful Python is proving to be in those diverse areas!",
+        "country": "Poland",
+        "avatar": "img/speakers/artur_patoka.jpg",
+        "links": {
+        }
     }
 ]

@@ -61,5 +61,33 @@
     "lang": "en",
     "title": "It's Your Call(able): a tour of Python's callable (function) interface",
     "text": "Functions are fundamental to python, and are amongst the first features of python that most users learn. We call a function with arguments, and it returns a value. However, there is more to this callable interface than meets the eye, and there are lots of useful and powerful things we can do with the callable interface. You may have come across many of these already: (anonymous) lambda functions, the call magic method, the decorator pattern, the doc property, and modules like functools and inspect which provide detailed about functions and allow us to alter functions at runtime. The now-retired Python 3.6 release added typing annotations to this mix, and opened up a new world of metadata to use alongside your callables.\n\nLots of libraries, particularly web frameworks like Flask, Django, and FastAPI, and testing toolkits like pytest, use this callable interface to implement their API. As developers, understanding these advanced features of python’s callable interface is particularly useful when writing generic, automation focused code, and understanding how such prominent libraries work.\n\nThis talk gives a deep-dive into python functions, and the associated callable interface. We’ll start with a quick tour of the basics, before covering python’s more advanced callable features, and exploring some examples about how, why, and when you may wish to use these features yourself."
+  },
+  {
+    "speakers": [
+      "Petr Šebek"
+    ],
+    "type": "Talk",
+    "lang": "en",
+    "title": "Where good engineering practices would save the day",
+    "text": "As software engineers we’ve read about countless rules (SOLID, DRY, YAGNI, KISS, …), read many books (The Pragmatic Programmer, Clean Code, The DevOps Handbook, Refactoring, …) and we are sharpening our understanding of how the ideal code should look like every day during our job.\n\nBut the reality is not ideal, sometimes quite far from the ideal.\n\nLet’s look at a few examples where good engineering practices were ignored which caused massive damages to the companies that weren’t following them. We will look at practices that would prevent the situations from happening. Stories like this will hopefully remind us why good engineering practices are necessary and maybe even help us to recognize which are more important than the others."
+  },
+  {
+    "speakers": [
+      "Michal Kaukič",
+      "Marcel Puškárik"
+    ],
+    "type": "Workshop",
+    "lang": "sk",
+    "title": "Pyviz panel a interaktívne webové aplikácie",
+    "text": "Panel je momentálne najuniverzálnejší prostriedok na tvorbu \"dashboards\", plnohodnotných interaktívnych aplikácií. Je veľmi vhodný na pútavé grafické znázornenie, spracovanie dát a interakciu s používateľom. Ukážeme princíp na jednoduchej aplikácii a potom vytvoríme prezerač psov v Prešove na mape, kde si budeme môcť voliť plemeno, ulicu, atď. Mimochodom zavadíme o prácu s SQL (sqlite) databázou psov. Potrebný je len webový prehliadač (Firefox, Chromium) a prístup na internet."
+  },
+  {
+    "speakers": [
+      "Artur Patoka"
+    ],
+    "type": "Workshop",
+    "lang": "en",
+    "title": "Accelerate Python development using live PyCharm debugging",
+    "text": "In this workshop we’ll walk through some of the awesome features of the built-in PyCharm debugger. I’ll start with a quick overview of the fundamentals and then move on to how to use the debugger as a highly efficient development tool, much more than a simple bug finder. We’ll focus on examples - in a live coding session I’ll show you some super simple demos using Flask, Selenium, pandas and pytest. Most of this workshop’s content will be applicable regardless of the Python area you are interested in. I’ll be using PyCharm Pro but most of the features discussed are available in the community edition and those exclusive to the paid version will be marked."
   }
 ]
