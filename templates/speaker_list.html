@@ -33,7 +33,7 @@
                     <img src="{{ url_for('static', filename=speaker['avatar']) }}" alt="speaker" class="img-fluid">
                     <div class="item-title">
                         <h3 class="title title-bold color-light hover-yellow">
-                            <a href="{{ url_for('profile', lang_code=lang_code, name=speaker['name'].lower().replace(' ', '-')) }}">{{ speaker['name'] }}</a>
+                            <a href="{{ url_for('profile', lang_code=lang_code, name=speaker['name'].lower().replace('-','--').replace(' ', '-'))}}">{{ speaker['name'] }}</a>
                         </h3>
                         <div class="title-light size-md text-left color-light">{{ speaker['country'] }}</div>
                     </div>

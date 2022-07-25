@@ -4,7 +4,7 @@ from datetime import date
 from flask import Flask, g, request, render_template, abort, make_response, url_for, redirect
 from flask_babel import Babel, gettext, lazy_gettext
 
-from utils import get_news, get_speakers, get_talks, get_edu_speakers, get_edu_talks
+from utils import get_news, get_speakers, get_talks, get_edu_speakers, get_edu_talks, encode_name, decode_name
 
 EVENT = gettext('PyCon SK 2022 | Bratislava, Slovakia')
 DOMAIN = 'https://2022.pycon.sk'
@@ -46,7 +46,7 @@ def sitemap():
 
                 if 'name' in rule.arguments:
                     for speaker in SPEAKERS:
-                        values['name'] = speaker['name'].lower().replace(' ', '-')
+                        values['name'] = encode_name(speaker['name'])
                         pages.append(DOMAIN + url_for(rule.endpoint, **values))
                 elif 'category' in rule.arguments:
                     for category in CATEGORIES.keys():
@@ -329,11 +329,10 @@ def speakers():
 
 @app.route('/<lang_code>/speakers/<name>.html')
 def profile(name):
-    name = ' '.join(name.split('-')).title()
     variables = _get_template_variables(li_speakers='active', background='bkg-speaker')
 
     for speaker in SPEAKERS+EDU_SPEAKERS:
-        if speaker['name'].lower() == name.lower():
+        if speaker['name'].lower() == decode_name(name):
             variables['speaker'] = speaker
             break
 

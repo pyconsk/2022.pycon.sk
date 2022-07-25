@@ -41,6 +41,14 @@ def get_news(lang='sk', items=None):
     return news
 
 
+def encode_name(name):
+    return name.lower().replace('-', '--').replace(' ', '-')
+
+
+def decode_name(encoded_name):
+    return encoded_name.lower().replace('-', ' ').replace('  ', '-')
+
+
 def get_speakers():
     return read_json_file(os.path.join('data', 'speakers.json'))
 

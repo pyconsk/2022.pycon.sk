@@ -13,7 +13,7 @@
                     {% for speaker in spot['speakers'] %}
 
                         {% for spkr in speakers %}{% if spkr['name'] == speaker %}
-                            <a href="{{ url_for('profile', lang_code=lang_code, name=spkr['name'].lower().replace(' ', '-')) }}#bio">
+                            <a href="{{ url_for('profile', lang_code=lang_code, name=spkr['name'].lower().replace('-', '--').replace(' ', '-')) }}#bio">
                         {% endif %}{% endfor %}
 
                         {{ speaker }}
