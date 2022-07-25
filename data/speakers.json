@@ -30,7 +30,7 @@
     {
         "name": "Dmitry Dygalo",
         "bio": "A lazy developer from Prague, that doesn't like writing boring tests. Building a platform for effortless API testing at Schemathesis.io",
-        "country": "Czech Republic",
+        "country": "Czechia",
         "avatar": "img/speakers/dmitry_dygalo.jpg",
         "links": {
             "github": "https://github.com/Stranger6667",
@@ -59,6 +59,14 @@
         "bio": "Učil som hlavne matematiku, ale venoval som sa aj Linuxu, Pythonu, Open Source. Organizovali sme OSS konferencie v Žiline. Sledoval som vývoj interaktívnych nástrojov od prvopočiatkov IPythonu po Jupyterlab, lebo ich považujem  za veľmi vhodné pre výučbu informatiky a programovania. Rád chodím po horách, cestujem.",
         "country": "Slovakia",
         "avatar": "img/speakers/michal_kaukic.jpg",
+        "links": {
+        }
+    },
+    {
+        "name": "Marcel Puškarik",
+        "bio": "Študujem softvérové inžinierstvo na magisterskom stupni na Fakulte informačních technologií v Prahe.\nBakalára som vyštudoval na Fakulte riadenia a informatiky v Žiline.\nRád sa učím nové veci a skúšam Python knižnice a frameworky.",
+        "country": "Czechia",
+        "avatar": "img/speakers/marcel_puskarik.jpg",
         "links": {
         }
     },
@@ -130,9 +138,49 @@
     },
     {
         "name": "Maarten Huijsmans",
-        "bio": "I'm a python developer with a few years of experience. I enjoy putting easter eggs in my code. Besides that, I also build useful stuff. Two years ago I started using FastAPI and was impressed by the powerful combination of Starlette and Pydantic to quickly build a well-documented API.\n\nI work at InvestSuite, a Belgian fintech scaleup. I work on multiple microservices: public & private APIs, streaming financial data, machine learning models, etc.\n\n",
+        "bio": "I'm a python developer with a few years of experience. I enjoy putting easter eggs in my code. Besides that, I also build useful stuff. Two years ago I started using FastAPI and was impressed by the powerful combination of Starlette and Pydantic to quickly build a well-documented API.\n\nI work at InvestSuite, a Belgian fintech scaleup. I work on multiple microservices: public & private APIs, streaming financial data, machine learning models, etc.",
         "country": "Belgium",
         "avatar": "img/speakers/maarten_huijsmans.jpg",
+        "links": {
+        }
+    },
+    {
+        "name": "Michael Seifert",
+        "bio": "Michael is a consulting software engineer who helps product teams to develop Python software in the cloud. He worked with many different teams from various industries, but none of them practised property-based testing and only few were familiar with the concept.\n\nThis prompted him to spread the word about property-based testing and Hypothesis in an effort to help others write more robust and maintainable software.",
+        "country": "Germany",
+        "avatar": "img/speakers/michael_seifert.png",
+        "links": {
+        }
+    },
+    {
+        "name": "Marc-Andre Lemburg",
+        "bio": "Marc-Andre is the CEO and founder of eGenix.com, a Python-focused project and consulting company based in Germany, specializing in the data, finance and database space. He has a degree in mathematics from the University of Düsseldorf.\n\nHis work with and for Python started in 1994. He is a Python Core Developer, designed and implemented the Unicode support in Python, and author of the mx Extensions, e.g. mxTools, mxDateTime and mxODBC, which are now distributed and maintained through eGenix.com.\n\nMarc-Andre is a EuroPython Society (EPS) Fellow, a Python Software Foundation (PSF) founding Fellow and co-founded a local Python meeting in Düsseldorf (PyDDF). He served on the board of the PSF and EPS for many terms and loves to contribute to the growth of Python where ever he can.\n\nMore information is available on https://malemburg.com/",
+        "country": "Germany",
+        "avatar": "img/speakers/marc_andre_lemburg.jpg",
+        "links": {
+        }
+    },
+    {
+        "name": "Sara Jakša",
+        "bio": "I am a software engineer at LeanIX. I come from a cognitive science and economics background, so I am more likely to be interested in how to use programming to find out the answer to the social science questions, data analysis and automation, then going into the nitty picky details about kubernetes. I also interested in how people and technology relate to one another.",
+        "country": "Slovenia",
+        "avatar": "img/speakers/sara_jaksa.png",
+        "links": {
+        }
+    },
+    {
+        "name": "Jan Margeta",
+        "bio": "Jan, is the founder of KardioMe, a Pythonista, and a white water kayaker. He is passionate about technologies that push the boundaries of our knowledge and cares about our planet. \n\n",
+        "country": "Slovakia",
+        "avatar": "img/speakers/jan_margeta.jpg",
+        "links": {
+        }
+    },
+    {
+        "name": "Věroš Kaplan",
+        "bio": "Věroš began his career as a Python developer. He has gradually moved into operations and today people think he is doing DevOps.\n\nHe earns his living by working with Kubernetes, Ansible and AWS as a freelancer.",
+        "country": "Czechia",
+        "avatar": "img/speakers/veros_kaplan.jpg",
         "links": {
         }
     }

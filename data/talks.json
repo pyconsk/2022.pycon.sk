@@ -74,7 +74,7 @@
   {
     "speakers": [
       "Michal Kaukič",
-      "Marcel Puškárik"
+      "Marcel Puškarik"
     ],
     "type": "Workshop",
     "lang": "sk",
@@ -160,6 +160,51 @@
     "type": "Talk",
     "lang": "en",
     "title": "5 Things we've learned building large APIs with FastAPI",
-    "text": "FastAPI follows the UNIX philosophy of \"do one thing, and do it well\". By using Starlette and Pydantic, FastAPI \nprovides you with powerful tools to build a beautiful API. This gives you a lot of freedom to decide how you organize \nthe rest of your codebase. The level of freedom also comes with some challenges once a codebase grows.\n\nIn this talk we explore some of the common challenges in building FastAPI apps, and share how we solved them:\n\n1. Minimizing the global state with dependency injection\n2. Reducing the complexity of testing a FastAPI app\n3. Pitfalls of async FastAPI\n4. Supporting multiple authentication schemes\n5. Modeling the relations between patch, response, and database models\n\n\n"
+    "text": "FastAPI follows the UNIX philosophy of \"do one thing, and do it well\". By using Starlette and Pydantic, FastAPI \nprovides you with powerful tools to build a beautiful API. This gives you a lot of freedom to decide how you organize \nthe rest of your codebase. The level of freedom also comes with some challenges once a codebase grows.\n\nIn this talk we explore some of the common challenges in building FastAPI apps, and share how we solved them:\n\n1. Minimizing the global state with dependency injection\n2. Reducing the complexity of testing a FastAPI app\n3. Pitfalls of async FastAPI\n4. Supporting multiple authentication schemes\n5. Modeling the relations between patch, response, and database models"
+  },
+  {
+    "speakers": [
+      "Michael Seifert"
+    ],
+    "type": "Workshop",
+    "lang": "en",
+    "title": "Bulletproof Python – Property-Based Testing with Hypothesis",
+    "text": "Do you find yourself working through pages of copied and pasted tests to accommodate a simple code change? Does your software frequently break in unexpected ways despite your testing efforts? Don’t despair! Property-based testing could be your way out of that mess. Rather than working harder and writing more test code, property-based testing forces you to work smarter and test more code with fewer tests.\n\nTraditional tests are example-based. They require the developer to come up with arbitrary inputs and check a system’s behavior against explicit outputs. More often than not, developers only think of inputs that are handled correctly by their code, thus leaving bugs hidden. Property-based tests generate the inputs for you and in many cases they’re more likely to find invalid inputs than humans. The difficulty lies in formulating these test cases.\n\nAfter this workshop you’ll be comfortable with property-based testing using Hypothesis. You’ll have experience requesting appropriate test data from Hypothesis and in writing tests for common and more advanced properties. At work, your co-workers will be impressed by your unbreakable code ;)\n\nParticipants are expected to have basic familiarity with unit testing and a testing framework. Provided code examples use pytest."
+  },
+  {
+    "speakers": [
+      "Marc-Andre Lemburg"
+    ],
+    "type": "Talk",
+    "lang": "en",
+    "title": "Choosing the right database for your next project - Looking at options beyond PostgreSQL and MySQL",
+    "text": "In the last few years, lots of new database engines have been developed and existing ones have been extended to cover new application spaces and features, making the selection process even more challenging than it was before, if you want to maintain an edge.\n\nThe talk will highlight the most important database engines to consider and their strengths when using them with Python applications, covering relational databases for general purpose tasks, data warehouse workloads, data analytics, machine learning, streaming data and massive scalability, to name a few aspects."
+  },
+  {
+    "speakers": [
+      "Sara Jakša"
+    ],
+    "type": "Talk",
+    "lang": "en",
+    "title": "Regex is Magic",
+    "text": "Do you know that moment, when the AI is sold, but all that is in the background is the regex? \n\nRegex is an old magical tool that can turn any kind of unstructured text file into something that can be used for further processing. As one of the more popular technical tools - it is the 30th most frequent tag on StackOverflow and imported in millions of GitHub public projects. Quite a versatile one, as there are cases this is sold as the AI. And it is also quite old, standing the decades of passing time. \n\nIn this talk, I will talk about what regex is and how it can be used. Then I am going to show some of the ways, so regex is used these days and finish with how we managed to sell the regex processing as the magical AI. "
+  },
+  {
+    "speakers": [
+      "Jan Margeta"
+    ],
+    "type": "Talk",
+    "lang": "en",
+    "title": "Interactive 3D scientific data visualization and mesh analysis with PyVista",
+    "text": "In this talk we will cover visualization of 3D data in Python using PyVista and its companion libraries. We will see how to create interactive visualizations of 3D medical images and  surfaces,  display clouds of points, show terrain maps, make colourful animated meshes, visualize VR scenes, make pretty renders, or perform simple mesh manipulations.\n\nPyVista makes interactive 3D visualization in Python simple and fun.  All under a consistent and easy to learn imperative interface, making it perfect for iterative analysis in your shell / notebooks.\n\nData visualization libraries such as Matplotlib, Seaborn, Plotly, Bokeh, Altair have rightly established their places in our toolbelts for data science visualization in Python. The world has changed, the age of 3D and PyVista is here."
+  },
+  {
+    "speakers": [
+      "Věroš Kaplan"
+    ],
+    "type": "Talk",
+    "lang": "en",
+    "title": "Writing Kubernetes operators in Python - Kopf",
+    "text": "Kopf is a library for Python that offers an easy way to create your own Kubernetes operators.\n\nLet's see how this is done and write your own operator."
   }
 ]
