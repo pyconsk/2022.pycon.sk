@@ -215,5 +215,14 @@
     "lang": "en",
     "title": "Don’t use a lot where a little will do. A story of programming tricks you wish you invented.",
     "text": "All of us, software developers, are taught to avoid complexity. And we try to do so - even the KISS principle is one of the only things we all truly believe in. But there are some people who brought the simplicity even to a higher level. Those great minds are also thought to be the laziest ones. This talk will be a story of the simplest programming tricks you may know or not, but definitely, you should and will regret not to have invented them before."
+  },
+  {
+    "speakers": [
+      "Jozef Urbanovský"
+    ],
+    "type": "Talk",
+    "lang": "en",
+    "title": "Automated Network Performance testing in Python",
+    "text": "LNST (Linux Network Stack Test) is a Python framework for writing multihost network tests. It allows user to automatically map the network, configure it to desired state, measure network performance and evaluate results.\n\nDuring the presentation we'll show how basic tests can be written and how the same framework is utilized in more complex scenarios where we test the Linux kernel, looking for performance regressions.\n\nFinally we'll shortly discuss how LNST is used at Red Hat with other tools to create an automated pipeline that tests and reports results for kernel and other package candidate builds."
   }
 ]

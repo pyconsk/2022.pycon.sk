@@ -198,5 +198,14 @@
             "github": "https://github.com/kacperlukawski",
             "twitter": "https://twitter.com/LukawskiKacper"
         }
+    },
+    {
+        "name": "Jozef Urbanovský",
+        "bio": "Jozef Urbanovský is Senior Software Engineer at Red Hat, as a part of Networking Services Team, mostly specializing in kernel and user space networking. He is a developer of LNST (Linux Network Stack Test) framework, that was created by kernel developers for kernel developers to test and verify functionality of their changes, as well as look for performance regressions.\nJozef’s alma mater is Brno University of Technology, where he graduated in 2020. In his free time he is avid climber, mountaineer and traveller, seeking for the unknown.",
+        "country": "Slovakia",
+        "avatar": "img/speakers/jozef_urbanovsky.png",
+        "links": {
+            "linkedin": "https://www.linkedin.com/in/jozef-urbanovsk%C3%BD-146a25108/"
+        }
     }
 ]
