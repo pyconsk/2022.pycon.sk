@@ -206,5 +206,14 @@
     "lang": "en",
     "title": "Writing Kubernetes operators in Python - Kopf",
     "text": "Kopf is a library for Python that offers an easy way to create your own Kubernetes operators.\n\nLet's see how this is done and write your own operator."
+  },
+  {
+    "speakers": [
+      "Kacper Łukawski"
+    ],
+    "type": "Talk",
+    "lang": "en",
+    "title": "Don’t use a lot where a little will do. A story of programming tricks you wish you invented.",
+    "text": "All of us, software developers, are taught to avoid complexity. And we try to do so - even the KISS principle is one of the only things we all truly believe in. But there are some people who brought the simplicity even to a higher level. Those great minds are also thought to be the laziest ones. This talk will be a story of the simplest programming tricks you may know or not, but definitely, you should and will regret not to have invented them before."
   }
 ]

@@ -187,5 +187,16 @@
         "avatar": "img/speakers/veros_kaplan.jpg",
         "links": {
         }
+    },
+    {
+        "name": "Kacper Łukawski",
+        "bio": "Kacper Łukawski is a Developer Advocate at Qdrant - an open-source neural search engine. His broad experience is mostly related to data engineering, machine learning, and software design. He has been actively contributing to the discussion on Artificial Intelligence by conducting lectures and workshops locally and internationally.",
+        "country": "Poland",
+        "avatar": "img/speakers/kacper_lukawski.jpg",
+        "links": {
+            "linkedin": "https://www.linkedin.com/in/kacperlukawski/",
+            "github": "https://github.com/kacperlukawski",
+            "twitter": "https://twitter.com/LukawskiKacper"
+        }
     }
 ]
