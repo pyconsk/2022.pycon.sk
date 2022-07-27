@@ -170,10 +170,14 @@
     },
     {
         "name": "Jan Margeta",
-        "bio": "Jan, is the founder of KardioMe, a Pythonista, and a white water kayaker. He is passionate about technologies that push the boundaries of our knowledge and cares about our planet. \n\n",
+        "bio": "Jan is the founder of KardioMe, a Pythonista and a white water kayaker. He is passionate about solving pending questions about our hearts, ears, cognition and environment with computer vision and machine learning, and is keen on building technologies that push the boundaries of our knowledge.",
         "country": "Slovakia",
         "avatar": "img/speakers/jan_margeta.jpg",
         "links": {
+            "link": "https://kardio.me/",
+            "linkedin": "https://www.linkedin.com/in/jmargeta/",
+            "github": "https://github.com/jmargeta",
+            "twitter": "https://twitter.com/jmargeta"
         }
     },
     {
