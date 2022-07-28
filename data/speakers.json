@@ -207,5 +207,13 @@
         "links": {
             "linkedin": "https://www.linkedin.com/in/jozef-urbanovsk%C3%BD-146a25108/"
         }
+    },
+    {
+        "name": "Nabanita Roy",
+        "bio": "Data Scientist @ ACI Worldwide | Education Lead @ Women in AI Ireland | Blogger @ Medium | ❤️ NLP",
+        "country": "Ireland",
+        "avatar": "img/speakers/nabanita_roy.png",
+        "links": {
+        }
     }
 ]

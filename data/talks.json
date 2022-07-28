@@ -224,5 +224,14 @@
     "lang": "en",
     "title": "Automated Network Performance testing in Python",
     "text": "LNST (Linux Network Stack Test) is a Python framework for writing multihost network tests. It allows user to automatically map the network, configure it to desired state, measure network performance and evaluate results.\n\nDuring the presentation we'll show how basic tests can be written and how the same framework is utilized in more complex scenarios where we test the Linux kernel, looking for performance regressions.\n\nFinally we'll shortly discuss how LNST is used at Red Hat with other tools to create an automated pipeline that tests and reports results for kernel and other package candidate builds."
+  },
+  {
+    "speakers": [
+      "Nabanita Roy"
+    ],
+    "type": "Talk",
+    "lang": "en",
+    "title": "Introduction to Text Analytics for Social Media Chatter",
+    "text": "A vast amount of textual content is available on the internet which is exponentially increasing every second. Text analytics and natural language processing (NLP) techniques allow us to analyze, evaluate and uncover actionable insights from such data. In this talk, I will discuss four key topics ~ 1. Why social media, and what kind of information does social media contain 2. Real-world applications of social media text analysis, 3. The challenges associated with social media data, and 4. Natural language processing techniques (using Python) for analyzing them for cleaning and pre-processing, semantic Analysis, and visualizations."
   }
 ]
