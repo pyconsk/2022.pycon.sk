@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-07-21 21:58+0200\n"
+"POT-Creation-Date: 2022-08-01 20:35+0200\n"
 "PO-Revision-Date: 2018-11-27 22:00+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sk\n"
@@ -124,14 +124,15 @@ msgid "Newsroom"
 msgstr "Novinky"
 
 #: templates/body.html:118 templates/body.html:123 templates/body.html:188
-#: templates/program.html:9 templates/program.html:14
+#: templates/body.html:193 templates/program.html:9 templates/program.html:14
 msgid "Program"
 msgstr "Program"
 
-#: templates/body.html:126 templates/cfp.html:14 templates/cfp_form.html:14
-#: templates/includes/program_table.html:4 templates/index.html:97
-#: templates/recording.html:14 templates/speaker.html:14
-#: templates/speaker_list.html:14 templates/speaker_list2.html:14
+#: templates/body.html:126 templates/body.html:196 templates/cfp.html:14
+#: templates/cfp_form.html:14 templates/includes/program_table.html:4
+#: templates/index.html:97 templates/recording.html:14
+#: templates/speaker.html:14 templates/speaker_list.html:14
+#: templates/speaker_list2.html:14
 msgid "Speakers"
 msgstr "Rečníci a rečníčky"
 
@@ -167,7 +168,7 @@ msgstr ""
 msgid "FAQ"
 msgstr "FAQ"
 
-#: templates/body.html:157 templates/body.html:224 templates/tickets.html:54
+#: templates/body.html:157 templates/body.html:224 templates/tickets.html:49
 #: templates/venue.html:35 templates/venue.html:40
 msgid "Venue"
 msgstr "Miesto konania"
@@ -863,32 +864,75 @@ msgstr ""
 "Kliknutím na odber súhlasíš, že odošleme tvoje informácie na spracovanie "
 "do Mailchimpu."
 
-#: templates/edusummit.html:29
+#: templates/edusummit.html:32
 msgid "Where Teachers meet Programmers"
 msgstr "Stretnutie učiteľov s programátormi"
 
-#: templates/edusummit.html:31
+#: templates/edusummit.html:34
 msgid ""
 "EduSummit je špecializovaná časť konferencie zameraná na vyučovanie "
 "programovania na základných a stredných školách. Už po štvrtý raz "
-"organizujeme dvojdňový summit, počas ktorého  sa budeme venovať "
+"organizujeme dvojdňový summit, počas ktorého sa budeme venovať "
 "inovatívnym spôsobom a metódam vo vyučovaní informatiky, pričom komunita "
 "učiteľov má možnosť zdieľať svoje skúsenosti a vedomosti o užitočných "
 "nástrojoch."
 msgstr ""
 
-#: templates/edusummit.html:34
-msgid ""
-"Tohtoročný EduSummit PyCon SK 2022 sa uskutoční v termíne 9.-10.9.2022 na"
-" FIIT STU. V piatkovom programe majú učitelia prednášky a v sobotu "
-"praktické workshopy."
-msgstr ""
-
 #: templates/edusummit.html:37
 msgid ""
-"V prípade záujmu o pozývací list nás neváhajte kontaktovať na "
-"eva.klimekova@pycon.sk. Potvrdenie o účasti na konferencii vystavujeme "
-"priamo na mieste."
+"Tohtoročný EduSummit PyCon SK 2022 sa uskutoční v termíne 9. - 10. 9. "
+"2022 na FIIT STU. V piatkovom programe majú učitelia prednášky a v sobotu"
+" praktické workshopy."
+msgstr ""
+
+#: templates/edusummit.html:40
+msgid ""
+"Keynote rečníkom EduSummitu PyCon SK 2022 je Miroslav Biňas z TUKE s "
+"prednáškou <i>Ako sa dá s jazykom Python zvládnuť štvorročné štúdium na "
+"strednej škole</i>."
+msgstr ""
+
+#: templates/edusummit.html:44
+msgid "V piatkový program obsahuje ďalšie zaujímavé prednášky:"
+msgstr ""
+
+#: templates/edusummit.html:55
+msgid ""
+"Piatkový program doplnia ďalšie inšpiratívne prednášky, Hardware "
+"Showcase, prezentácia projektu Učíme s hardvérom a ďalších vzdelávacích "
+"projektov."
+msgstr ""
+
+#: templates/edusummit.html:58
+msgid "Druhý deň EduSummitu sa môžete zúčastniť zaujímavých workshopov:"
+msgstr ""
+
+#: templates/edusummit.html:65
+msgid "Učíme s Hardvérom Hackathon"
+msgstr ""
+
+#: templates/edusummit.html:67
+msgid ""
+"Srdečne pozývame učiteľov informatiky na Hackathon, ktorý sa koná v "
+"sobotu 10. septembra 2022 od 13:10. Účastníkov súťaže na mieste náhodne "
+"rozdelíme do skupín. Skupiny dostanú hlavnú tému, micro:bit s "
+"komponentami a ďalšie kreatívne pomôcky. Následne počas 2 hodín spoločne "
+"vytvoria riešenie - skonštruujú a naprogramujú prototyp. Súťažné riešenia"
+" budú hodnotiť účastníci súťaže navzájom, vrátane hodnotiacej komisie. "
+"Veríme, že už samotná súťaž, spoločné tvorenie a vzájomné spoznávanie sa "
+"medzi inšpiratívnymi učiteľmi informatiky bude prínosné a zábavné pre "
+"všetkých.\n"
+"Na súťaž sa môžete prihlasiť cez formulár ( <a "
+"href=\"https://forms.gle/hDb8Lfzh5JZL3N3NA\">https://forms.gle/hDb8Lfzh5JZL3N3NA</a>)"
+" a zároveň je potrebné mať platný lístok na PyCon SK 2022. Tešíme sa na "
+"Vás :)"
+msgstr ""
+
+#: templates/edusummit.html:71
+msgid ""
+"V prípade záujmu o pozývací list na EduSummit nás neváhajte kontaktovať "
+"na eva.klimekova@pycon.sk. Potvrdenie o účasti na konferencii vystavujeme"
+" priamo na mieste."
 msgstr ""
 
 #: templates/faq.html:10 templates/faq.html:15 templates/faq.html:27
@@ -998,7 +1042,7 @@ msgstr ""
 "my vám pošleme adresu peňaženky. Po potvrdení platby vám pošleme "
 "lístkyemailom."
 
-#: templates/faq.html:117 templates/tickets.html:42
+#: templates/faq.html:117 templates/tickets.html:37
 msgid ""
 "For transaction in Bitcoin use:  <a href=\"https://tallyco.in/s/e51yzw/\""
 " target=\"_blank\">https://tallyco.in/s/e51yzw</a>"
@@ -1682,14 +1726,18 @@ msgid "Bronze sponsors"
 msgstr "Bronzoví sponzori"
 
 #: templates/sponsors.html:168
+msgid "Community partners"
+msgstr "Komunitní partneri"
+
+#: templates/sponsors.html:181
 msgid "Main media partner"
 msgstr "Hlavný mediálny partner"
 
-#: templates/sponsors.html:179
+#: templates/sponsors.html:193
 msgid "Media partners"
 msgstr "Mediálni partneri"
 
-#: templates/sponsors.html:197
+#: templates/sponsors.html:211
 msgid "Partners"
 msgstr "Partneri"
 
@@ -1701,15 +1749,7 @@ msgstr "Ďakujeme"
 msgid "We'll get in touch as soon as possible."
 msgstr "Ozveme sa čo najskôr"
 
-#: templates/tickets.html:35
-msgid ""
-"We will be putting a limited number of tickets on sale, so sign up on the"
-" waiting list to get early notice."
-msgstr ""
-"Budeme dávať do predaja obmedzený počet lístkov, tak sa zapíšte na "
-"waiting list, aby ste dostali včas vedieť."
-
-#: templates/tickets.html:38
+#: templates/tickets.html:34
 msgid ""
 "You can also buy tickets directly on the <a class=\"external\" "
 "href=\"https://ti.to/pyconsk/pyconsk-2022\"\n"
@@ -1722,11 +1762,11 @@ msgstr ""
 "target=\"_blank\">https://ti.to/pyconsk/pyconsk-2022</a>, ak sa ti tito "
 "widget nezobrazuje správne."
 
-#: templates/tickets.html:47
+#: templates/tickets.html:42
 msgid "What am I paying for?"
 msgstr "Za čo platím?"
 
-#: templates/tickets.html:55
+#: templates/tickets.html:50
 msgid ""
 "The conference takes place at the Faculty of Informatics and Information "
 "Technologies (Slovak\n"
@@ -1735,7 +1775,7 @@ msgstr ""
 "Konferencia sa koná na Fakulte informatiky a informačných technológií "
 "(Slovenskej technickej univerzity)"
 
-#: templates/tickets.html:57
+#: templates/tickets.html:52
 msgid ""
 "Venue is in new building and have well equipped and pleasant auditoriums "
 "and lobbies. The\n"
@@ -1746,11 +1786,11 @@ msgstr ""
 "prednáškové miestnosti a príslušné priestory. Prvý PyCon SK bol jednou\n"
 "              z prvých konferencií v týchto priestoroch!"
 
-#: templates/tickets.html:78
+#: templates/tickets.html:73
 msgid "Speakers and Lecturers"
 msgstr "Rečníci a rečníčky"
 
-#: templates/tickets.html:79
+#: templates/tickets.html:74
 msgid ""
 "Our speakers are the best. And they do it for free! However, we have to "
 "pay for their conference ticket\n"
@@ -1760,7 +1800,7 @@ msgstr ""
 "vstupenky \n"
 " a niekedy im preplatíme cestovné náklady."
 
-#: templates/tickets.html:81
+#: templates/tickets.html:76
 msgid ""
 "Expenses for flight tickets and hotel in Bratislava are a big part of our"
 " budget. We also\n"
@@ -1771,17 +1811,17 @@ msgstr ""
 "\n"
 "              a zverejnením všetkých príspevkov."
 
-#: templates/tickets.html:90
+#: templates/tickets.html:85
 msgid "Community & Inclusion"
 msgstr "Komunita a inklúzia"
 
-#: templates/tickets.html:91
+#: templates/tickets.html:86
 msgid ""
 "PyCon is a special type of conference - it is organised by the community "
 "for the community"
 msgstr "PyCon je špeciálna konferencia - je organizovaná komunitou pre komunitu"
 
-#: templates/tickets.html:93
+#: templates/tickets.html:88
 msgid ""
 "By attending, you have a chance to meet like minded people and hear a lot"
 " of interesting\n"
@@ -1795,17 +1835,17 @@ msgstr ""
 "kúpiť lístok na konferenciu, sme pripravili program na podporu\n"
 "              a máme pripravené určité množstvo lístkov zadarmo."
 
-#: templates/tickets.html:116
+#: templates/tickets.html:111
 msgid "Conference T-shirt and other swag"
 msgstr "Tričko z konferencie a ďalšie drobnosti"
 
-#: templates/tickets.html:117
+#: templates/tickets.html:112
 msgid ""
 "What kind of conference would PyCon Slovakia be without a conference "
 "T-shirt?"
 msgstr "Čo by to bolo za konferenciu bez konferenčného trička?"
 
-#: templates/tickets.html:118
+#: templates/tickets.html:113
 msgid ""
 "Each attendee receives one 100&#37; cotton T-shirt and other swag. "
 "Possibly a water bottle-->\n"
@@ -1816,11 +1856,11 @@ msgstr ""
 " Možno aj fľašu na vodu -->\n"
 "<!--          s našim skvelým PyCon SK logom. Privítame aj tvoje návrhy..."
 
-#: templates/tickets.html:133
+#: templates/tickets.html:128
 msgid "Refreshments"
 msgstr "Občerstvenie"
 
-#: templates/tickets.html:134
+#: templates/tickets.html:129
 msgid ""
 "Afraid of falling asleep during a talk? Don't worry, we have your back "
 "with our all-you-can-drink coffee, tea\n"
@@ -1829,7 +1869,7 @@ msgstr ""
 "Obávaš sa, že zaspíš počas prednášky? Už nemusíš, máme všetko - \n"
 "              kávu, čaj či vodu."
 
-#: templates/tickets.html:136
+#: templates/tickets.html:131
 msgid ""
 "We will have two professional baristas serving fresh coffee and tea all "
 "day long. Water\n"
@@ -1840,19 +1880,19 @@ msgstr ""
 "dispozícii\n"
 "na viacerých miestach rovnomerne v celej lobby."
 
-#: templates/tickets.html:145
+#: templates/tickets.html:140
 msgid "Lunch"
 msgstr "Obed"
 
-#: templates/tickets.html:146
+#: templates/tickets.html:141
 msgid "During all three days, a variety of warm food will be served for lunch"
 msgstr "Počas všetkých troch dní sa budú na obed servírovať rôzne teplé jedlá"
 
-#: templates/tickets.html:147
+#: templates/tickets.html:142
 msgid "Meat and vegetarian alternatives will be available."
 msgstr "K dispozícii budú mäsité aj vegetariánske alternatívy"
 
-#: templates/tickets.html:148
+#: templates/tickets.html:143
 msgid ""
 "We also try to be as eco friendly as possible, and so we serve food on "
 "ceramic plates, eat\n"
@@ -1864,11 +1904,11 @@ msgstr ""
 "              a pitnú vodu poskytujeme z recyklovateľných plastových "
 "fliaš."
 
-#: templates/tickets.html:169
+#: templates/tickets.html:164
 msgid "Real Conference Ticket Price"
 msgstr "Skutočná cena vstupenky"
 
-#: templates/tickets.html:170
+#: templates/tickets.html:165
 msgid ""
 "The <b>real price</b> of one conference ticket would be much higher had "
 "it not been for our sponsors and\n"
@@ -1878,7 +1918,7 @@ msgstr ""
 "nás nepodporovali naši\n"
 "sponzori a partneri, vďaka ktorým môžeme lístky predávať oveľa lacnejšie."
 
-#: templates/tickets.html:173
+#: templates/tickets.html:168
 msgid ""
 "Without sponsors and partners all tickets would cost over 90&euro; "
 "(including student and teacher\n"
@@ -2153,349 +2193,3 @@ msgstr ""
 #: templates/includes/program_table.html:5
 msgid "Topic"
 msgstr "Téma"
-
-#~ msgid ""
-#~ "PyCon SK is a community-organized "
-#~ "conference for the Python programming "
-#~ "language, which will be held in "
-#~ "Bratislava on March 27 - 29, 2020."
-#~ msgstr ""
-#~ "PyCon SK je komunitou organizovaná "
-#~ "konferencia pre programovací jazyk Python, "
-#~ "ktorá sa bude konať v Bratislave "
-#~ "27. až 29. marca 2019."
-
-#~ msgid "27 - 29 March 2020"
-#~ msgstr "27.-29. marec 2020"
-
-#~ msgid "PyCon SK 2020 | 27 - 29 March 2020 | Bratislava, Slovakia"
-#~ msgstr "PyCon SK 2020 | 27. - 29. marec 2020 | Bratislava"
-
-#~ msgid "PyCon SK 2020 | September 2020 | Bratislava, Slovakia"
-#~ msgstr "PyCon SK 2020 | September 2020 | Bratislava"
-
-#~ msgid ""
-#~ "PyCon SK is a community-organized "
-#~ "conference for the Python programming "
-#~ "language, which will be held in "
-#~ "Bratislava on September, 2020."
-#~ msgstr ""
-#~ "PyCon SK je komunitou organizovaná "
-#~ "konferencia pre programovací jazyk Python, "
-#~ "ktorá sa bude konať v Bratislave v"
-#~ " septembri 2020."
-
-#~ msgid "September 2020"
-#~ msgstr "September 2020"
-
-#~ msgid "PyCon SK 2020 | 11 - 13. September 2020 | Bratislava, Slovakia"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "PyCon SK is a community-organized "
-#~ "conference for the Python programming "
-#~ "language, which will be held in "
-#~ "Bratislava on September 11 - 13, "
-#~ "2020."
-#~ msgstr ""
-#~ "PyCon SK je komunitou organizovaná "
-#~ "konferencia pre programovací jazyk Python, "
-#~ "ktorá sa bude konať v Bratislave "
-#~ "11. až 13. septembra 2020."
-
-#~ msgid "11 - 13. September 2020"
-#~ msgstr ""
-
-#~ msgid "Speaker"
-#~ msgstr "Rečník"
-
-#~ msgid "June 2021"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "The PyCon SK 2020 conference, which "
-#~ "will be held in Bratislava, is an"
-#~ " annual gathering of the community "
-#~ "using and developing the open-source "
-#~ "Python programming language."
-#~ msgstr ""
-#~ "Konferencia PyCon SK 2020, ktorá sa "
-#~ "bude konať v Bratislave, je každoročné"
-#~ " stretnutie komunity využívajúcej a "
-#~ "vyvíjajúcej open sourcový programovací jazyk"
-#~ " Python."
-
-#~ msgid "Subscribe to our newsletter"
-#~ msgstr "Prihlás sa na odber newslettra"
-
-#~ msgid "Which newsletters do you wish to subscribe to?"
-#~ msgstr "Na ktorý newsletter sa chceš prihlásiť?"
-
-#~ msgid "PyCon SK Newsletter"
-#~ msgstr "PyCon SK Newsletter"
-
-#~ msgid "(conference updates in English)"
-#~ msgstr "(informácie o konferencii v angličtine)"
-
-#~ msgid "SPy o.z. Newsletter"
-#~ msgstr "SPy o.z. Newsletter"
-
-#~ msgid ""
-#~ "(monthly updates on Python meetups, "
-#~ "PyCon SK and Učíme s Hardvérom in"
-#~ " Slovak)"
-#~ msgstr ""
-#~ "(mesačný newsletter o Python meetupoch, "
-#~ "PyCon SK a Učíme s Hardvérom v "
-#~ "slovenčine)"
-
-#~ msgid "Email Marketing Permissions"
-#~ msgstr "Povolenia pre emailový marketing"
-
-#~ msgid "Please select all the ways you would like to hear from SPy o.z.:"
-#~ msgstr "Prosím, vyber si, akými spôsobmi chceš dostávať informácie od SPy o.z.:"
-
-#~ msgid "Email"
-#~ msgstr "Email"
-
-#~ msgid "Direct Mail"
-#~ msgstr "Osobný email"
-
-#~ msgid "PyCon SK 2020 | Bratislava, Slovakia"
-#~ msgstr ""
-
-#~ msgid "The Call for Proposals is closed!"
-#~ msgstr "Predkladanie návrhov prednášok a workshopov je ukončené!"
-
-#~ msgid ""
-#~ "Tohtoročný EduSummit PyCon SK 2020 sa"
-#~ " uskutoční v termíne 27.-28.3.2020 na "
-#~ "FIIT STU. V piatkovom programe majú "
-#~ "učitelia prednášky a v sobotu praktické"
-#~ " workshopy. Okrem toho pripravujeme pre "
-#~ "žiakov Young Coders Day, kde v "
-#~ "piatok budú workshopy pre žiakov SŠ "
-#~ "a v sobotu pre žiakov ZŠ. V "
-#~ "piatok sa navyše koná finále súťaže "
-#~ "SPyCup a vyhodnotenie súťaže Python Cup,"
-#~ " ale aj výstava žiackych projektov "
-#~ "Hardware showcase."
-#~ msgstr ""
-
-#~ msgid "Friday"
-#~ msgstr "Piatok"
-
-#~ msgid "Saturday"
-#~ msgstr "Sobota"
-
-#~ msgid "Speakers that who have already confirmed attendance at PyCon SK 2020."
-#~ msgstr "Rečníci, ktorí už potvrdili účasť na PyCon SK 2020."
-
-#~ msgid "You can fill the Call for Proposals and join this list..."
-#~ msgstr "Vyplň návrh na prednášku a pridaj sa do zoznamu..."
-
-#~ msgid "Anyone can be part of the conference."
-#~ msgstr "Aj ty môžeš byť súčasťou konferencie."
-
-#~ msgid ""
-#~ "You're coming to the event, and "
-#~ "that makes you part of the "
-#~ "community. If you've done something that"
-#~ " you think other people might be "
-#~ "interested in, or that you think "
-#~ "they should know about, please do "
-#~ "consider telling us about it. We "
-#~ "don't just want to hear from "
-#~ "experts or famous names - other "
-#~ "perspectives are just as valuable, so"
-#~ " don't let the idea that you're "
-#~ "not an expert or famous enough "
-#~ "stop you. This is your invitation "
-#~ "to submit a talk proposal if you"
-#~ " haven't spoken at the conference "
-#~ "before. First-time speakers' talk "
-#~ "proposals will be preferred."
-#~ msgstr ""
-#~ "Ak ideš na túto konferenciu, stávaš "
-#~ "sa súčasťou komunity. Pokiaľ si "
-#~ "spravil(a) niečo, čo by mohlo zaujímať"
-#~ " aj iných, alebo si myslíš, že "
-#~ "ostatní by o tom mali vedieť, príď"
-#~ " nám o tom porozprávať. Nechceme "
-#~ "počúvať iba expertov a známe osobnosti"
-#~ " - noví perspektívni rečníci a "
-#~ "rečníčky sú tiež zaujímaví, preto sa,"
-#~ " prosím, nenechaj odradiť pocitom, že "
-#~ "nie si expert(ka) alebo známa osobnosť."
-#~ " Toto je naša pozvánka, aby si "
-#~ "poslal(a) návrh na prednášku, aj ak "
-#~ "si ešte nikdy na konferencii "
-#~ "neprednášal(a). Rečníči a rečníčky vystupujúci"
-#~ " prvýkrát budú uprednostňovaní."
-
-#~ msgid "Don't hesitate"
-#~ msgstr "Neváhaj"
-
-#~ msgid ""
-#~ "We are trying to finalize the "
-#~ "conference program as soon as possible;"
-#~ " the earlier you submit your proposal"
-#~ " the higher chance of acceptance it"
-#~ " has. <b>The deadline for submissions "
-#~ "is 30 June 2022.</b>"
-#~ msgstr ""
-#~ "Snažíme sa uzavrieť program konferencie "
-#~ "čo najskôr; čím skôr podáte svoj "
-#~ "návrh, tým je vyššia šanca prijatia. "
-#~ "<b>Termín ukončenia predkladania návrhov je"
-#~ " 30. jún 2022.</b>"
-
-#~ msgid ""
-#~ "Still not sure about the details "
-#~ "your proposal? No worries :-) After "
-#~ "submitting your proposal, you will "
-#~ "receive a confirmation email with a "
-#~ "link with which you can return to"
-#~ " your proposal and make changes."
-#~ msgstr ""
-#~ "Nie si si istý/-á ohľadne svojho "
-#~ "návrhu? Buď bez obáv :-) Po "
-#~ "odoslaní návrhu dostaneš konfirmačný email "
-#~ "s linkom, pomocou ktorého sa môžeš "
-#~ "k svojmu návrhu vrátiť a upraviť "
-#~ "ho."
-
-#~ msgid ""
-#~ "You can reach out to us via "
-#~ "email and we can discuss the topic"
-#~ " you have chosen and also the "
-#~ "abstract. If you need mentoring we'd "
-#~ "love to help, just ask."
-#~ msgstr ""
-#~ "Kontaktovať nás môžeš pomocou emailu a"
-#~ " môžeme prediskutovať tému prednášky a "
-#~ "tiež abstrakt. Ak potrebuješ mentoring, "
-#~ "radi ti pomôžeme, stačí sa spýtať."
-
-#~ msgid "Give us a tip"
-#~ msgstr "Daj nám vedieť o zaujímavých rečníkoch a rečníčkach"
-
-#~ msgid ""
-#~ "Do you know about a speaker that"
-#~ " would be a good fit for our"
-#~ " conference? <b>Let us know:</b>"
-#~ msgstr ""
-#~ "Poznáš niekoho, kto by mohol mať "
-#~ "skvelý príspevok na PyCone a mali "
-#~ "by sme ho/ju zavolať prednášať? <b>Daj"
-#~ " nám vedieť:</b>"
-
-#~ msgid "Guidelines for Proposal Submission"
-#~ msgstr "Pokyny pre podávanie návrhov"
-
-#~ msgid ""
-#~ "There is no official restriction on "
-#~ "the topic that you propose a talk"
-#~ " session. Talks about Python or the"
-#~ " Python community are most likely to"
-#~ " line up with the interests of "
-#~ "PyCon's audience, and a key "
-#~ "consideration that the talk selection "
-#~ "committee will be thinking about is "
-#~ "your talk's ability to draw an "
-#~ "audience. You may propose more than "
-#~ "one, but the committee will ask "
-#~ "you to choose only one talk if "
-#~ "more than one of your proposals is"
-#~ " accepted."
-#~ msgstr ""
-#~ "Nie je žiadne oficiálne obmedzenie tém,"
-#~ " ktoré môžeš navrhnúť ako svoju "
-#~ "prednášku. Prednášky o Pythone alebo "
-#~ "komunite budú s vysokou pravdepodobnosťou "
-#~ "zaujímavé pre publikum. Hlavným kritériom, "
-#~ "ktoré bude komisia pri výbere prednášok"
-#~ " zvažovať, je to, ako tvoja prednáška"
-#~ " zaujme publikum. Je stanovený limit "
-#~ "na jednu prednášku pre rečníka/rečníčku. "
-#~ "Navrhnúť môžeš viac ako jednu, komisia"
-#~ " ťa však vyzve, aby si vybral(a) "
-#~ "iba jednu prednášku (v prípade, že "
-#~ "bude akceptovaných viac návrhov)."
-
-#~ msgid ""
-#~ "If you have any questions, please "
-#~ "contact us via email: info@pycon.sk or"
-#~ " join our Slack channel"
-#~ msgstr ""
-#~ "Ak máš otázky, kontaktuj nás emailom "
-#~ "na info@pycon.sk alebo sa pridaj na "
-#~ "náš Slack kanál."
-
-#~ msgid "All selected speakers get a complimentary ticket to the conference."
-#~ msgstr "Všetci rečníci a rečníčky majú vstup na konferenciu zadarmo."
-
-#~ msgid "Talks"
-#~ msgstr "Prednášky"
-
-#~ msgid ""
-#~ "Most talks are 30 minutes long, "
-#~ "but we do offer a limited number"
-#~ " of 45-minute slots for important "
-#~ "topics that promise to benefit from "
-#~ "a more extensive treatment."
-#~ msgstr ""
-#~ "Väčšina prednášok má vyhradenú dĺžku 30"
-#~ " minút, no ponúkame aj niekoľko 45"
-#~ " minútových vstupov pre významné témy, "
-#~ "ktorým väčší rozsah umožní lepšie "
-#~ "priblížiť danú tému publiku."
-
-#~ msgid "Workshops"
-#~ msgstr "Workshopy"
-
-#~ msgid ""
-#~ "As with the talks, we are looking"
-#~ " for tutorials that can grow this "
-#~ "community at any level! We aim for"
-#~ " tutorials that will advance Python, "
-#~ "advance this community, and shape the"
-#~ " future. As tutorials are longer than"
-#~ " talks and are in an interactive "
-#~ "classroom-like setting, they require "
-#~ "much more preparation."
-#~ msgstr ""
-#~ "Tak ako na prednášky, tešíme sa aj"
-#~ " na workshopy, ktoré budú vhodné pre"
-#~ " komunitu na akejkoľvek úrovni! "
-#~ "Prostredníctvom takýchto výukových programov "
-#~ "sa snažíme zveľaďovať Python komunitu a"
-#~ " formovať budúcnosť. Vzhľadom na to, "
-#~ "že workshopy trvajú dlhšie a sú "
-#~ "omnoho interaktívnejšie, vyžadujú oveľa viac"
-#~ " prípravy."
-
-#~ msgid ""
-#~ "Are you involved in an interesting "
-#~ "project, new service or application of"
-#~ " technology? We would like to see "
-#~ "your talk but if you - for "
-#~ "any reason - prefer not to talk"
-#~ " in a large auditorium or you "
-#~ "think your achievements are of limited"
-#~ " interest and therefore not suitable "
-#~ "for the general audience, why not "
-#~ "present what you are doing in the"
-#~ " PyCon SK Poster Session?"
-#~ msgstr ""
-#~ "Pracuješ na zaujímavom projekte, novej "
-#~ "službe či technologickej aplikácii? Radi "
-#~ "by sme videli tvoju prednášku, ale "
-#~ "ak z nejakého dôvodu nechceš prednášať"
-#~ " vo veľkom auditóriu alebo si myslíš,"
-#~ " že tvoja téma zaujme iba obmedzený"
-#~ " počeť ľudí a nie je vhodná pre"
-#~ " všeobecné publikum, príď nám ukázať, "
-#~ "čo robíš, na PyCon SK Poster "
-#~ "Session."
-
