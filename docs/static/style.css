@@ -496,6 +496,9 @@ ul {
   margin: 0;
   padding: 0;
 }
+.square {
+  list-style-type: square;
+}
 button:focus,
 button:hover {
   outline: none;
