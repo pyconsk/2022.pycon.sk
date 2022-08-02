@@ -20,9 +20,17 @@
  {
     "speakers": [
       "Michaela Gažová",
-      "Peter Palát"
     ],
     "type": "Talk",
+    "lang": "sk",
+    "title": "Internetová bezpečnosť: základy sebaobrany",
+    "text": "-"
+ },
+ {
+    "speakers": [
+      "Peter Palát"
+    ],
+    "type": "Workshop",
     "lang": "sk",
     "title": "Internetová bezpečnosť: základy sebaobrany",
     "text": "-"
