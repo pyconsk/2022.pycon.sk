@@ -215,5 +215,21 @@
         "avatar": "img/speakers/nabanita_roy.png",
         "links": {
         }
+    },
+    {
+        "name": "Vojtěch Kusý",
+        "bio": "Vojtěch has been a professional web developer for almost 20 years. Currently, he is working as a software engineer at SpaceKnow. Before he was a long-term contributor to Drupal CMS, co-founded the digital adoption platform Inline Manual and worked as an engineering lead at privacy-focused startup Data Fiduciary. Meanwhile, he received Ph.D. in Systems Engineering in the Building Industry and Capital Construction.",
+        "country": "Czechia",
+        "avatar": "img/speakers/vojtech_kusy.jpg",
+        "links": {
+        }
+    },
+    {
+        "name": "Matěj Bartoš",
+        "bio": "After graduating from Computer Vision and Image Processing Matěj started as a research scientist in SpaceKnow where he trained neural networks and optimized data processing. Afterward, he focused on solving large-scale satellite data imagery optimization and parallelization of several algorithms as a leader of the backend team at SpaceKnow.",
+        "country": "Czechia",
+        "avatar": "img/speakers/matej_bartos.jpg",
+        "links": {
+        }
     }
 ]

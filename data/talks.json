@@ -233,5 +233,15 @@
     "lang": "en",
     "title": "Introduction to Text Analytics for Social Media Chatter",
     "text": "A vast amount of textual content is available on the internet which is exponentially increasing every second. Text analytics and natural language processing (NLP) techniques allow us to analyze, evaluate and uncover actionable insights from such data. In this talk, I will discuss four key topics ~ 1. Why social media, and what kind of information does social media contain 2. Real-world applications of social media text analysis, 3. The challenges associated with social media data, and 4. Natural language processing techniques (using Python) for analyzing them for cleaning and pre-processing, semantic Analysis, and visualizations."
+  },
+  {
+    "speakers": [
+      "Vojtěch Kusý",
+      "Matěj Bartoš"
+    ],
+    "type": "Talk",
+    "lang": "en",
+    "title": "Satellite Imagery Processing with Python",
+    "text": "What is satellite imagery? Can you zoom in to a car license plate like in the movies? Can you task a satellite to take a picture for you? How can the satellite data be automatically processed? What are the typical applications of automated satellite imagery processing at scale?\nIn our presentation, we will try to answer those questions with the help of Python and libraries such as GDAL, rasterio, shapely, numpy, and pandas. We will discuss the resolution, data size, GeoJSON and geolocalized TIFF processing, visualization, surface reflectance, orbits, or use cases for non-optical data such as synthetic aperture radar (SAR) imagery, and other interesting aspects of this domain."
   }
 ]
