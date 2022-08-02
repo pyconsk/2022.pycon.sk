@@ -14,5 +14,29 @@
     "avatar": "img/speakers/monika_balazova.jpg",
     "links": {
     }
+  },
+  {
+    "name": "Michaela Gažová",
+    "bio": "Michaela vyštudovala Bezpečnosť informačných systémov aplikovanej informatiky na Fakulte elektrotechniky a informatiky Slovenskej Technickej Univerzity v Bratislave (FEI STU). Momentálne pracuje v technologickej divízii v Esete na vývoji rôznych produktov. V rámci dobrovoľníckych aktivít popri práci sa podieľa na školeniach Digital Skills pre učiteľov, kde školí digitálnu bezpečnosť.",
+    "country": "Slovakia",
+    "avatar": "img/speakers/michaela_gazova.jpg",
+    "links": {
+    }
+  },
+  {
+    "name": "Peter Palát",
+    "bio": "Softvérový Architekt v spoločnosti ESET s.r.o\n\n„Ajťák“, ktorý sa síce aktívne nevenuje programovaniu, ale dozoruje nad vývojom komplexných riešení. Vyštudoval Softvérove inžinierstvo na Fakulte Informatiky a Informačných Technológií Slovenskej Tehnickej Univerzity v Bratislave. Vo voľnom čase sa venuje dobrovoľníckemu programu DigiSkills, ktorý zastrešuje školenia učiteľov o programovaní a digitálnej bezpečnosti.",
+    "country": "Slovakia",
+    "avatar": "img/speakers/peter_palat.jpg",
+    "links": {
+    }
+  },
+  {
+    "name": "Miroslav Biňas",
+    "bio": "Odborný asistent na Katedre počítačov a informatiky, TUKE, kde učí “detiská” programovať najmä v jazyku C. Stále dúfa, že keď vyrastie, bude z neho Linuxák. Alebo Batman.",
+    "country": "Slovakia",
+    "avatar": "img/speakers/miroslav_binas.jpg",
+    "links": {
+    }
   }
 ]
