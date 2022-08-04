@@ -243,5 +243,52 @@
     "lang": "en",
     "title": "Satellite Imagery Processing with Python",
     "text": "What is satellite imagery? Can you zoom in to a car license plate like in the movies? Can you task a satellite to take a picture for you? How can the satellite data be automatically processed? What are the typical applications of automated satellite imagery processing at scale?\nIn our presentation, we will try to answer those questions with the help of Python and libraries such as GDAL, rasterio, shapely, numpy, and pandas. We will discuss the resolution, data size, GeoJSON and geolocalized TIFF processing, visualization, surface reflectance, orbits, or use cases for non-optical data such as synthetic aperture radar (SAR) imagery, and other interesting aspects of this domain."
+  },
+  {
+    "speakers": [
+      "Karla Fejfarová"
+    ],
+    "type": "Talk",
+    "lang": "en",
+    "title": "Snakes and Birds: Daily Python Tip",
+    "text": "Which came first, the chicken or the egg? What happens if you reverse a British flag? Python has answers to almost all of your questions. \nFive years ago, together with Petr Šimeček, we created the @python_tip Twitter account as a space to share what we were learning in Python. The feedback sometimes surprised us. 35k followers later, we are still trying to find out what makes a good Python tweet.\nIn this talk, I would like to show you my favorite Python tips, both useful and crazy ones."
+  },
+  {
+    "speakers": [
+      "Jan Pipek",
+      "Jakub Urban"
+    ],
+    "type": "Workshop",
+    "lang": "en",
+    "title": "Pandas watching movies",
+    "text": "In this workshop, you will get your hands on the essential tool of any Python data analyst or scientist, the pandas library. Based on publicly available data, you will learn how to:\n\n- load, manipulate and clean your data;\n- gather insights using grouping, aggregation and joining data from various sources;\n- understand and present you data visually.\n\nThe course is intended for attendees with high-school (or even grammar-school) math knowledge and basic Python understanding; no advanced statistics or computer science theory will be required or taught.\n\n(a slightly updated version of https://cz.pycon.org/2019/programme/workshops/8/ - with the numpy part removed, also a bit inspired by our https://naucse.python.cz/2021/pydata-praha-podzim/ materials)"
+  },
+  {
+    "speakers": [
+      "Petr Viktorin"
+    ],
+    "type": "Talk",
+    "lang": "en",
+    "title": "The stories of Python features",
+    "text": "Python 3.11 is almost ready. The Release Candidate is available, all features are in, and fixes for serious bugs are the only changes allowed before the final release in October. So you can already play with better traceback inforrmation, exception groups, performance improvements, tomllib, and so on.\n\nBut have you ever wondered how these features get into the language? If you have an idea of an improvement, what needs to happen before it's implemented and released to the world? Who needs to be convinced that it's a good idea? What kind of questions do you need to ask and answer?\nFind out in this talk.\n\n"
+  },
+  {
+    "speakers": [
+      "Oliver Osvald",
+      "Martin Mihál"
+    ],
+    "type": "Talk",
+    "lang": "en",
+    "title": "Implementation of advanced analytics pipeline in solar energy industry and integration into AWS cloud environment",
+    "text": "Since its birth a couple decades ago, the solar energy industry has seen rapid growth - not just in market size, but also in data. The industry has become data-driven and Solargis has been on the forefront of working with solar data and addressing its main issues. In the first part of this talk, we briefly describe our approach to identifying the most common data quality issues found in solar ground measurement data. After the introduction, we share how we built an advanced analytics pipeline based on our approach, discuss its core components, implementation, evaluation, and outline its main strengths and weaknesses. In the second part, we show how we leverage the AWS cloud environment to deploy, scale and enhance our solutions such as the analytics pipeline. We also share a few technology recommendations, insights and tips on how to integrate, deploy and operate serverless data-flow on the cloud and how to handle data in a cloud-based data-lake."
+  },
+  {
+    "speakers": [
+      "Michal Racko"
+    ],
+    "type": "Talk",
+    "lang": "en",
+    "title": "Distributed-energy-resource simulation and optimization in the context of a transmission grid",
+    "text": "The currently ongoing large-scale adoption of distributed energy resources such as photovoltaic arrays, batteries, fuel cells and others has brought about a significant room for improvements in both cost and energy savings. The supply-demand nature of the power grid further increases the potential for energy-bill reduction. Robust simulations of DERs and their relationships are a paramount for any optimization effort.\nWe developed a framework which simplifies the simulation work and provides a useful abstraction for complex systems. An example simulation of a model city transmission grid will be presented.  "
   }
 ]

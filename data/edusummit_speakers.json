@@ -38,5 +38,21 @@
     "avatar": "img/speakers/miroslav_binas.jpg",
     "links": {
     }
+  },
+  {
+    "name": "Luboslav Lacko",
+    "bio": "Špecialista na IT, vývoj softvéru, databázové technológie, IoT a zariadenia s mikrokontrolérmi. V súčasnosti  redaktor magazínu NEXTECH publicista, školiteľ a konzultant. Som autorom 12  knižných publikácií vo vydavateľstvách Computerpress a Albatrosmedia a technologických zborníkov a 9x som získal prestížne ocenenie Microsoft MVP ",
+    "country": "Slovakia",
+    "avatar": "img/speakers/luboslav_lacko.jpg",
+    "links": {
+    }
+  },
+  {
+    "name": "Sylvia Ličková",
+    "bio": "Ukončila magisterské štúdium na Komenského univerzite v Bratislave. Absolvovala program MiniTech MBA for Women. Dlhé roky pôsobí v oblasti ľudských zdrojov a headhuntingu. Prečítala tisíce profilov uchádzačov o prácu a viedla stovky pracovných pohovorov. Posledných 9 rokov pôsobí ako Senior Recruitment Consultant v spoločnosti TITANS freelancers, ktorá ako líder v oblasti outsourcingu dodáva IT špecialistov na zaujímavé projekty na Slovensku aj v zahraničí. Spolu s kolegami vedie workshop Prvý krok za prácou snov určený študentom stredných škôl. Je aktívnou podporovateľkou programu Teach for Slovakia a Cesta von. Aktívne spolupracuje s neziskovou organizáciou hodiNOVÍ záŠKOLÁCI, ktorá prepája biznis ľudí so školákmi v online prostredí. ",
+    "country": "Slovakia",
+    "avatar": "img/speakers/sylvia_lickova.jpg",
+    "links": {
+    }
   }
 ]

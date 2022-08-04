@@ -231,5 +231,61 @@
         "avatar": "img/speakers/matej_bartos.jpg",
         "links": {
         }
+    },
+    {
+        "name": "Jan Pipek",
+        "bio": "Jan works with data on a daily basis at Pace Revenue to optimize revenue in the hospitality industry. He met with Jakub Urban as physicists promoting Python at a research institute and since then have broadened this collaborative effort to organizing PyData Prague meetups and coaching PyLadies data courses.",
+        "country": "Czechia",
+        "avatar": "img/speakers/jan_pipek.jpg",
+        "links": {
+        }
+    },
+    {
+        "name": "Jakub Urban",
+        "bio": "Jakub works with data on a daily basis at Pace Revenue to optimize revenue in the hospitality industry. He met with Jan Pipek as physicists promoting Python at a research institute and since then have broadened this collaborative effort to organizing PyData Prague meetups and coaching PyLadies data courses.",
+        "country": "Czechia",
+        "avatar": "img/speakers/male.svg",
+        "links": {
+        }
+    },
+    {
+        "name": "Karla Fejfarová",
+        "bio": "I am a Python developer at IMPER CZ. My background is in chemistry. After switching to bioinformatics, I learned to code, first in R and then in Python. Nowadays, I changed the field completely. In my daily job, I am putting together data about anyone doing business in Czechia or Slovakia.",
+        "country": "Czechia",
+        "avatar": "img/speakers/karla_fejfarova.jpg",
+        "links": {
+        }
+    },
+    {
+        "name": "Petr Viktorin",
+        "bio": "Petr is a CPython core developer and a member of the 2022 Python Steering Council.\nHe works at Red Hat, developing Python and integrating it into Fedora and RHEL systems.\nHe also teaches beginners' courses, and maintains Czech learning materials at naucse.python.cz.",
+        "country": "Czechia",
+        "avatar": "img/speakers/petr_viktorin.jpg",
+        "links": {
+        }
+    },
+    {
+        "name": "Oliver Osvald",
+        "bio": "He studied Mathematical Modelling at University College London. Later he worked for Hiscox Re & ILS, Mechanic Tech Lab and Berlin Brands Group to finally get to Bratislava where he process the solar data at Solargis.",
+        "country": "Slovakia",
+        "avatar": "img/speakers/oliver_osvald.jpg",
+        "links": {
+        }
+    },
+    {
+        "name": "Martin Mihál",
+        "bio": "He studied at Faculty of Mathematics, Physics and Informatics at Comenius University Bratislava. Then he worked at First Data, Piano, Operam to get to Solargis where he process the solar data.",
+        "country": "Slovakia",
+        "avatar": "img/speakers/martin_mihal.jpg",
+        "links": {
+        }
+    },
+    {
+        "name": "Michal Racko",
+        "bio": "Have been interested in science & technology since childhood. \nAttended and won multiple international science competitions during high school including the International Olympiad in Astronomy and Astrophysics (silver and gold medals) and Intel ISEF (3rd place).\nStudied physics at Imperial College London which consistently gets among the world's top-10-ranked universities. Got involved in data analysis within the LHCb and later ATLAS collaborations at CERN.\nWorked as a data scientist in e-commerce preparing predictive models, performance analyses, simulations etc.\nLaunched own startup focusing on real-time processing of e-commerce data. Designed and developed the entire data-processing pipeline and ML models.\nWorked as an ML engineer in a tech company focusing on document image processing, classification and OCR.\nCurrently a member of the modelling team at Makers working on a new approach to simulations of distributed energy resources.",
+        "country": "Slovakia",
+        "avatar": "img/speakers/michal_racko.jpg",
+        "links": {
+        }
     }
 ]
