@@ -288,5 +288,21 @@
         "avatar": "img/speakers/michal_racko.jpg",
         "links": {
         }
+    },
+    {
+        "name": "Jan Cuzy",
+        "bio": "During my professional career I gained experience in all activities involved in the software life cycle including project management, tem leading, programming, domain analysis and testing. Beside of my professional experience in the software engineering I can fluently speak English and German and my overall communication skills are on a high level. Specialties: domain analyses, OOP design, project management.",
+        "country": "Slovakia",
+        "avatar": "img/speakers/jan_cuzy.jpg",
+        "links": {
+        }
+    },
+    {
+        "name": "Viktoria Karolova",
+        "bio": "Viki studied Economics and Business at University of Glasgow and later at Kings College London. She started her career in People Operations at an e-commerce startup in Thailand, before she joined Google in London as a Technical Recruiter focusing on Software Engineering hiring. She is currently part of the Tech Leadership team at Slido working as Technology Operations Manager. The role allows her to combine her knowledge of Tech with a passion for enabling teams and people around her through projects aimed at process optimizations and developer advocacy.",
+        "country": "United Kingdom",
+        "avatar": "img/speakers/viki_karolova.jpg",
+        "links": {
+        }
     }
 ]
