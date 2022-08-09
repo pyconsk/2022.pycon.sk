@@ -70,5 +70,23 @@
     "lang": "sk",
     "title": "Ako sa odprezentovať a zaujať životopisom",
     "text": "Životopis Vás sprevádza celým kariérnym životom. Nepotrebujete ho len pri hľadaní novej práce. Často býva súčasťou prihlášky na kurz, školenie či rozvojové programy. Ak ho vypracujete správne, zvýšia sa Vaše šance na úspech. Zároveň sa naučíte ako odprezentovať seba a Vaše doterajšie skúsenosti a know-how. "
- }
+ },
+    {
+    "speakers": [
+      "Jaroslav Výbošťok"
+    ],
+    "type": "Talk",
+    "lang": "en",
+    "title": "Programovací jazyk Robot Karel pre žiakov mladších i starších",
+    "text": "V mojom príspevku predstavím nové online prostredie a metodiku pre výučbu algoritmizácie prioritne pre druhý stupeň základných škôl. Využiteľné je ale aj na strednej škole. Prostredie a metodiku som vyvinul na základe mojich skúseností s vyučovaním na ZŠ a osemročnom gymnáziu. Založené je na známom koncepte programovania robota Karla, ktorý vykonáva aktivity v štvorcovej sieti. Spomeniem tiež praktické skúsenosti z výučby a reakcie žiakov pri programovaní Karla, ktoré mi pomohli pri ďalšom vývoji. Uvediem aj čo má táto prednáška spoločné s Pythonom a ako ma jazyk Python pri tvorbe inšpiroval."
+  },
+  {
+    "speakers": [
+      "Róbert Tomolya "
+    ],
+    "type": "Talk",
+    "lang": "en",
+    "title": "Programovanie dronov ",
+    "text": "Dron Tello Edu a DJI Robomaster TT je pôsobivý a programovateľný dron, ktorý je ako stvorený na vzdelávanie. Môžeme napísať aj program, ktorý prikáže viacerým jednotkám Tello EDU lietať v rojoch naraz. Ukážeme ako naprogramovať dron pomocou programovacieho jazyka Scratch a Python na hodinách informatiky."
+  }
 ]

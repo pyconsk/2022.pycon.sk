@@ -304,5 +304,29 @@
         "avatar": "img/speakers/viki_karolova.jpg",
         "links": {
         }
+    },
+    {
+        "name": "Jaroslav Výbošťok",
+        "bio": "Vyše 16 rokov vyučuje informatiku a semináre z programovania pre maturantov na Gymnáziu Jura Hronca v Bratislave. Učil tiež na osemročnom gymnáziu na Bajkalskej a Gymnáziu Ivana Horvátha v Bratislave a na základnej škole v Detve. Je spoluautorom učebníc Programujeme v Pythone – druhý a tretí diel a Maturujeme v Pythone. Na praxi pripravuje študentov učiteľstva informatiky ako fakultný učiteľ FMFI UK.",
+        "country": "Slovakia",
+        "avatar": "img/speakers/jaroslav_vybostok.jpg",
+        "links": {
+        }
+    },
+    {
+        "name": "Róbert Tomolya",
+        "bio": "Róbert Tomolya, učiteľ matematiky a informatiky, učí na na Gymnáziu vo Fiľakove s vyučovacom jazykom slovenským a maďarským. Hľadá, objavuje a inovuje svoje vyučovacie metódy tak, aby držal krok s dobou. Na hodinách informatiky a matematiky využíva vlastné edukačné materiály aby tak vzbudil v žiakoch opätovný záujem o prírodné vedy.\nRóbert Tomolya vymyslel a dlhé roky organizuje viacero súťaží počas ktorých študenti majú možnosť rozvíjať nielen informatické znalosti a prezentačné zručnosti, ale aj tímovú prácu.\nInfoprog je medzinárodná súťaž (Slovensko, Srbsko, Maďarsko, Rumunsko) v informatike pre stredné školy, ktorú organizuje už od roku 1996. \nDalšiou srdcovou záležitosťou Róberta Tomolyu je Prírodovedný Triatlon, ktorého prvý ročník sa uskutočnil v roku 2008, je celoštátna súťaž pre stredné školy, v ktorej trojčlenné tímy súťažia v oblasti matematiky, fyziky a informatiky. \nJe zakladateľom informatickej  súťaže AlgoritMánia, kde súťažia trojčlenné tímy zo základných škôl. Úlohy súťaže sú založené na všeobecných počítačových zručnostiach, algoritmickom myslení a kreativite. V organizovaní a pri vytváraní úloh mu pomáhajú jeho talentovaní študenti.\nRóbert Tomolya taktiež pred piatimi rokmi založil online krúžok programovania - Virtuálny programovací krúžok. Počas neho žiaci sedia doma a programujú v online prostredí, zatiaľ čo mu pri výučbe pomáhajú jeho bývalí žiaci.",
+        "country": "Slovakia",
+        "avatar": "img/speakers/robert_tomolya.jpg",
+        "links": {
+        }
+    },
+    {
+        "name": "Cheuk Ting Ho",
+        "bio": "Before working in Developer Relations, Cheuk has been a Data Scientist in various companies which demands high numerical and programmatical skills, especially in Python. To follow her passion for the tech community, now Cheuk is the Developer Advocate for Anaconda.\n\nBesides her work, Cheuk enjoys speaking at various conferences. Cheuk also organises events for developers. Cheuk has organised conferences including EuroPython (of which she is a board member), PyData Global and Pyjamas Conf. Believing in Tech Diversity and Inclusion, Cheuk constantly organizes workshops and mentored sprints for minority groups. In 2021, Cheuk has become a Python Software Foundation fellow.",
+        "country": "United Kingdom",
+        "avatar": "img/speakers/cheuk_ting_ho.jpg",
+        "links": {
+        }
     }
 ]

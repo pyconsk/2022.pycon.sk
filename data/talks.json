@@ -307,6 +307,15 @@
     "type": "Talk",
     "lang": "en",
     "title": "What I learned during my summer with a command line: confession of a non-tech person in tech",
-    "text": " Not everyone needs coding skills, but learning how to think like a programmer can be useful in almost any discipline. Join me for a story of how Slido motivated me to learn operating (not only) the command line and how I benefitted ever since.  "
+    "text": "Not everyone needs coding skills, but learning how to think like a programmer can be useful in almost any discipline. Join me for a story of how Slido motivated me to learn operating (not only) the command line and how I benefitted ever since."
+  },
+  {
+    "speakers": [
+      "Cheuk Ting Ho"
+    ],
+    "type": "Talk",
+    "lang": "en",
+    "title": "Revolutionize Data Visulization with PyScript",
+    "text": "Since the announcement of PyScript, it has gained lots of attention and imagination about how we can run applications of Python in the browser. Out of everything that I have come across, most of the use cases are data visualisation. Let’s see how we can up our data viz game with PyScript."
   }
 ]
