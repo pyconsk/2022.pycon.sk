@@ -317,5 +317,14 @@
     "lang": "en",
     "title": "Revolutionize Data Visulization with PyScript",
     "text": "Since the announcement of PyScript, it has gained lots of attention and imagination about how we can run applications of Python in the browser. Out of everything that I have come across, most of the use cases are data visualisation. Let’s see how we can up our data viz game with PyScript."
+  },
+  {
+    "speakers": [
+      "Michael Niepel"
+    ],
+    "type": "Workshop",
+    "lang": "sk",
+    "title": "Micropython Workshop",
+    "text": "Workshop micropython vo svete IoT na vyvojovej doske s cipom ESP8266. Kratke\nzoznamenie s doskou, micropythonom a protokolom MQTT. Ukazka komunikacie a\nodosielanie dat zo senzorov pomocou MQTT a HTTP na server a medzi doskami.\nMicropython workshop in the world of IoT on a development board with an ESP8266\nchip. A brief introduction to the board, micropython and the MQTT protocol.\nDemonstration of communication and sending data from sensors using MQTT and\nHTTP to server and between boards."
   }
 ]
