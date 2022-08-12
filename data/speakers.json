@@ -337,5 +337,29 @@
         "links": {
             "linkedin": "https://www.linkedin.com/in/michael-niepel-35050a32/"
         }
+    },
+    {
+        "name": "Lukáš Polák",
+        "bio": "Lukáš Polák has been playing with distributed systems and ETL for several years. In the past, he helped Hollywood movie studios to ingest analytical data from social media platforms, so they could improve the aim of their ads. Also, he supported the design and creation of a proprietary query engine named Husky. The engine was designed to allow low-code access to data, even for non-technical users.\nCurrently, he works on a platform for data ingestion and calculation of insights for Data Stories, using project Prefect.",
+        "country": "Slovakia",
+        "avatar": "img/speakers/lukas_polak.jpg",
+        "links": {
+        }
+    },
+    {
+        "name": "Michal Brandis",
+        "bio": "Ukončil inžinierske štúdium na FEI STU v Bratislave v odbore Telekomunikácie. Dlhodobo pôsobil v oblasti IT ako Support špecialista. Pred 4 rokmi nastúpil na pozíciu Account manažéra v TITANS freelancers, ktorý ako líder v oblasti outsourcingu dodáva stovky IT špecialistov na projekty doma i v zahraničí. Od roku 2021 pôsobí v roli Key Account manažéra a má na starosť viac ako 30 kľúčových klientov po celom svete. Počas svojej kariéry komunikoval so zástupcami veľkých nadnárodných aj malých lokálnych firiem, CEOs, CTOs a zastrešoval viac ako 400 projektov. Prečítal tisíce životopisov a pomohol stovkám freelancerov nájsť ten správny projekt. Vo voľnom čase sa venuje historickému šermu a rôznym ázijským bojovým umeniam.",
+        "country": "Slovakia",
+        "avatar": "img/speakers/michal_brandis.png",
+        "links": {
+        }
+    },
+    {
+        "name": "Jozef Gaborik",
+        "bio": "Jozef is a full-stack developer with multiple years of experience. He created his first web page at the age of 13 and continues to do so from then on. He studied at the Slovak University of Technology. In the past he worked at both bigger companies in the telco industry and small startups focusing on cloud technologies. Currently he is a senior Python developer at Sufio. He likes open-source, volleyball, and good books.\n\nHe is slightly paranoid :)",
+        "country": "Slovakia",
+        "avatar": "img/speakers/jozef_gaborik.jpg",
+        "links": {
+        }
     }
 ]
