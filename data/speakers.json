@@ -331,10 +331,11 @@
     },
     {
         "name": "Michael Niepel",
-        "bio": "Michael má viac ako 17 rokov profesionálnych skúseností s vývojom a dodávaním softvéru.\nJeho nedávne projekty sa zameriavajú na transformáciu informačných systémov z\nanalógových na digitálne v rôznych odvetviach vrátane maloobchodu, poisťovníctva,\npersonálneho zabezpečenia a ďalších. Jeho obľúbeným nástrojom je ekosystém Python, ale\nsúcití s \u200B\u200Bpoužívaním správneho nástroja na správnu prácu na podporu úspešného projektu.\nMichaelovou vášňou sú aplikácie priamo spojené s fyzickým svetom ako IoT a AR/MR.\n\nMichael has over 17 years of professional experience in software development and delivery.\nHis recent projects focus on transformation of information systems from analogue to digital\nacross the industries including retail, insurance, staffing and more. His go-to tool is Python\necosystem but empathizes on using the right tool for the right job to drive project\nsuccessful. Michael’s passion is for applications directly connected to the physical world like\nIoT and AR/MR.\nhttps://www.linkedin.com/in/michael-niepel-35050a32/",
+        "bio": "Michael has over 17 years of professional experience in software development and delivery. His recent projects focus on transformation of information systems from analogue to digital across the industries including retail, insurance, staffing and more. His go-to tool is Python ecosystem but empathizes on using the right tool for the right job to drive project successful. Michael’s passion is for applications directly connected to the physical world like IoT and AR/MR.",
         "country": "Slovakia",
         "avatar": "img/speakers/michael_niepel.jpg",
         "links": {
+            "linkedin": "https://www.linkedin.com/in/michael-niepel-35050a32/"
         }
     }
 ]

@@ -325,6 +325,6 @@
     "type": "Workshop",
     "lang": "sk",
     "title": "Micropython Workshop",
-    "text": "Workshop micropython vo svete IoT na vyvojovej doske s cipom ESP8266. Kratke\nzoznamenie s doskou, micropythonom a protokolom MQTT. Ukazka komunikacie a\nodosielanie dat zo senzorov pomocou MQTT a HTTP na server a medzi doskami.\nMicropython workshop in the world of IoT on a development board with an ESP8266\nchip. A brief introduction to the board, micropython and the MQTT protocol.\nDemonstration of communication and sending data from sensors using MQTT and\nHTTP to server and between boards."
+    "text": "Workshop micropython vo svete IoT na vývojovej doske s čipom ESP8266. Krátke zoznámenie sa s doskou, micropythonom a protokolom MQTT. Ukážka komunikácie a odosielanie dát zo senzorov pomocou MQTT a HTTP na server a medzi doskami."
   }
 ]
