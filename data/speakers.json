@@ -361,5 +361,21 @@
         "avatar": "img/speakers/jozef_gaborik.jpg",
         "links": {
         }
+    },
+    {
+        "name": "Maria Jose Molina-Contreras",
+        "bio": "She is a passionate plant molecular biologist, working as a data scientist at INFARM (Berlin, Germany).\nIn her spare time, she loves to develop projects that can help people around her, especially people who are eager to learn new things in tech. For that reason, she tries to develop projects that are beginner-friendly, even with complex topics.\n\nShe is an active member in the Python Berlin communities, helping to organize workshops and participating actively in mentoring newcomers (specially, people who are changing from career path) and giving talks in many local communities like PyLadies and also in international conferences. Moreover, she participated in the python documentation translation (English-Spanish) and she is a coordinator in the discord channel of \"Python en Español\".",
+        "country": "Germany",
+        "avatar": "img/speakers/maria_jose_molina_contreras.jpg",
+        "links": {
+        }
+    },
+    {
+        "name": "Peter Dolák",
+        "bio": "Mostly as a backend developer in Python and Go, Peter has contributed to Bloomreach's Engagement product for almost 8 years since finishing studies in Computer Science at FMFI UK BA.\nHe has helped the company - and its predecessor Exponea - become one of the leaders in the CDP and Marketing Cloud market.\nPeter has developed many other for-profit and nonprofit web applications, with the most popular one having been used by over 100k registered users across the globe.",
+        "country": "Slovakia",
+        "avatar": "img/speakers/peter_dolak.jpg",
+        "links": {
+        }
     }
 ]

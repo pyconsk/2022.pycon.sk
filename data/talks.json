@@ -353,5 +353,23 @@
     "lang": "en",
     "title": "Best practices for building Docker images for Python apps",
     "text": "Docker is very popular among developers and many teams use it to deliver their software. I want to use it too, but my images are large and take forever to build. Does it have to be like that? Is there a better way to do it?\n\nIn this presentation, we will go through the whole process of building a docker image for a Python web app. How to select a base image, how to optimize the size, and how to decrease the speed of build. We will think about security, logging, and caching and see how to do it all in CI. You will end up with the set of applicable best practices in creating Docker images that you can use in your projects."
+  },
+  {
+    "speakers": [
+      "Maria Jose Molina-Contreras"
+    ],
+    "type": "Talk",
+    "lang": "en",
+    "title": "How to build an indoor air quality monitoring and predictive system",
+    "text": "In the last couple of years, most people have been moved to a full working from home work-style, which made us realize benefits we were not aware of, but sadly some little inconveniences as well some health related issues.\n\nSome scientific studies show that we spend over 90% of our time indoors [1]. Furthermore, advances in construction technology have caused a much better isolation, so a good ventilation is necessary. However, overventilation results in higher energy consumption usage but inadequate ventilation leads to indoor air quality that affects a person's comfort, health and even our ability to be focused and work effectively.\n\nIn order to improve my quality of life working from home, I decided to monitor and evaluate  the air of my new working place (a.k.a living room). In this talk, we will explore how to build a functional system to track the air quality, collect our own data using different sensors and implement a predictive approach to avoid future health problems.\n\nWe are going to dive into the different setups to interact with air quality sensors using Python on microcontrollers and embedded systems (Raspberry pi), collecting your own data to evaluate different factors like humidity, temperature, CO2, particles, but that’s not all, also we will go into the implementation of a predictive machine learning (ML) model to predict Indoor CO2 levels and alerting us based on predictions before critical levels.\n\nAssistants will see how Python is a great option to indoor air quality monitoring complemented with a predictive ML model for Indoor CO2, while having fun building and monitoring your home."
+  },
+  {
+    "speakers": [
+      "Peter Dolák"
+    ],
+    "type": "Talk",
+    "lang": "en",
+    "title": "Stereotype: Data models pushing Python to the limits",
+    "text": "Stereotype is a performance-focused Python 3.8 library for providing a structure for your data and validating it. The models allow fast & easy conversion between primitive data and well-typed Python classes. In the talk we’ll cover these topics:\n- Why you should use data models for data conversion and validation\n- Stereotype vs. other libraries doing a similar thing\n- Pushing Python's limits - the optimizations and hacks behind stereotype"
   }
 ]
