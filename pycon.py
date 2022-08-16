@@ -4,6 +4,8 @@ from datetime import date
 from flask import Flask, g, request, render_template, abort, make_response, url_for, redirect
 from flask_babel import Babel, gettext, lazy_gettext
 
+from schedule import (FRIDAY1, FRIDAY2, FRIDAY3, SATURDAY1, SATURDAY2, SATURDAY3, SATURDAY4, SATURDAY5,
+                      SUNDAY1, SUNDAY3, SUNDAY4)
 from utils import get_news, get_speakers, get_talks, get_edu_speakers, get_edu_talks, encode_name, decode_name
 
 EVENT = gettext('PyCon SK 2022 | Bratislava, Slovakia')
@@ -145,146 +147,131 @@ def cfv():
 
 @app.route('/<lang_code>/sponsors.html')
 def sponsors():
-    return render_template('sponsors.html', **_get_template_variables(li_sponsors='active', background='bkg-index'))
+    return render_template('sponsors.html', **_get_sponsors_variables(li_sponsors='active', background='bkg-index'))
 
 
 @app.route('/<lang_code>/edusummit.html')
 def edusummit():
-
-    FRIDAY = [
-        {
-            'time': '9:25 - 9:30',
-            'speakers': ['Eva Klimeková'],
-            'talk': 'Otvorenie 4. ročníka EduSummit na PyCon SK',
-        },
-        {
-            'time': '9:30 - 9:45',
-            'talk': 'Učíme s hardvérom'
-        },
-        {
-            'time': '9:45 - 10:15',
-            'talk': 'Finále súťaže SPy Cup'
-        },
-        {
-            'time': '10:20 - 10:50',
-            'talk': 'Vzbuďme v študentoch chuť programovať!'
-        },
-        {
-            'time': '11:05 - 12:05',
-            'talk': 'Ako sa dá s Python zvládnuť štvorročné štúdium na strednej škole',
-            'keynote': 'True'
-        },
-        {
-            'time': '13:10 - 13:35',
-            'talk': 'EDUTalks'
-        },
-        {
-            'time': '13:35- 13:55',
-            'speakers': ['Peter Palát'],
-            'talk': 'Internetová bezpečnosť: základy sebaobrany'
-        },
-        {
-            'time': '14:00- 14:30',
-            'talk': "Programujeme v Pythone hardvér",
-        },
-        {
-            'time': '14:45- 15:30',
-            'talk': "Python ako nástroj pre STE(A)M problémy a úlohy",
-        },
-        {
-            'time': '15:35- 16:05',
-            'talk': "Programovací jazyk Robot Karel po novom a online.",
-        },
-        {
-            'time': '16:20- 16:50',
-            'talk': 'Vyhlásenie výsledkov SPy Cup a Python Cup'
-        },
-        {
-            'time': '16:55- 17:25',
-            'talk': "Z maturity v pascale na pythonovskú novú maturitu, študenstká mobilná apka o pythone v pythone a jednoduché grafické rozhranie pomocou libreoffice calc",
-        }
-    ]
-
-    FRIDAY2 = [
-        {
-            'time': '11:05- 12:10',
-            'talk': "Programovanie vlastných micro:bit herných ovládačov a autíčok",
-        },
-        {
-            'time': '13:10 - 13:55',
-            'talk': "Životopis predáva",
-        },
-        {
-            'time': '14:00 - 16:00',
-            'talk': "Buď SMART s micro:bitom",
-        }
-    ]
-
-    SATURDAY = [
-        {
-            'time': '9:00 - 10:50',
-            'talk': "Robíme IoT na mikrokontroléri ESP32 v jazyku MicroPython"
-        },
-        {
-            'time': '11:05 - 12:10',
-            'talk': "Jednoduchý blog vo Flasku",
-        },
-        {
-            'time': '13:10 - 15:00',
-            'talk': "Buď SMART s micro:bitom",
-        },
-        {
-            'time': '15:20 - 16:50',
-            'speakers': ['Jaroslav Výbošťok', 'Marek Mansell'],
-            'talk': "Využitie otvorených dát a GPS s použitím tkinter a Jupyter"
-        }
-    ]
-
-    SATURDAY2 = [
-        {
-            'time': '9:00 - 10:50',
-            'talk': "Zábava a informatika idú ruka v ruke ! :)",
-        },
-        {
-            'time': '11:05 - 12:10',
-            'talk': "Naučte sa programovať s CoderDojo",
-        },
-        {
-            'time': '13:10 - 14:10',
-            'talk': "Naprogramuj si robota Ozobot EVO",
-        },
-    ]
-
-    for spot in FRIDAY:
-        for talk in EDU_TALKS:
-            if spot['talk'] == talk['title']:
-                spot['talk'] = talk
-                spot['speakers'] = talk['speakers']
-                continue
+    #
+    # FRIDAY = [
+    #     {
+    #         'time': '9:25 - 9:30',
+    #         'speakers': ['Eva Klimeková'],
+    #         'talk': 'Otvorenie 4. ročníka EduSummit na PyCon SK',
+    #     },
+    #     {
+    #         'time': '9:30 - 9:45',
+    #         'talk': 'Učíme s hardvérom'
+    #     },
+    #     {
+    #         'time': '9:45 - 10:15',
+    #         'talk': 'Finále súťaže SPy Cup'
+    #     },
+    #     {
+    #         'time': '10:20 - 10:50',
+    #         'talk': 'Vzbuďme v študentoch chuť programovať!'
+    #     },
+    #     {
+    #         'time': '11:05 - 12:05',
+    #         'talk': 'Ako sa dá s Python zvládnuť štvorročné štúdium na strednej škole',
+    #         'keynote': 'True'
+    #     },
+    #     {
+    #         'time': '13:10 - 13:35',
+    #         'talk': 'EDUTalks'
+    #     },
+    #     {
+    #         'time': '13:35- 13:55',
+    #         'speakers': ['Peter Palát'],
+    #         'talk': 'Internetová bezpečnosť: základy sebaobrany'
+    #     },
+    #     {
+    #         'time': '14:00- 14:30',
+    #         'talk': "Programujeme v Pythone hardvér",
+    #     },
+    #     {
+    #         'time': '14:45- 15:30',
+    #         'talk': "Python ako nástroj pre STE(A)M problémy a úlohy",
+    #     },
+    #     {
+    #         'time': '15:35- 16:05',
+    #         'talk': "Programovací jazyk Robot Karel po novom a online.",
+    #     },
+    #     {
+    #         'time': '16:20- 16:50',
+    #         'talk': 'Vyhlásenie výsledkov SPy Cup a Python Cup'
+    #     },
+    #     {
+    #         'time': '16:55- 17:25',
+    #         'talk': "Z maturity v pascale na pythonovskú novú maturitu, študenstká mobilná apka o pythone v pythone a jednoduché grafické rozhranie pomocou libreoffice calc",
+    #     }
+    # ]
+    #
+    # FRIDAY2 = [
+    #     {
+    #         'time': '11:05- 12:10',
+    #         'talk': "Programovanie vlastných micro:bit herných ovládačov a autíčok",
+    #     },
+    #     {
+    #         'time': '13:10 - 13:55',
+    #         'talk': "Životopis predáva",
+    #     },
+    #     {
+    #         'time': '14:00 - 16:00',
+    #         'talk': "Buď SMART s micro:bitom",
+    #     }
+    # ]
+    #
+    # SATURDAY = [
+    #     {
+    #         'time': '9:00 - 10:50',
+    #         'talk': "Robíme IoT na mikrokontroléri ESP32 v jazyku MicroPython"
+    #     },
+    #     {
+    #         'time': '11:05 - 12:10',
+    #         'talk': "Jednoduchý blog vo Flasku",
+    #     },
+    #     {
+    #         'time': '13:10 - 15:00',
+    #         'talk': "Buď SMART s micro:bitom",
+    #     },
+    #     {
+    #         'time': '15:20 - 16:50',
+    #         'speakers': ['Jaroslav Výbošťok', 'Marek Mansell'],
+    #         'talk': "Využitie otvorených dát a GPS s použitím tkinter a Jupyter"
+    #     }
+    # ]
+    #
+    # SATURDAY2 = [
+    #     {
+    #         'time': '9:00 - 10:50',
+    #         'talk': "Zábava a informatika idú ruka v ruke ! :)",
+    #     },
+    #     {
+    #         'time': '11:05 - 12:10',
+    #         'talk': "Naučte sa programovať s CoderDojo",
+    #     },
+    #     {
+    #         'time': '13:10 - 14:10',
+    #         'talk': "Naprogramuj si robota Ozobot EVO",
+    #     },
+    # ]
 
     for spot in FRIDAY2:
         for talk in EDU_TALKS:
-            if spot['talk'] == talk['title']:
-                spot['talk'] = talk
-                spot['speakers'] = talk['speakers']
-                continue
-
-    for spot in SATURDAY:
-        for talk in EDU_TALKS:
-            if spot['talk'] == talk['title']:
+            if spot['title'] == talk['title']:
                 spot['talk'] = talk
                 spot['speakers'] = talk['speakers']
                 continue
 
     for spot in SATURDAY2:
         for talk in EDU_TALKS:
-            if spot['talk'] == talk['title']:
+            if spot['title'] == talk['title']:
                 spot['talk'] = talk
                 spot['speakers'] = talk['speakers']
                 continue
 
     return render_template('edusummit.html', **_get_template_variables(li_edusummit='active', background='bkg-index',
-                                                                       friday=FRIDAY, saturday=SATURDAY,
                                                                        friday2=FRIDAY2, saturday2=SATURDAY2,
                                                                        speakers=EDU_SPEAKERS, talks=EDU_TALKS))
 
@@ -296,7 +283,8 @@ def thanks():
 
 @app.route('/<lang_code>/privacy-policy.html')
 def privacy_policy():
-    return render_template('privacy-policy.html', **_get_template_variables(li_privacy='active', background='bkg-privacy'))
+    return render_template('privacy-policy.html', **_get_template_variables(li_privacy='active',
+                                                                            background='bkg-privacy'))
 
 
 @app.route('/<lang_code>/program/index.html')
@@ -333,17 +321,52 @@ def profile(name):
 
     for speaker in SPEAKERS+EDU_SPEAKERS:
         if speaker['name'].lower() == decode_name(name):
+            for talk in TALKS + EDU_TALKS:
+                if speaker['name'] in talk.get('speakers', []):
+                    speaker['talks'] = speaker.get('talks', []).append(talk)
+                    break
+            if not speaker.get('talks'):
+                speaker['talks'] = []
             variables['speaker'] = speaker
             break
 
+    if not variables.get('speaker'):
+        return abort(404)
+
     return render_template('speaker.html', **variables)
 
+
+@app.route('/<lang_code>/friday.html')
+def friday():
+    return render_template('schedule.html', **_get_template_variables(li_friday='active', magna=FRIDAY1,
+                                                                      minor=FRIDAY2, babbageovaA=FRIDAY3,
+                                                                      day=gettext('Friday'),
+                                                                      background='bkg-speaker'
+                                                                      ))
+
+@app.route('/<lang_code>/saturday.html')
+def saturday():
+    return render_template('schedule.html', **_get_template_variables(li_saturday='active', magna=SATURDAY1,
+                                                                      minor=SATURDAY2, babbageovaA=SATURDAY3,
+                                                                      babbageovaB=SATURDAY4, digilab=SATURDAY5,
+                                                                      day=gettext('Saturday'),
+                                                                      background='bkg-speaker'))
+
+@app.route('/<lang_code>/sunday.html')
+def sunday():
+    return render_template('schedule.html', **_get_template_variables(li_sunday='active', magna=SUNDAY1,
+                                                                      babbageovaA=SUNDAY3, babbageovaB=SUNDAY4,
+                                                                      day=gettext('Sunday'),
+                                                                      background='bkg-speaker'))
 
 @app.route('/<lang_code>/countdown.html')
 def countdown():
     template_vars = _get_template_variables(li_index='active', background='bkg-index')
     return render_template('countdown.html', **template_vars)
 
+
+def get_speaker_url():
+    pass
 
 def _get_template_variables(**kwargs):
     """Collect variables for template that repeats, e.g. are in body.html template"""
@@ -354,6 +377,33 @@ def _get_template_variables(**kwargs):
     }
     variables.update(kwargs)
 
+    return variables
+
+
+def _get_schedule_variables(**kwargs):
+    variables = _get_template_variables(**kwargs)
+    lang_code = get_locale()
+    _schedule_vars = ['magna', 'minor', 'babbageovaA', 'babbageovaB', 'digilab']
+    for key, spots in kwargs.items():
+        if key not in _schedule_vars:
+            continue
+        for spot in spots:
+            name = spot.get('name')
+            if name is None:
+                continue
+            _speakers = [spkr.strip() for spkr in name.split(',')]
+            spkr = _speakers and _speakers[0]   # todo fix multiple speakers
+            spot['speaker'] = url_for('profile', lang_code=lang_code,
+                                      name=spkr.lower().replace('-', '--').replace(' ', '-'))
+            # spot['speakers'] = [url_for('profile', lang_code=lang_code,
+            #                             name=spkr.lower().replace('-', '--').replace(' ', '-'))
+            #                     for spkr in _speakers]
+    return variables
+
+
+def _get_sponsors_variables(**kwargs):
+    variables = _get_template_variables(**kwargs)
+    # todo add sponsors json and make sponsors.html jinja template
     return variables
 
 

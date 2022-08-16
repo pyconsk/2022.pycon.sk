@@ -5516,6 +5516,133 @@ div ~ :last-child .progress-layout2:before {
 .schedule-layout4:hover:after {
   opacity: 0.8;
 }
+
+/* Schedule
+================================================== */
+
+.schedule-tab, .schedule-content .container{
+	 max-width: 960px;
+	 margin: 0 auto;
+}
+
+.schedule-tab .nav-tabs{
+	 text-align: center;
+	 margin-bottom: 60px;
+}
+
+.schedule-tab .nav-tabs > li{
+	 float: none;
+	 display: inline-block;
+	 zoom: 1;
+}
+
+.schedule-tab .nav-tabs > li > a{
+	 color: #fff;
+	 background: #303030;
+	 border-radius: 0;
+	 padding: 15px 20px;
+	 font-size: 16px;
+	 font-weight: 600;
+	 position: relative;
+}
+
+.schedule-tab ul.nav-tabs > li.nav-item > a:active{
+	 background: #ea531c;
+	 color: #fff;
+}
+
+.schedule-tab .nav-tabs > li.nav-item > a:active:after{
+	 content: '';
+	 position: absolute;
+	 left: 0;
+	 z-index: 0;
+	 border-left: 20px solid #ea531c;
+	 border-right: 0 solid transparent;
+	 border-bottom: 20px solid transparent;
+	 bottom: -20px;
+}
+
+
+/* Schedule listing */
+
+.schedule-date{
+	 font-size: 28px;
+	 margin: 0;
+	 padding-left: 13px;
+	 padding-bottom: 20px;
+	 position: relative;
+	 border-bottom: 1px solid #dadada;
+}
+
+.schedule-date:before{
+	 content: '';
+	 position: absolute;
+	 left: 0;
+	 height: 25px;
+	 top: 5px;
+	 width: 5px;
+	 background: #ea531c;
+}
+
+.schedule-listing{
+	 padding-top: 25px;
+	 padding-bottom: 20px;
+	 border-bottom: 1px solid #dadada;
+	 position: relative;
+}
+
+.schedule-slot-time{
+	 width: 20%;
+	 float: left;
+	 letter-spacing: 1.5px;
+}
+
+.schedule-slot-info{
+	 width: 80%;
+	 display: inline-block;
+}
+
+.schedule-slot-speakers{
+	 width: 58px;
+	 height: 58px;
+	 border: 2px solid #ea531c;
+	 border-radius: 100%;
+	 position: absolute;
+	 top: 15;
+	 overflow: hidden;
+	 -webkit-transition: all 0.3s;
+	 -moz-transition: all 0.3s;
+	 -o-transition: all 0.3s;
+	 transition: all 0.3s;
+}
+
+.schedule-slot-info:hover .schedule-slot-speakers{
+	 border: 2px solid #dadada;
+}
+
+.schedule-slot-info-content{
+	 margin-left: 100px;
+}
+
+.schedule-slot-title{
+	 margin: 0 0 3px 0;
+	 font-size: 20px;
+}
+
+.schedule-slot-speaker-name{
+	 color: #ea531c;
+	 margin-top: 5px;
+	 font-size: 16px;
+}
+
+.listing-last{
+	 border-bottom: 0;
+	 padding-bottom: 0;
+}
+
+
+
+
 /*======================================================
 [11] Countdown Area Style
 =======================================================*/
