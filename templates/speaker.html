@@ -6,14 +6,14 @@
     <div class="row">
       <div class="col-12">
         <div class="breadcrumbs-area">
-          <h1>{{ speaker['name'] }}</h1>
+          {% if speaker and speaker.get('name') %}<h1>{{ speaker['name'] }}</h1>
           <ul>
             <li>
               <a href="{{ url_for('index', lang_code=lang_code) }}">PyCon SK 2022</a>
             </li>
             <li><a href="{{ url_for('speakers', lang_code=lang_code) }}">{{ _('Speakers') }}</a></li>
             <li>{{ speaker['name'] }}</li>
-          </ul>
+          </ul>{% endif %}
         </div>
       </div>
     </div>
@@ -26,14 +26,15 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-5 col-md-12 col-sm-12">
+                {%  if speaker and speaker.get('avatar') %}
                 <div class="single-speaker-img">
                     <img src="{{ url_for('static', filename=speaker['avatar']) }}" class="img-fluid" alt="single-speaker">
-                </div>
+                </div>{% endif %}
             </div>
             <div class="col-lg-7 col-md-12 col-sm-12">
-                <div class="speaker-profile">
+                <div class="speaker-profile">{% if speaker and speaker.get('name') %}
                     <h2 class="title title-black color-dark">{{ speaker['name'] }}</h2>
-                    <div class="sub-title">{{ speaker['country'] }}</div>
+                    <div class="sub-title">{{ speaker.get('country', '') }}</div>
                     <div class="profile-social">
                         <ul>{% for link, url in speaker['links'].items() %}
                             <li>
@@ -46,10 +47,10 @@
                     {% set bio = speaker['bio'].split('\n') %}
                     {% for p in bio %}
                     <p>{{ p }}</p>
-                    {% endfor %}
+                    {% endfor %}{% endif %}
                 </div>
             </div>
-            {% for abstract in speaker['abstracts'] %}
+            {% for abstract in speaker['talks'] %}
             <div class="col-12">
                 <a id="abstract{{ loop.index }}"></a>
                 <div class="pt-5 event-description">
@@ -72,7 +73,7 @@
 <!--    <div class="container">-->
 <!--        <h3 class="title-bold color-dark title-bar">All Sessions By {{ speaker['name'] }}</h3>-->
 <!--        <div class="row">-->
-<!--            {% for abstract in speaker['abstracts'] %}-->
+<!--            {% for abstract in speaker['talks'] %}-->
 <!--            <div class="col-lg-4 col-md-12 col-sm-12">-->
 <!--                <div class="profile-event">-->
 <!--                    <h3 class="title title-bold color-dark">{{ abstract['title'] }}</h3>-->

@@ -377,5 +377,13 @@
         "avatar": "img/speakers/peter_dolak.jpg",
         "links": {
         }
+    },
+    {
+        "name": "Adam Křenek",
+        "bio": "TBD",
+        "country": "Czechia",
+        "avatar": "img/speakers/male.svg",
+        "links": {
+        }
     }
 ]

@@ -120,10 +120,19 @@
                                                     </a>
                                                     <ul class="rt-dropdown-menu" role="menu">
                                                         <li{% if li_program %} class="menu-justify current"{% endif %}>
-                                                            <a href="{{ url_for('program', lang_code=lang_code) }}">{{ _('Program') }}</a>
+                                                            <a href="{{ url_for('program', lang_code=lang_code) }}">{{ _('Talks and Workshops') }}</a>
                                                         </li>
                                                         <li{% if li_speakers %} class="menu-justify current"{% endif %}>
                                                             <a href="{{ url_for('speakers', lang_code=lang_code) }}">{{ _('Speakers') }}</a>
+                                                        </li>
+                                                        <li{% if li_friday %} class="menu-justify current"{% endif %}>
+                                                            <a href="{{ url_for('friday', lang_code=lang_code) }}">{{ _('Friday') }}</a>
+                                                        </li>
+                                                        <li{% if li_saturday %} class="menu-justify current"{% endif %}>
+                                                            <a href="{{ url_for('saturday', lang_code=lang_code) }}">{{ _('Saturday') }}</a>
+                                                        </li>
+                                                        <li{% if li_sunday %} class="menu-justify current"{% endif %}>
+                                                            <a href="{{ url_for('sunday', lang_code=lang_code) }}">{{ _('Sunday') }}</a>
                                                         </li>
                                                     </ul>
                                                 </li>

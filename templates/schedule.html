@@ -1,0 +1,198 @@
+{% extends "body.html" %}
+
+{% block content %}
+<section class="inner-page-banner {{ background}}">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="breadcrumbs-area">
+          <h1>{{ _('Program') }}</h1>
+          <ul>
+            <li>
+              <a href="{{ url_for('index', lang_code=lang_code) }}">PyCon SK 2022</a>
+            </li>
+            <li>{{ _('Program') }}</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="main-container" class="main-container">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-md-12">
+                <span class="icon-wrap"><i class="fa fa-calendar"></i></span>
+                <h2 class="section-title">{{ day }}</h2>
+                <p class="section-sub-title">{{ _('Schedule') }}</p>
+            </div>
+        </div><!--/ Title row end -->
+
+
+			<div class="row">
+				<div class="col-md-12">
+					<div class="schedule-tab">
+						<ul class="nav nav-tabs" id="nav-tabs">
+	 		  {% if magna %}<li class="nav-item">
+						  		<a class="animated fadeIn nav-link active" href="#tab_one" data-toggle="tab">
+						  			<span class="tab-head">
+										<span class="tab-text-title">Aula Magna</span>
+									</span>
+						  		</a>
+						  	</li>{% endif %}
+              {% if minor %}<li class="nav-item">
+							  	<a class="animated fadeIn nav-link" href="#tab_two" data-toggle="tab">
+							  		<span class="tab-head">
+										<span class="tab-text-title">Aula Minor</span>
+									</span>
+							  	</a>
+							</li>{% endif %}
+        {% if babbageovaA %}<li class="nav-item">
+							  	<a class="animated fadeIn nav-link" href="#tab_three" data-toggle="tab">
+							  		<span class="tab-head">
+										<span class="tab-text-title">Babbageova A</span>
+									</span>
+							  	</a>
+							</li>{% endif %}
+        {% if babbageovaB %}<li class="nav-item">
+							  	<a class="animated fadeIn nav-link" href="#tab_four" data-toggle="tab">
+							  		<span class="tab-head">
+										<span class="tab-text-title">Babbageova B</span>
+									</span>
+							  	</a>
+							</li>{% endif %}
+            {% if digilab %}<li class="nav-item">
+							  	<a class="animated fadeIn nav-link" href="#tab_five" data-toggle="tab">
+							  		<span class="tab-head">
+										<span class="tab-text-title">DigiLab</span>
+									</span>
+							  	</a>
+							</li>{% endif %}
+						</ul>
+
+						<div class="tab-content">
+					        <div class="tab-pane active animated fadeInRight" id="tab_one">
+				        	<h2 class="schedule-date">Aula Magna -1.61</h2>
+                            {% for block in magna %}
+				        		<div class="schedule-listing">
+				        			<span class="schedule-slot-time">{{ block.time }}</span>
+				        			<div class="schedule-slot-info">
+				        				{% if block.avatar %}{% if block.speaker %}<a href="{{ block.speaker }}">{% endif %}
+                                            <img class="schedule-slot-speakers" src="{{ block.avatar }}" alt="{{ block.name }}" />
+                                        {% if block.speaker %}</a>{% endif %}
+                                        {% endif %}
+                                        <div class="schedule-slot-info-content">
+				        					<h3 class="schedule-slot-title">{{ block.title }}</h3>
+				        					{% if block.speaker %}<a href="{{ block.speaker }}">{% endif %}
+				        					    <h4 class="schedule-slot-speaker-name">{{ block.name }}</h4>
+                                            {% if block.speaker %}</a>{% endif %}
+				        				</div><!--Info content end -->
+				        			</div><!-- Slot info end -->
+				        		</div><!-- Slot listing 1 end -->
+                            {% endfor %}
+					        </div><!-- Tab pane 1 end -->
+                        {% if minor %}
+				            <div class="tab-pane animated fadeInRight" id="tab_two">
+				      		<h2 class="schedule-date">Aula Minor -1.60</h2>
+                            {% for block in minor %}
+				        		<div class="schedule-listing">
+				        			<span class="schedule-slot-time">{{ block.time }}</span>
+				        			<div class="schedule-slot-info">
+				        				{% if block.avatar %}{% if block.speaker %}<a href="{{ block.speaker }}">{% endif %}
+                                            <img class="schedule-slot-speakers" src="{{ block.avatar }}" alt="{{ block.name }}" />
+                                        {% if block.speaker %}</a>{% endif %}
+                                        {% endif %}
+                                        <div class="schedule-slot-info-content">
+				        					<h3 class="schedule-slot-title">{{ block.title }}</h3>
+                                            {% if block.speaker %}<a href="{{ block.speaker }}">{% endif %}
+				        					    <h4 class="schedule-slot-speaker-name">{{ block.name }}</h4>
+                                            {% if block.speaker %}</a>{% endif %}
+                                            {% if block.desc %}
+                                            <p>{{ block.desc }}</p>
+                                            {% endif %}
+				        				</div><!--Info content end -->
+				        			</div><!-- Slot info end -->
+				        		</div><!-- Slot listing 1 end -->
+                            {% endfor %}
+				            </div><!-- Tab pane 2 end -->
+                        {% endif %}
+                        {% if babbageovaA %}
+				        	<div class="tab-pane animated fadeInLeft" id="tab_three">
+				            <h2 class="schedule-date">Babbageova učebňa A -1.57a</h2>
+                            {% for block in babbageovaA %}
+				        		<div class="schedule-listing">
+				        			<span class="schedule-slot-time">{{ block.time }}</span>
+				        			<div class="schedule-slot-info">
+				        				{% if block.avatar %}{% if block.speaker %}<a href="{{ block.speaker }}">{% endif %}
+                                            <img class="schedule-slot-speakers" src="{{ block.avatar }}" alt="{{ block.name }}" />
+                                        {% if block.speaker %}</a>{% endif %}
+                                        {% endif %}
+                                        <div class="schedule-slot-info-content">
+				        					<h3 class="schedule-slot-title">{{ block.title }}</h3>
+                                            {% if block.speaker %}<a href="{{ block.speaker }}">{% endif %}
+				        					    <h4 class="schedule-slot-speaker-name">{{ block.name }}</h4>
+                                            {% if block.speaker %}</a>{% endif %}
+                                            {% if block.desc %}
+                                            <p>{{ block.desc }}</p>
+                                            {% endif %}
+				        				</div><!--Info content end -->
+				        			</div><!-- Slot info end -->
+				        		</div><!-- Slot listing 1 end -->
+                            {% endfor %}
+				        	</div><!-- Tab pane 3 end -->
+                        {% endif %}
+                        {% if babbageovaB %}
+                            <div class="tab-pane animated fadeInLeft" id="tab_four">
+				            <h2 class="schedule-date">Babbageova učebňa B -1.57b</h2>
+                            {% for block in babbageovaB %}
+				        		<div class="schedule-listing">
+				        			<span class="schedule-slot-time">{{ block.time }}</span>
+				        			<div class="schedule-slot-info">
+				        				{% if block.avatar %}{% if block.speaker %}<a href="{{ block.speaker }}">{% endif %}
+                                            <img class="schedule-slot-speakers" src="{{ block.avatar }}" alt="{{ block.name }}" />
+                                        {% if block.speaker %}</a>{% endif %}
+                                        {% endif %}
+                                        <div class="schedule-slot-info-content">
+				        					<h3 class="schedule-slot-title">{{ block.title }}</h3>
+				        					{% if block.speaker %}<a href="{{ block.speaker }}">{% endif %}
+                                                <h4 class="schedule-slot-speaker-name">{{ block.name }}</h4>
+                                            {% if block.speaker %}</a>{% endif %}
+                                            {% if block.desc %}<p>{{ block.desc }}</p>{% endif %}
+				        				</div><!--Info content end -->
+				        			</div><!-- Slot info end -->
+				        		</div><!-- Slot listing 1 end -->
+                            {% endfor %}
+				        	</div><!-- Tab pane 4 end -->
+                        {% endif %}
+                        {% if digilab %}
+                            <div class="tab-pane animated fadeInLeft" id="tab_five">
+				            <h2 class="schedule-date">DigiLab</h2>
+                            {% for block in digilab %}
+				        		<div class="schedule-listing">
+				        			<span class="schedule-slot-time">{{ block.time }}</span>
+				        			<div class="schedule-slot-info">
+				        				{% if block.avatar %}{% if block.speaker %}<a href="{{ block.speaker }}">{% endif %}
+                                            <img class="schedule-slot-speakers" src="{{ block.avatar }}" alt="{{ block.name }}" />
+                                        {% if block.speaker %}</a>{% endif %}
+                                        {% endif %}
+                                        <div class="schedule-slot-info-content">
+				        					<h3 class="schedule-slot-title">{{ block.title }}</h3>
+                                            {% if block.speaker %}<a href="{{ block.speaker }}">{% endif %}
+                                                <h4 class="schedule-slot-speaker-name">{{ block.name }}</h4>
+                                            {% if block.speaker %}</a>{% endif %}
+                                            {% if block.desc %}<p>{{ block.desc }}</p>{% endif %}
+				        				</div><!--Info content end -->
+				        			</div><!-- Slot info end -->
+				        		</div><!-- Slot listing 1 end -->
+                            {% endfor %}
+				        	</div><!-- Tab pane 5 end -->
+                        {% endif %}
+
+						</div><!-- tab content -->
+					</div><!-- Schedule tab end -->
+				</div><!-- Col end -->
+			</div><!-- Content row end -->
+		</div><!-- Container end -->
+	</section><!-- Main container end -->
+{% endblock %}
