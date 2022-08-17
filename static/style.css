@@ -5546,12 +5546,12 @@ div ~ :last-child .progress-layout2:before {
 	 position: relative;
 }
 
-.schedule-tab ul.nav-tabs > li.nav-item > a:active{
+.schedule-tab ul.nav-tabs > li.nav-item > a.active{
 	 background: #ea531c;
 	 color: #fff;
 }
 
-.schedule-tab .nav-tabs > li.nav-item > a:active:after{
+.schedule-tab .nav-tabs > li.nav-item > a:active:after, a.active:after{
 	 content: '';
 	 position: absolute;
 	 left: 0;
