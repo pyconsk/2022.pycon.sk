@@ -23,9 +23,11 @@
     <div class="container">
         <div class="row text-center">
             <div class="col-md-12">
-                <span class="icon-wrap"><i class="fa fa-calendar"></i></span>
+                <span class="arrowleft">{% if li_saturday == 'active' %}<a href="{{ url_for('friday', lang_code=lang_code) }}">&lt;</a>{% elif li_sunday == 'active' %}<a href="{{ url_for('saturday', lang_code=lang_code) }}">&lt;</a>{% else %}&lt;{% endif %}</span>
+                &nbsp;<span class="icon-wrap"><i class="fa fa-calendar"></i></span>&nbsp;
+                <span class="arrowright">{% if li_friday == 'active' %}<a href="{{ url_for('saturday', lang_code=lang_code) }}">&gt;</a>{% elif li_saturday == 'active' %}<a href="{{ url_for('sunday', lang_code=lang_code) }}">&gt;</a>{% else %}&gt;{% endif %}</span>
                 <h2 class="section-title">{{ day }}</h2>
-                <p class="section-sub-title">{{ _('Schedule') }}</p>
+{#                <p class="section-sub-title">{{ _('Schedule') }}</p>#}
             </div>
         </div><!--/ Title row end -->
 

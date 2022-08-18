@@ -167,3 +167,50 @@ ul.discs {
   margin-bottom: 1em;
   padding-left: 30px;
 }
+
+/*.navarrow {*/
+/*	font-size: 64px;*/
+/*	vertical-align: top;*/
+/*}*/
+
+/*.navarrow a {*/
+/*	font-size: 128px;*/
+/*	text-decoration:none*/
+/*}*/
+
+/*.navarrow a:hover,a:active {*/
+/*	color:#ea531c;*/
+/*}*/
+
+/*.arrowleft {*/
+/*	!*padding-right: 30px;*!*/
+/*	margin-right: 40px;*/
+/*}*/
+
+/*.arrowright {*/
+/*	!*padding-left: 30px;*!*/
+/*	margin-left: 40px;*/
+/*}*/
+
+span.arrowleft {
+	text-decoration:none;
+	font-size: 40px;
+	color: #aaa;
+	margin-right: 40px;
+	padding-right: 40px;
+}
+
+.arrowleft a {
+	color:#ea531c;
+}
+
+.arrowright {
+	text-decoration:none;
+	font-size: 40px;
+	color:#aaa;
+	margin-left: 40px;
+	padding-left: 40px;
+}
+.arrowright a {
+	color:#ea531c;
+}

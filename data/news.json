@@ -1,5 +1,14 @@
 [
   {
+    "date": "2022-08-18",
+    "title_en": "Schedule Is In The Wild",
+    "meta_en": "After thorough consideration of the calendars and requirements of our speakers with regards to our own capabilities we have prepared likely the best of the possible programs. The schedule is already public and can be found on our website. Do not hesitate and start planning your own schedule to choose the talks you cannot miss.",
+    "title_sk": "Zverejili sme program",
+    "meta_sk": "Po zohľadnení kalendárov a požiadaviek našich speakerov a možností konferenčných priestorov sme vyskladali najlepší možný program. Program je už zverejnený na našom webe, môžete si teda začať vyberať prednášky, ktoré si nechcete nechať ujsť.",
+    "categories": ["conference"],
+    "url": "/en/saturday.html"
+  },
+  {
     "date": "2022-07-11",
     "title_en": "Call for Proposals closed",
     "meta_en": "The call for proposals has been closed. In the next few days the PyCon SK commission will decide which talks will be presented at the conference. Thank you all for the well prepared submissions, unfortunately we only have limited amount of time slots so we will have to choose just a few of them. We have received dozens of high-quality proposals, so the decision is not going to be an easy one. Once the selection process is finished, all proposers will be notified regardless of the acceptance status of their submission.",
