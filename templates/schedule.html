@@ -44,7 +44,7 @@
               {% if minor %}<li class="nav-item">
 							  	<a class="animated fadeIn nav-link" href="#tab_two" data-toggle="tab">
 							  		<span class="tab-head">
-										<span class="tab-text-title">Aula Minor</span>
+										<span class="tab-text-title">Aula Minor{% if li_friday == 'active' %} (EduSummit){% endif %}</span>
 									</span>
 							  	</a>
 							</li>{% endif %}
@@ -65,7 +65,7 @@
             {% if digilab %}<li class="nav-item">
 							  	<a class="animated fadeIn nav-link" href="#tab_five" data-toggle="tab">
 							  		<span class="tab-head">
-										<span class="tab-text-title">DigiLab</span>
+										<span class="tab-text-title">DigiLab{% if li_saturday == 'active' %} (EduSummit){% endif %}</span>
 									</span>
 							  	</a>
 							</li>{% endif %}

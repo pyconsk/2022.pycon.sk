@@ -3637,11 +3637,11 @@ span.menu-trigger i {
   margin-bottom: 0;
   font-size: 24px;
 }
-@media only screen and (max-width: 1199px) {
-  .slider-layout2 .comingsoon-inner .comingsoon-content .upcoming-event-info {
-    display: none;
-  }
-}
+/*@media only screen and (max-width: 1199px) {*/
+/*  .slider-layout2 .comingsoon-inner .comingsoon-content .upcoming-event-info {*/
+/*    display: none;*/
+/*  }*/
+/*}*/
 .slider-layout2 .comingsoon-inner .comingsoon-content .upcoming-event-info li {
   display: inline-block;
   color: #fad03b;
@@ -3708,11 +3708,11 @@ span.menu-trigger i {
   margin-bottom: 20px;
   font-size: 24px;
 }
-@media only screen and (max-width: 767px) {
-  .slider-layout3 .comingsoon-inner .comingsoon-content .upcoming-event-info {
-    display: none;
-  }
-}
+/*@media only screen and (max-width: 767px) {*/
+/*  .slider-layout3 .comingsoon-inner .comingsoon-content .upcoming-event-info {*/
+/*    display: none;*/
+/*  }*/
+/*}*/
 .slider-layout3 .comingsoon-inner .comingsoon-content .upcoming-event-info li {
   font-style: italic;
   display: inline-block;
@@ -6576,11 +6576,11 @@ div ~ :last-child .progress-layout2:before {
   margin-bottom: 0;
   font-size: 24px;
 }
-@media only screen and (max-width: 767px) {
-  .comingsoon-page .comingsoon-content .upcoming-event-info {
-    display: none;
-  }
-}
+/*@media only screen and (max-width: 767px) {*/
+/*  .comingsoon-page .comingsoon-content .upcoming-event-info {*/
+/*    display: none;*/
+/*  }*/
+/*}*/
 .comingsoon-page .comingsoon-content .upcoming-event-info li {
   display: inline-block;
   color: #fad03b;
