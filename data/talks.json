@@ -79,7 +79,7 @@
     "type": "Workshop",
     "lang": "sk",
     "title": "Pyviz panel a interaktívne webové aplikácie",
-    "text": "Panel je momentálne najuniverzálnejší prostriedok na tvorbu \"dashboards\", plnohodnotných interaktívnych aplikácií. Je veľmi vhodný na pútavé grafické znázornenie, spracovanie dát a interakciu s používateľom. Ukážeme princíp na jednoduchej aplikácii a potom spoločne vytvoríme interaktívnu predpoveď počasia pomocou dát z openweathermap.org. Vysvetlíme krátko použité nástroje: panel, pandas, sqlitedict, folium. Ak ostane čas, vyrobíme ešte prezerač psov (žijúcich v Prešove) na mape, kde si budeme môcť voliť plemeno, ulicu, atď. Budeme potrebovať len webový prehliadač (Firefox, Chromium) a prístup na internet."
+    "text": "Panel je momentálne najuniverzálnejší prostriedok na tvorbu \"dashboards\", plnohodnotných interaktívnych aplikácií. Je veľmi vhodný na pútavé grafické znázornenie, spracovanie dát a interakciu s používateľom. Spoločne postupne vytvoríme interaktívnu predpoveď počasia pomocou dát z openweathermap.org. Vysvetlíme krátko použité nástroje: panel, pandas, sqlitedict, plotly, folium. Hotovú aplikáciu si môžete pozriet na <a href=\" http://feelmath.eu:2022/Pocasie\">Počasie na Slovensku</a>. Budeme potrebovať len webový prehliadač (Firefox, Chromium) a prístup na internet."
   },
   {
     "speakers": [
