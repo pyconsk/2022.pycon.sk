@@ -1,15 +1,5 @@
 [
     {
-        "name": "Tom Dyson",
-        "bio": "Tom graduated from Balliol College, Oxford, in 1995, swapping the later philosophy of Wittgenstein for Netscape 2 and a 9600 baud modem. He ran a little agency called Naïve (“Why don’t you just call yourselves ‘Stupid’?”) until he joined forces with Olly in 2000, starting Torchbox with the aim of building beautiful online software for people who make the world a better place. As Technical Director, Tom is responsible for making sure the things we build are fast and reliable and easy to maintain. He manages the tech team and account directs many of our large technical projects. Along with Olly, Tom tries to make Torchbox a fun and inspiring place to work. Tom lives with his family in the countryside. He reads novels and gets cross at tennis. He plays in three bands who will probably never make it. He composed the theme tune to Charlie and Lola.",
-        "country": "United Kingdom",
-        "avatar": "img/speakers/tom_dyson.jpg",
-        "links": {
-            "linkedin": "https://www.linkedin.com/in/tomdyson/",
-            "link": "https://torchbox.com/team/tom-dyson/"
-        }
-    },
-    {
         "name": "Mauro Pelucchi",
         "bio": "Mauro Pelucchi is a senior data scientist and big data engineer responsible for the design of the \"Real-Time Labour Market Information System on Skill Requirements\" for CEDEFOP. He currently works as Head of Global Data Science @ EMSI Burning-Glass with the goal to develop innovative models, methods and deployments of labour market data and other data to meet customer requirements and prototype new potential solutions. His main tasks are related to advanced machine learning modelling, labour market analyses, and the design of big data pipelines to process large datasets of online job vacancies.\nIn collaboration with the University of Milano-Bicocca, he took part in many research projects related to the labour market intelligence systems.\nHe collaborates with the University of Milano-Bicocca as a lecturer at the Master Business Intelligence and Big Data Analytics and with the University of Bergamo as a lecturer in Computer Engineering.",
         "country": "Italy",
@@ -286,14 +276,6 @@
         "bio": "Have been interested in science & technology since childhood. \nAttended and won multiple international science competitions during high school including the International Olympiad in Astronomy and Astrophysics (silver and gold medals) and Intel ISEF (3rd place).\nStudied physics at Imperial College London which consistently gets among the world's top-10-ranked universities. Got involved in data analysis within the LHCb and later ATLAS collaborations at CERN.\nWorked as a data scientist in e-commerce preparing predictive models, performance analyses, simulations etc.\nLaunched own startup focusing on real-time processing of e-commerce data. Designed and developed the entire data-processing pipeline and ML models.\nWorked as an ML engineer in a tech company focusing on document image processing, classification and OCR.\nCurrently a member of the modelling team at Makers working on a new approach to simulations of distributed energy resources.",
         "country": "Slovakia",
         "avatar": "img/speakers/michal_racko.jpg",
-        "links": {
-        }
-    },
-    {
-        "name": "Jan Cuzy",
-        "bio": "During my professional career I gained experience in all activities involved in the software life cycle including project management, tem leading, programming, domain analysis and testing. Beside of my professional experience in the software engineering I can fluently speak English and German and my overall communication skills are on a high level. Specialties: domain analyses, OOP design, project management.",
-        "country": "Slovakia",
-        "avatar": "img/speakers/jan_cuzy.jpg",
         "links": {
         }
     },

@@ -187,9 +187,9 @@ SATURDAY1 = (
     },
     {
         'time': '13:10 - 13:40',
-        'name': 'Tom Dyson',
-        'title': 'TBD',
-        'avatar': '/static/img/speakers/tom_dyson.jpg',
+        'name': 'Lukáš Polák',
+        'title': 'Scaling distributed workflow using Prefect',
+        'avatar': '/static/img/speakers/lukas_polak.jpg',
     },
     {
         'time': '13:45 - 14:15',
@@ -241,16 +241,10 @@ SATURDAY2 = (
     },
     {
         'time': '11:05 - 11:35',
-        'name': 'Adam Křenek',
-        'title': 'TBD',
-        'avatar': '/static/img/speakers/male.svg',
-    },
-    {
-        'time': '11:40 - 12:10',
-        'name': 'Lukáš Polák',
-        'title': 'Scaling distributed workflow using Prefect',
-        'avatar': '/static/img/speakers/lukas_polak.jpg',
-    },
+        'name': 'Viktoria Karolova',
+        'title': 'What I learned during my summer with a command line: confession of a non-tech person in tech',
+        'avatar': '/static/img/speakers/viki_karolova.jpg',
+    }, 
     {
         'time': '12:10 - 13:10',
         'title': 'Lunch break',
@@ -258,9 +252,9 @@ SATURDAY2 = (
     },
     {
         'time': '13:45 - 14:15',
-        'name': 'Viktoria Karolova',
-        'title': 'What I learned during my summer with a command line: confession of a non-tech person in tech',
-        'avatar': '/static/img/speakers/viki_karolova.jpg',
+        'name': 'Adam Křenek',
+        'title': 'TBD',
+        'avatar': '/static/img/speakers/male.svg',
     },
     {
         'time': '14:30 - 15:15',
@@ -333,15 +327,9 @@ SATURDAY5 = (
 )
 SUNDAY1 = (
     {
-        'time': '09:00 - 09:25',
+        'time': '09:30 - 09:55',
         'title': 'Conference opening',
         'avatar': '/static/img/speakers/opening-icon.png',
-    },
-    {
-        'time': '09:30 - 10:00',
-        'name': 'Jan Cuzy',
-        'title': 'Dagster as an Alternative to Airflow',
-        'avatar': '/static/img/speakers/jan_cuzy.jpg',
     },
     {
         'time': '10:05 - 10:35',

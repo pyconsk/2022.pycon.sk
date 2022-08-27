@@ -1,5 +1,33 @@
 [
   {
+    "date": "2022-08-28",
+    "title_en": "We are looking for onsite volunteers",
+    "meta_en": "PyCon SK is built on volunteer work, without volunteers this conference would not exist. Join us and help us run the conference, you'll find out what we talk about in the locker room and maybe you'll even find a few new friends...",
+    "title_sk": "Hľadáme dobrovoľníkov na konferenciu.",
+    "meta_sk": "PyCon SK je postavený na dobrovoľníckej práci, bez dobrovoľníkov by táto konferencia neexistovala. Pridaj sa k nám a pomôž nám s chodom konferencie zistíš o čom sa bavíme v šatni a možno si najdeš aj pár nových kamošov...",
+    "categories": ["conference"],
+    "url": "/en/cfv.html"
+  },
+ 
+  {
+    "date": "2022-08-27",
+    "title_en": "We have reached the maximum conference capacity",
+    "meta_en": "We are pleased to announce that we have reached the maximum planned conference capacity of 550 people. There are few last minute tickets on sale. It is both an honor and a commitment for us.",
+    "title_sk": "Dosiahli sme maximálnu kapacitu konferencie",
+    "meta_sk": "S potešením môžeme oznámiť, že sme dosiahli maximálnu plánovanu kapacitu konferencie 550 ľudí. V predaji sú poseldné last moment listky. Je to pre nás pocta a zároveň záväzok.",
+    "categories": ["tickets"],
+    "url": "/en/tickets.html"
+  },
+  {
+    "date": "2022-08-25",
+    "title_en": "Django Girls at PyCon SK",
+    "meta_en": "This year too, we are preparing a Django Girls Workshop as part of PyCon SK. We are very happy that Aj Ty in IT joined us so that we could implement a full-day workshop on teaching Django. If you know someone who would be interested, do not hesitate to fill out the application on the workshop website.",
+    "title_sk": "Django Girls na PyCon SK",
+    "meta_sk": "Aj tento rok pripravujeme Django Girls Workshop ako súčasť PyCon SK. Sme veľmi radi že sa k nám pridali Aj Ty v IT, aby sme mohli zrealizovať celodenny workshop na výuku Djanga. Ak poznáte niekoho, kto by mal záujem neváhajte vyplniť prihlášku na webe workshopu.",
+    "categories": ["conference"],
+    "url": "https://djangogirls.org/en/bratislava_sk/"
+  },
+  {
     "date": "2022-08-18",
     "title_en": "Schedule Is In The Wild",
     "meta_en": "After thorough consideration of the calendars and requirements of our speakers with regards to our own capabilities we have prepared likely the best of the possible programs. The schedule is already public and can be found on our website. Do not hesitate and start planning your own schedule to choose the talks you cannot miss.",

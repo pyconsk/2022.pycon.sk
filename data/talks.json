@@ -1,24 +1,6 @@
 [
   {
     "speakers": [
-      "Tom Dyson"
-    ],
-    "type": "Talk",
-    "lang": "en",
-    "title": "To be announced...",
-    "text": "To be announced..."
-  },
-  {
-    "speakers": [
-      "Tom Dyson"
-    ],
-    "type": "Workshop",
-    "lang": "en",
-    "title": "Wagtail workshop",
-    "text": "To be announced..."
-  },
-  {
-    "speakers": [
       "Mauro Pelucchi"
     ],
     "type": "Talk",
@@ -290,15 +272,6 @@
     "lang": "en",
     "title": "Distributed-energy-resource simulation and optimization in the context of a transmission grid",
     "text": "The currently ongoing large-scale adoption of distributed energy resources such as photovoltaic arrays, batteries, fuel cells and others has brought about a significant room for improvements in both cost and energy savings. The supply-demand nature of the power grid further increases the potential for energy-bill reduction. Robust simulations of DERs and their relationships are a paramount for any optimization effort.\nWe developed a framework which simplifies the simulation work and provides a useful abstraction for complex systems. An example simulation of a model city transmission grid will be presented.  "
-  },
-  {
-    "speakers": [
-      "Jan Cuzy"
-    ],
-    "type": "Talk",
-    "lang": "en",
-    "title": "Dagster as an Alternative to Airflow",
-    "text": "Similarly to Apache Airflow, Dagster is primarily a platform for orchestration of data pipelines which are organized into DAGs (Directed acyclic graph). However, in comparison to ApacheAirflow there are fundamental differences that move Dagster to a new level and add many useful properties that are not present in Airflow. The simplicity of development with respect to local deployment, visibility and data validation, pipelines testability, as well as clear and modern UI, that allows out-of-the box data lineage displaying of individual pipelines."
   },
   {
     "speakers": [
