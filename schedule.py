@@ -134,7 +134,7 @@ FRIDAY2 = (
 FRIDAY3 = (
     {
         'time': '09:30 - 12:10',
-        'name': 'Michal Kaukič',
+        'name': 'Michal Kaukič, Marcel Puškarik',
         'title': 'Pyviz panel a interaktívne webové aplikácie',
         'avatar': '/static/img/speakers/michal_kaukic.jpg',
     },
@@ -252,9 +252,9 @@ SATURDAY2 = (
     },
     {
         'time': '13:45 - 14:15',
-        'name': 'Jakub',
+        'name': 'Jakub Tesárek',
         'title': 'Working with Data-Scientits: Survival guide',
-        'avatar': '/static/img/speakers/male.svg',
+        'avatar': '/static/img/speakers/jakub_tesarek.jpg',
     },
     {
         'time': '14:30 - 15:15',
