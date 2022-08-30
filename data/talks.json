@@ -344,5 +344,14 @@
     "lang": "en",
     "title": "Stereotype: Data models pushing Python to the limits",
     "text": "Stereotype is a performance-focused Python 3.8 library for providing a structure for your data and validating it. The models allow fast & easy conversion between primitive data and well-typed Python classes. In the talk we’ll cover these topics:\n- Why you should use data models for data conversion and validation\n- Stereotype vs. other libraries doing a similar thing\n- Pushing Python's limits - the optimizations and hacks behind stereotype"
+  },
+  {
+    "speakers": [
+      "Jakub Tesárek"
+    ],
+    "type": "Talk",
+    "lang": "en",
+    "title": "Working with Data-Scientits: Survival guide",
+    "text": "Ten years ago nobody knew, what data-scientists do and now they are everywhere. And they come and mess up your code-base with no regards for a coding style or DRY principle. They don’t understand why you need to refactor, if it already works. And when you ask, what data they need, they’ll tell you „all of them“.\n\nBut it doesn’t have to be this way. And I’ll show you how I solved some of the problems since I took over the team leader role in LMC 2 years ago. I’ll give you 10 tips on how organize work between data-scientists and developers and how to build a good and productive relationship."
   }
 ]

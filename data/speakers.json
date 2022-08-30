@@ -364,10 +364,10 @@
         }
     },
     {
-        "name": "Adam Křenek",
-        "bio": "TBD",
+        "name": "Jakub Tesárek",
+        "bio": "Jakub started his professional career as a self-thought PHP programmer Shoptet where he eventually worked himself up to a lead developer position. Later he switched to Python which he used in SAP for 8 years as full-stack principal engineer. Currently he works in LMC where he and his team develop server applications based on machine learning and big data. Jakub’s passion is a clean code and team self-reliance. In his free time he rides a motorcycle, shoots guns and fights in amateur kickboxing bouts.",
         "country": "Czechia",
-        "avatar": "img/speakers/male.svg",
+        "avatar": "img/speakers/jakub_tesarek.jpg",
         "links": {
         }
     }

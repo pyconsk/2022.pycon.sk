@@ -252,8 +252,8 @@ SATURDAY2 = (
     },
     {
         'time': '13:45 - 14:15',
-        'name': 'Adam Křenek',
-        'title': 'TBD',
+        'name': 'Jakub',
+        'title': 'Working with Data-Scientits: Survival guide',
         'avatar': '/static/img/speakers/male.svg',
     },
     {
@@ -310,13 +310,13 @@ SATURDAY5 = (
     },
     {
         'time': '11:05 - 12:10',
-        'name': 'Peter Palát',
-        'title': 'Internetová bezpečnosť: základy sebaobrany',
-        'avatar': '/static/img/speakers/peter_palat.jpg',
+        'name': 'Miroslav Biňas',
+        'title': 'Vytvor si vlastný Pokedex v rámci FastAPI ako webovú aplikáciu',
+        'avatar': '/static/img/speakers/miroslav_binas.jpg',
     },
     {
         'time': '13:10 - 15:15',
-        'title': 'UsH Hackathon',
+        'title': 'Hackathon Učíme s hardvérom',
     },
     {
         'time': '15:20 - 16:50',
