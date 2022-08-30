@@ -91,6 +91,9 @@
         "country": "Austria",
         "avatar": "img/speakers/miroslav_sedivy.jpg",
         "links": {
+            "twitter": "https://twitter.com/eumiro/",
+            "github": "https://github.com/eumiro/",
+            "linkedin": "https://linkedin.com/in/eumiro/"
         }
     },
     {
