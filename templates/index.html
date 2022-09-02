@@ -106,7 +106,7 @@
               <i class="fa fa-users" aria-hidden="true"></i>
             </div>
             <div class="media-body">
-              <h3>250+<br />{{ _('Participants') }}</h3>
+              <h3>550+<br />{{ _('Participants') }}</h3>
             </div>
           </div>
         </div>
@@ -213,13 +213,15 @@
 </section>
 <!-- Call To Action Area End Here -->
 
+{% include 'includes/sponsors_list.html' %}
+
 <!-- Sponsonrs Area Start Here -->
-<section class="section-space-default bg-light">
+<!-- <section class="section-space-default bg-light">
   <div class="container">
     <div class="section-heading title-black color-dark text-center">
       <h2>{{ _("Official Sponsors &amp; Partners") }}</h2>
       <p>{{ _("We are looking for sponsors and partners. Please get in touch with us.") }}</p>
-<!--      <p>{{ _("Check Who Makes This Event Possible!") }}</p>-->
+      <p>{{ _("Check Who Makes This Event Possible!") }}</p>
     </div>
     <div class="row">
       <div class="col-12 text-center">
@@ -229,6 +231,6 @@
       </div>
     </div>
   </div>
-</section>
+</section> -->
 <!-- Sponsonrs Area End Here -->
 {% endblock %}
