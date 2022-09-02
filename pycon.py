@@ -1,12 +1,13 @@
 import os
 from datetime import date
+from operator import itemgetter
 
 from flask import Flask, g, request, render_template, abort, make_response, url_for, redirect
 from flask_babel import Babel, gettext, lazy_gettext
 
 from schedule import (FRIDAY1, FRIDAY2, FRIDAY3, SATURDAY1, SATURDAY2, SATURDAY3, SATURDAY4, SATURDAY5,
                       SUNDAY1, SUNDAY3, SUNDAY4)
-from utils import get_news, get_speakers, get_talks, get_edu_speakers, get_edu_talks, encode_name, decode_name
+from utils import get_news, get_speakers, get_talks, get_edu_speakers, get_edu_talks, encode_name, decode_name, get_jobs
 
 EVENT = gettext('PyCon SK 2022 | Bratislava, Slovakia')
 DOMAIN = 'https://2022.pycon.sk'
@@ -363,6 +364,14 @@ def sunday():
 def countdown():
     template_vars = _get_template_variables(li_index='active', background='bkg-index')
     return render_template('countdown.html', **template_vars)
+
+
+@app.route('/<lang_code>/jobs.html')
+def jobs():
+    job_offers = get_jobs()
+    companies = sorted(set(map(itemgetter("company"), job_offers)))
+    template_vars = _get_template_variables(li_jobs='active', background='bkg-speaker', jobs=job_offers, companies=companies)
+    return render_template('jobs.html', **template_vars)
 
 
 def get_speaker_url():

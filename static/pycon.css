@@ -214,3 +214,9 @@ span.arrowleft {
 .arrowright a {
 	color:#ea531c;
 }
+
+
+.btn-job-company:hover {
+  background-color: transparent;
+  color: #888;
+}

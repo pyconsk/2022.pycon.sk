@@ -9,7 +9,7 @@
   a.async = 1;
   a.src = g;
   m.parentNode.insertBefore(a, m)
-})(window, document, 'script', 'https://2020.pycon.sk/analytics.js', 'ga');
+})(window, document, 'script', 'https://2022.pycon.sk/analytics.js', 'ga');
 
 ga('create', 'UA-69278502-1', 'auto');
 ga('send', 'pageview');

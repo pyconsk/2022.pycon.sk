@@ -1,5 +1,6 @@
 import os
 import json
+import random
 
 from datetime import datetime
 
@@ -39,6 +40,11 @@ def get_news(lang='sk', items=None):
             break
 
     return news
+
+
+def get_jobs():
+    print(read_json_file(os.path.join('data', 'jobs.json')))
+    return read_json_file(os.path.join('data', 'jobs.json'))
 
 
 def encode_name(name):
