@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-08-27 21:50+0200\n"
+"POT-Creation-Date: 2022-09-02 16:11+0200\n"
 "PO-Revision-Date: 2018-11-27 22:00+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sk\n"
@@ -1275,19 +1275,19 @@ msgstr ""
 "vypredal, takže si nenechávaj nákup lístka na poslednú chvíľu, lebo už "
 "môžu byť vypredané..."
 
-#: templates/index.html:220
+#: templates/index.html:222
 msgid "Official Sponsors &amp; Partners"
 msgstr "Oficiálni sponzori a partneri"
 
-#: templates/index.html:221
+#: templates/index.html:223
 msgid "We are looking for sponsors and partners. Please get in touch with us."
 msgstr "Hľadáme sponzorov a partnerov. Prosím, kontaktujte nás."
 
-#: templates/index.html:222
+#: templates/index.html:224
 msgid "Check Who Makes This Event Possible!"
 msgstr "Pozri sa, bez koho by táto konferencia nebola možná!"
 
-#: templates/index.html:226 templates/index.html:227
+#: templates/index.html:228 templates/index.html:229
 msgid "Become a Sponsor"
 msgstr "Staň sa sponzorom"
 
@@ -1700,53 +1700,9 @@ msgstr "Naši úžasní speakeri"
 msgid "Our sponsors"
 msgstr "Naši sponzori"
 
-#: templates/sponsors.html:26
-msgid "Our sponsors and partners"
-msgstr "Naši sponzori a partneri"
-
-#: templates/sponsors.html:27
-msgid ""
-"We would be probably not able to make this event happen without support "
-"of our generous sponsors."
+#: templates/sponsors.html:24
+msgid "Poporovatelia komunity"
 msgstr ""
-"Túto konferenciu by sme neboli schopní zorganizovať bez podpory našich "
-"štedrých sponzorov."
-
-#: templates/sponsors.html:28
-msgid "Check who made this event possible!"
-msgstr "Pozri, vďaka komu sa podarilo zorganizovať túto konferenciu."
-
-#: templates/sponsors.html:36
-msgid "Diamond sponsor"
-msgstr "Diamantový sponzor"
-
-#: templates/sponsors.html:47
-msgid "Platinum sponsors"
-msgstr "Platinoví sponzori"
-
-#: templates/sponsors.html:79
-msgid "Gold sponsors"
-msgstr "Zlatí sponzori"
-
-#: templates/sponsors.html:104
-msgid "Bronze sponsors"
-msgstr "Bronzoví sponzori"
-
-#: templates/sponsors.html:157
-msgid "Community partners"
-msgstr "Komunitní partneri"
-
-#: templates/sponsors.html:177
-msgid "Main media partner"
-msgstr "Hlavný mediálny partner"
-
-#: templates/sponsors.html:189
-msgid "Media partners"
-msgstr "Mediálni partneri"
-
-#: templates/sponsors.html:207
-msgid "Partners"
-msgstr "Partneri"
 
 #: templates/thanks.html:9
 msgid "Thank You"
@@ -2200,6 +2156,54 @@ msgstr ""
 #: templates/includes/program_table.html:5
 msgid "Topic"
 msgstr "Téma"
+
+#: templates/includes/sponsors_list.html:6
+msgid "Our sponsors and partners"
+msgstr "Naši sponzori a partneri"
+
+#: templates/includes/sponsors_list.html:7
+msgid ""
+"We would be probably not able to make this event happen without support "
+"of our generous sponsors."
+msgstr ""
+"Túto konferenciu by sme neboli schopní zorganizovať bez podpory našich "
+"štedrých sponzorov."
+
+#: templates/includes/sponsors_list.html:8
+msgid "Check who made this event possible!"
+msgstr "Pozri, vďaka komu sa podarilo zorganizovať túto konferenciu."
+
+#: templates/includes/sponsors_list.html:16
+msgid "Diamond sponsor"
+msgstr "Diamantový sponzor"
+
+#: templates/includes/sponsors_list.html:27
+msgid "Platinum sponsors"
+msgstr "Platinoví sponzori"
+
+#: templates/includes/sponsors_list.html:73
+msgid "Gold sponsors"
+msgstr "Zlatí sponzori"
+
+#: templates/includes/sponsors_list.html:112
+msgid "Bronze sponsors"
+msgstr "Bronzoví sponzori"
+
+#: templates/includes/sponsors_list.html:165
+msgid "Community partners"
+msgstr "Komunitní partneri"
+
+#: templates/includes/sponsors_list.html:185
+msgid "Main media partner"
+msgstr "Hlavný mediálny partner"
+
+#: templates/includes/sponsors_list.html:197
+msgid "Media partners"
+msgstr "Mediálni partneri"
+
+#: templates/includes/sponsors_list.html:215
+msgid "Partners"
+msgstr "Partneri"
 
 #~ msgid "Schedule"
 #~ msgstr "Program"
