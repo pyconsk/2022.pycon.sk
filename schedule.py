@@ -340,16 +340,11 @@ SATURDAY3 = (
 )
 SATURDAY4 = (
     {
-        'time': '09:00 - 10:50',
-        'name': 'Mauro Pelucchi',
-        'title': 'Data Ingestion and Big Data',
-        'avatar': '/static/img/speakers/mauro_pelucchi.jpg',
-        'speaker_url': 'Mauro Pelucchi',
-    },
-    {
         'time': '13:10 - 15:15',
+        'name': 'Artur Patoka',
         'title': 'Accelerate Python Development using live PyCharm debugging',
-        'speaker_url': '',
+        'avatar': '/static/img/speakers/artur_patoka.jpg',
+        'speaker_url': 'Artur Patoka',
     },
 )
 SATURDAY5 = (

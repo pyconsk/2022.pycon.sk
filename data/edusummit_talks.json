@@ -55,6 +55,15 @@
  },
  {
     "speakers": [
+      "Miroslav Biňas"
+    ],
+    "type": "Workshop",
+    "lang": "sk",
+    "title": "Vytvor si vlastný Pokedex v rámci FastAPI ako webovú aplikáciu",
+    "text": "TBD"
+ },
+ {
+    "speakers": [
       "Luboslav Lacko"
     ],
     "type": "Talk",
@@ -82,7 +91,7 @@
   },
   {
     "speakers": [
-      "Róbert Tomolya "
+      "Róbert Tomolya"
     ],
     "type": "Talk",
     "lang": "en",

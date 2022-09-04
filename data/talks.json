@@ -15,7 +15,7 @@
     "type": "Workshop",
     "lang": "en",
     "title": "Data Ingestion and Big Data",
-    "text": "Web scraping, crawling and API are the first step to retrieve information to use for analysis\nand to start a new business.\nIn this tutorial I'll show you how to use python to set up scraping and crawling processes,\nhow to simulate users navigation and browser behavior with a ghost browser and how to hook up and use data APIs.\nI will also try to explain the technical and ethical aspects that we have to consider when we approach these kinds of challenges."
+    "text": "Web scraping, crawling and API are the first step to retrieve information to use for analysis and to start a new business. In this tutorial I'll show you how to use python to set up scraping and crawling processes, how to simulate users navigation and browser behavior with a ghost browser and how to hook up and use data APIs. I will also try to explain the technical and ethical aspects that we have to consider when we approach these kinds of challenges."
   },
   {
     "speakers": [
