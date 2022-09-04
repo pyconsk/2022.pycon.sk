@@ -61,9 +61,11 @@
                         {% elif abstract['lang'] == 'cz' %}{{ _('Czech language') }}{% endif %}
                     </span></p>
 
+                    <b>{% for speaker in abstract.speakers %}{{ speaker}} {% endfor %}</b>
+
                     {% set paragraph = abstract['text'].split('\n') %}
                     {% for p in paragraph %}
-                    <p>{{ p }}</p>
+                    <p>{{ p | safe }}</p>
                     {% endfor %}
                 </div>
             </div>

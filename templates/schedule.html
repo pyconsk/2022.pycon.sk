@@ -39,35 +39,35 @@
 	 		  {% if magna %}<li class="nav-item">
 						  		<a class="animated fadeIn nav-link active" href="#tab_one" data-toggle="tab">
 						  			<span class="tab-head">
-										<span class="tab-text-title">Aula Magna</span>
+										<span class="tab-text-title">Titans room</span>
 									</span>
 						  		</a>
 						  	</li>{% endif %}
               {% if minor %}<li class="nav-item">
 							  	<a class="animated fadeIn nav-link" href="#tab_two" data-toggle="tab">
 							  		<span class="tab-head">
-										<span class="tab-text-title">Aula Minor{% if li_friday == 'active' %} (EduSummit){% endif %}</span>
+										<span class="tab-text-title">SPy room{% if li_friday == 'active' %} (EduSummit){% endif %}</span>
 									</span>
 							  	</a>
 							</li>{% endif %}
         {% if babbageovaA %}<li class="nav-item">
 							  	<a class="animated fadeIn nav-link" href="#tab_three" data-toggle="tab">
 							  		<span class="tab-head">
-										<span class="tab-text-title">Babbageova A</span>
+										<span class="tab-text-title">Workshop room A</span>
 									</span>
 							  	</a>
 							</li>{% endif %}
         {% if babbageovaB %}<li class="nav-item">
 							  	<a class="animated fadeIn nav-link" href="#tab_four" data-toggle="tab">
 							  		<span class="tab-head">
-										<span class="tab-text-title">Babbageova B</span>
+										<span class="tab-text-title">Workshop room B</span>
 									</span>
 							  	</a>
 							</li>{% endif %}
             {% if digilab %}<li class="nav-item">
 							  	<a class="animated fadeIn nav-link" href="#tab_five" data-toggle="tab">
 							  		<span class="tab-head">
-										<span class="tab-text-title">DigiLab{% if li_saturday == 'active' %} (EduSummit){% endif %}</span>
+										<span class="tab-text-title">DigiLab{% if li_saturday == 'active' %} (EduSummit workshops){% endif %}</span>
 									</span>
 							  	</a>
 							</li>{% endif %}
@@ -75,11 +75,14 @@
 
 						<div class="tab-content">
 					        <div class="tab-pane active animated fadeInRight" id="tab_one">
-				        	<h2 class="schedule-date">Aula Magna -1.61</h2>
+				        	<h2 class="schedule-date">Titans room (Aula Magna -1.61)</h2>
                             {% for block in magna %}
 				        		<div class="schedule-listing">
 				        			<span class="schedule-slot-time">{{ block.time }}</span>
 				        			<div class="schedule-slot-info">
+												{% if block.speaker_url %}
+												  <a href="{{ url_for('profile', lang_code=lang_code, name=block.speaker_url) }}" target="_blank">
+												{% endif %}
 				        				{% if block.avatar %}{% if block.speaker %}<a href="{{ block.speaker }}">{% endif %}
                                             <img class="schedule-slot-speakers" src="{{ block.avatar }}" alt="{{ block.name }}" />
                                         {% if block.speaker %}</a>{% endif %}
@@ -89,18 +92,23 @@
 				        					{% if block.speaker %}<a href="{{ block.speaker }}">{% endif %}
 				        					    <h4 class="schedule-slot-speaker-name">{{ block.name }}</h4>
                                             {% if block.speaker %}</a>{% endif %}
+
 				        				</div><!--Info content end -->
+												{% if block.speaker_url %} </a> {% endif %}
 				        			</div><!-- Slot info end -->
 				        		</div><!-- Slot listing 1 end -->
                             {% endfor %}
 					        </div><!-- Tab pane 1 end -->
                         {% if minor %}
 				            <div class="tab-pane animated fadeInRight" id="tab_two">
-				      		<h2 class="schedule-date">Aula Minor -1.60</h2>
+				      		<h2 class="schedule-date">SPy room (Aula Minor -1.60)</h2>
                             {% for block in minor %}
 				        		<div class="schedule-listing">
 				        			<span class="schedule-slot-time">{{ block.time }}</span>
 				        			<div class="schedule-slot-info">
+												{% if block.speaker_url %}
+												  <a href="{{ url_for('profile', lang_code=lang_code, name=block.speaker_url) }}" target="_blank">
+												{% endif %}
 				        				{% if block.avatar %}{% if block.speaker %}<a href="{{ block.speaker }}">{% endif %}
                                             <img class="schedule-slot-speakers" src="{{ block.avatar }}" alt="{{ block.name }}" />
                                         {% if block.speaker %}</a>{% endif %}
@@ -114,6 +122,7 @@
                                             <p>{{ block.desc }}</p>
                                             {% endif %}
 				        				</div><!--Info content end -->
+												{% if block.speaker_url %} </a> {% endif %}
 				        			</div><!-- Slot info end -->
 				        		</div><!-- Slot listing 1 end -->
                             {% endfor %}
@@ -121,11 +130,14 @@
                         {% endif %}
                         {% if babbageovaA %}
 				        	<div class="tab-pane animated fadeInLeft" id="tab_three">
-				            <h2 class="schedule-date">Babbageova učebňa A -1.57a</h2>
+				            <h2 class="schedule-date">Workshop room A (Babbageova učebňa -1.57a)</h2>
                             {% for block in babbageovaA %}
 				        		<div class="schedule-listing">
 				        			<span class="schedule-slot-time">{{ block.time }}</span>
 				        			<div class="schedule-slot-info">
+												{% if block.speaker_url %}
+												  <a href="{{ url_for('profile', lang_code=lang_code, name=block.speaker_url) }}" target="_blank">
+												{% endif %}
 				        				{% if block.avatar %}{% if block.speaker %}<a href="{{ block.speaker }}">{% endif %}
                                             <img class="schedule-slot-speakers" src="{{ block.avatar }}" alt="{{ block.name }}" />
                                         {% if block.speaker %}</a>{% endif %}
@@ -139,6 +151,7 @@
                                             <p>{{ block.desc }}</p>
                                             {% endif %}
 				        				</div><!--Info content end -->
+												{% if block.speaker_url %} </a> {% endif %}
 				        			</div><!-- Slot info end -->
 				        		</div><!-- Slot listing 1 end -->
                             {% endfor %}
@@ -146,11 +159,14 @@
                         {% endif %}
                         {% if babbageovaB %}
                             <div class="tab-pane animated fadeInLeft" id="tab_four">
-				            <h2 class="schedule-date">Babbageova učebňa B -1.57b</h2>
+				            <h2 class="schedule-date">Workshop room B (Babbageova učebňa -1.57b)</h2>
                             {% for block in babbageovaB %}
 				        		<div class="schedule-listing">
 				        			<span class="schedule-slot-time">{{ block.time }}</span>
 				        			<div class="schedule-slot-info">
+												{% if block.speaker_url %}
+												  <a href="{{ url_for('profile', lang_code=lang_code, name=block.speaker_url) }}" target="_blank">
+												{% endif %}
 				        				{% if block.avatar %}{% if block.speaker %}<a href="{{ block.speaker }}">{% endif %}
                                             <img class="schedule-slot-speakers" src="{{ block.avatar }}" alt="{{ block.name }}" />
                                         {% if block.speaker %}</a>{% endif %}
@@ -162,6 +178,7 @@
                                             {% if block.speaker %}</a>{% endif %}
                                             {% if block.desc %}<p>{{ block.desc }}</p>{% endif %}
 				        				</div><!--Info content end -->
+												{% if block.speaker_url %} </a> {% endif %}
 				        			</div><!-- Slot info end -->
 				        		</div><!-- Slot listing 1 end -->
                             {% endfor %}
@@ -169,11 +186,14 @@
                         {% endif %}
                         {% if digilab %}
                             <div class="tab-pane animated fadeInLeft" id="tab_five">
-				            <h2 class="schedule-date">DigiLab</h2>
+				            <h2 class="schedule-date">DigiLab (EduSummit workshops)</h2>
                             {% for block in digilab %}
 				        		<div class="schedule-listing">
 				        			<span class="schedule-slot-time">{{ block.time }}</span>
 				        			<div class="schedule-slot-info">
+												{% if block.speaker_url %}
+												  <a href="{{ url_for('profile', lang_code=lang_code, name=block.speaker_url) }}" target="_blank">
+												{% endif %}
 				        				{% if block.avatar %}{% if block.speaker %}<a href="{{ block.speaker }}">{% endif %}
                                             <img class="schedule-slot-speakers" src="{{ block.avatar }}" alt="{{ block.name }}" />
                                         {% if block.speaker %}</a>{% endif %}
@@ -185,6 +205,7 @@
                                             {% if block.speaker %}</a>{% endif %}
                                             {% if block.desc %}<p>{{ block.desc }}</p>{% endif %}
 				        				</div><!--Info content end -->
+												{% if block.speaker_url %} </a> {% endif %}
 				        			</div><!-- Slot info end -->
 				        		</div><!-- Slot listing 1 end -->
                             {% endfor %}

@@ -290,25 +290,27 @@ def privacy_policy():
 
 @app.route('/<lang_code>/program/index.html')
 def program():
-    variables = _get_template_variables(li_program='active', background='bkg-speaker', speakers=SPEAKERS)
-    variables['talks_list'] = []
-    variables['workshops_link'] = []
+    # variables = _get_template_variables(li_program='active', background='bkg-speaker', speakers=SPEAKERS)
+    # variables['talks_list'] = []
+    # variables['workshops_link'] = []
+    #
+    # for talk in TALKS:
+    #     if talk['type'] == 'Talk':
+    #         variables['talks_list'].append({
+    #             'talk': talk,
+    #             'speakers': talk['speakers']
+    #         })
+    #         continue
+    #     elif talk['type'] == 'Workshop':
+    #         variables['workshops_link'].append({
+    #             'talk': talk,
+    #             'speakers': talk['speakers']
+    #         })
+    #         continue
+    #
+    # return render_template('program.html', **variables)
+    return redirect('/')
 
-    for talk in TALKS:
-        if talk['type'] == 'Talk':
-            variables['talks_list'].append({
-                'talk': talk,
-                'speakers': talk['speakers']
-            })
-            continue
-        elif talk['type'] == 'Workshop':
-            variables['workshops_link'].append({
-                'talk': talk,
-                'speakers': talk['speakers']
-            })
-            continue
-
-    return render_template('program.html', **variables)
 
 @app.route('/<lang_code>/speakers/index.html')
 def speakers():
@@ -321,13 +323,11 @@ def profile(name):
     variables = _get_template_variables(li_speakers='active', background='bkg-speaker')
 
     for speaker in SPEAKERS+EDU_SPEAKERS:
+        speaker['talks'] = []
         if speaker['name'].lower() == decode_name(name):
             for talk in TALKS + EDU_TALKS:
                 if speaker['name'] in talk.get('speakers', []):
-                    speaker['talks'] = speaker.get('talks', []).append(talk)
-                    break
-            if not speaker.get('talks'):
-                speaker['talks'] = []
+                    speaker.get('talks', []).append(talk)
             variables['speaker'] = speaker
             break
 
