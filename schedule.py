@@ -220,7 +220,7 @@ SATURDAY1 = (
     {
         'time': '13:10 - 13:40',
         'name': 'Tom Dyson',
-        'title': 'Keynote',
+        'title': 'Find happiness with Python',
         'avatar': '/static/img/speakers/tom_dyson.jpg',
         'speaker_url': 'Tom Dyson',
     },
