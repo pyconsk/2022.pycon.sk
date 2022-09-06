@@ -351,7 +351,7 @@ SATURDAY4 = (
         'name': 'Marek Bruchatý, Ondrej Unger',
         'title': 'Performance Matters: How to Make Python Fast ',
         'avatar': '/static/img/speakers/marek_bruchaty.jpg',
-        'speaker_url': 'Marek Bruchatý',
+        'speaker_url': 'Ondrej Unger',
     },
 )
 SATURDAY5 = (
