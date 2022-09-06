@@ -350,7 +350,7 @@ SATURDAY4 = (
         'time': '15:20 - 16:20',
         'name': 'Marek Bruchatý, Ondrej Unger',
         'title': 'Performance Matters: How to Make Python Fast ',
-        'avatar': '/static/img/speakers/marek_bruchaty.jpg',
+        'avatar': '/static/img/speakers/ondrej_unger.jpg',
         'speaker_url': 'Ondrej Unger',
     },
 )
