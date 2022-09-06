@@ -1,5 +1,13 @@
 [
   {
+    "date": "2022-09-06",
+    "title_en": "Health and safety guidelines at the conference",
+    "meta_en": "Our goal is to create a safe environment at the conference venue and prevent the spread of COVID-19. The exact health and safety guidelines will be based on the current (September 2022) venue and state guidelines.\n \nOur goal is to create a safe environment at the conference venue and prevent the spread of COVID-19. The exact health and safety guidelines will be based on the current (September 2022) venue and state guidelines.\n \nAlthough there are currently (September 2022) no legal event restrictions in Slovakia, we advise participants to wear face-masks inside the conference venue as well as have up-to-date vaccinations.\n \nWe expect attendees to be considerate to others and self-isolate in case of any respiratory disease symptoms.",
+    "title_sk": "Odporúčania pre zdravie a bezpečnosť na konferencii",
+    "meta_sk": "Naším cieľom je vytvoriť bezpečné prostredie v mieste konania konferencie a zabrániť šíreniu COVID-19. Presné zdravotné a bezpečnostné pokyny budú vychádzať z aktuálneho (september 2022) miesta konania a štátnych pokynov.\n \nAj keď v súčasnosti (september 2022) na Slovensku neexistujú žiadne zákonné obmedzenia na podujatia, odporúčame účastníkom, aby v priestoroch konferencie nosili rúška a mali aj aktuálne očkovanie.\n \nOčakávame, že účastníci budú ohľaduplní k ostatným a že sa izolujú v prípade akýchkoľvek príznakov respiračného ochorenia.",
+    "categories": ["conference"]
+  },
+  {
     "date": "2022-08-28",
     "title_en": "We are looking for onsite volunteers",
     "meta_en": "PyCon SK is built on volunteer work, without volunteers this conference would not exist. Join us and help us run the conference, you'll find out what we talk about in the locker room and maybe you'll even find a few new friends...",
@@ -8,7 +16,6 @@
     "categories": ["conference"],
     "url": "/en/cfv.html"
   },
- 
   {
     "date": "2022-08-27",
     "title_en": "We have reached the maximum conference capacity",
