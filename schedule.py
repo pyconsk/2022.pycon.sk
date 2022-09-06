@@ -13,10 +13,10 @@ FRIDAY1 = (
     },
     {
         'time': '09:30 - 10:15',
-        'name': 'Dmitry Dygalo',
-        'title': 'Stop writing tests for your web API! Try to generate them first.',
-        'avatar': '/static/img/speakers/dmitry_dygalo.jpg',
-        'speaker_url': 'dmitry-dygalo',
+        'name': 'Petr Viktorin',
+        'title': 'The stories of Python features',
+        'avatar': '/static/img/speakers/petr_viktorin.jpg',
+        'speaker_url': 'Petr Viktorin',
     },
     {
         'time': '10:20 - 10:50',
@@ -61,10 +61,10 @@ FRIDAY1 = (
     },
     {
         'time': '14:45 - 15:30',
-        'name': 'Petr Viktorin',
-        'title': 'The stories of Python features',
-        'avatar': '/static/img/speakers/petr_viktorin.jpg',
-        'speaker_url': 'Petr Viktorin',
+        'name': 'Lukáš Polák',
+        'title': 'Scaling distributed workflow using Prefect',
+        'avatar': '/static/img/speakers/lukas_polak.jpg',
+        'speaker_url': 'Lukáš Polák',
     },
     {
         'time': '15:35 - 16:05',
@@ -219,10 +219,10 @@ SATURDAY1 = (
     },
     {
         'time': '13:10 - 13:40',
-        'name': 'Lukáš Polák',
-        'title': 'Scaling distributed workflow using Prefect',
-        'avatar': '/static/img/speakers/lukas_polak.jpg',
-        'speaker_url': 'Lukáš Polák',
+        'name': 'Tom Dyson',
+        'title': 'Keynote',
+        'avatar': '/static/img/speakers/tom_dyson.jpg',
+        'speaker_url': 'Tom Dyson',
     },
     {
         'time': '13:45 - 14:15',
@@ -345,6 +345,13 @@ SATURDAY4 = (
         'title': 'Accelerate Python Development using live PyCharm debugging',
         'avatar': '/static/img/speakers/artur_patoka.jpg',
         'speaker_url': 'Artur Patoka',
+    },
+    {
+        'time': '15:20 - 16:20',
+        'name': 'Marek Bruchatý, Ondrej Unger',
+        'title': 'Performance Matters: How to Make Python Fast ',
+        'avatar': '/static/img/speakers/marek_bruchaty.jpg',
+        'speaker_url': 'Marek Bruchatý',
     },
 )
 SATURDAY5 = (

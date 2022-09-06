@@ -1,6 +1,15 @@
 [
   {
     "speakers": [
+      "Tom Dyson"
+    ],
+    "type": "Talk",
+    "lang": "en",
+    "title": "Keynote",
+    "text": "Keynote"
+  },
+  {
+    "speakers": [
       "Mauro Pelucchi"
     ],
     "type": "Talk",
@@ -353,5 +362,15 @@
     "lang": "en",
     "title": "Working with Data-Scientits: Survival guide",
     "text": "Ten years ago nobody knew, what data-scientists do and now they are everywhere. And they come and mess up your code-base with no regards for a coding style or DRY principle. They don’t understand why you need to refactor, if it already works. And when you ask, what data they need, they’ll tell you „all of them“.\n\nBut it doesn’t have to be this way. And I’ll show you how I solved some of the problems since I took over the team leader role in LMC 2 years ago. I’ll give you 10 tips on how organize work between data-scientists and developers and how to build a good and productive relationship."
+  },
+  {
+    "speakers": [
+      "Marek Bruchatý",
+      "Ondrej Unger"
+    ],
+    "type": "Workshop",
+    "lang": "en",
+    "title": "Performance Matters: How to Make Python Fast",
+    "text": "We’re spoiled by the cloud. We’re so used to it that when performance problems arise, our very first thought is to scale our environment. But sometimes the best (or cheapest) option is not to increase system resources — sometimes what we need to do is dive deeply into the code and do a lot of optimization. You know, like in the old days: Just you and your profiler (and wicked amounts of caffeine).\nIn this workshop, we’ll take one of our hiring assignments that focuses on performance. We’ll look at how our candidates usually solve the task, some of the most common mistakes and misconceptions, and the best optimization strategy.\nNote: By taking part in this workshop, you'll get a good sense of what to expect in our interviews!"
   }
 ]
