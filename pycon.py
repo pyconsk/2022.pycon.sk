@@ -370,8 +370,37 @@ def countdown():
 def jobs():
     job_offers = get_jobs()
     companies = sorted(set(map(itemgetter("company"), job_offers)))
-    template_vars = _get_template_variables(li_jobs='active', background='bkg-speaker', jobs=job_offers, companies=companies)
+    template_vars = _get_template_variables(
+        li_jobs='active',
+        background='bkg-chillout',
+        jobs=job_offers,
+        companies=companies
+    )
     return render_template('jobs.html', **template_vars)
+
+
+@app.route('/<lang_code>/livestream-titans-room.html')
+def livestream_titans_room():
+    template_vars = _get_template_variables(
+        li_livestream1='active',
+        background='bkg-speaker',
+        room_name='Titans room',
+        youtube_stream='cudKMpOGmS4',
+        slido_link='https://app.sli.do/event/cEPd2DTRrEKybtAK6nget8/live/questions',
+    )
+    return render_template('livestream.html', **template_vars)
+
+
+@app.route('/<lang_code>/livestream-spy-room.html')
+def livestream_spy_room():
+    template_vars = _get_template_variables(
+        li_livestream2='active',
+        background='bkg-speaker',
+        room_name='SPy room',
+        youtube_stream='wkqzkAros4Y',
+        slido_link='https://app.sli.do/event/cEPd2DTRrEKybtAK6nget8/live/questions',
+    )
+    return render_template('livestream.html', **template_vars)
 
 
 def get_speaker_url():

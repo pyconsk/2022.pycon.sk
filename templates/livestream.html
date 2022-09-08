@@ -1,0 +1,51 @@
+{% extends "body.html" %}
+{% block content %}
+<!-- Inner Page Banner Area Start Here -->
+<section class="inner-page-banner {{ background }}">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="breadcrumbs-area">
+          <h1>
+            {{ room_name }}
+          </h1>
+          <ul>
+            <li>
+              <a href="{{ url_for('index', lang_code=lang_code) }}">PyCon SK 2022</a>
+            </li>
+            <li>
+              <a href="{{ url_for('friday', lang_code=lang_code) }}">{{ _('Program') }}</a>
+            </li>
+            <li>
+              {{ _('Livestream') }}
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Inner Page Banner Area End Here -->
+<!-- Sponsors Area Start Here -->
+<section class="section-space-default bg-light">
+  <div class="container">
+    <!--          <div class="title-black color-dark text-center">-->
+    <!--              <div class="sponsor-details">-->
+    <div class="flex-row">
+      <div class="col-12align-self-center">
+        <div id="photo-gallery">
+
+          <iframe width="1110" height="640" src="https://www.youtube-nocookie.com/embed/{{ youtube_stream }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        </div>
+      </div>
+      <div class="col-12align-self-center">
+        <div id="photo-gallery">
+          <iframe width="100%" height="560" src="{{ slido_link }}" title="Slido"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Blog Page Area End Here -->
+{% endblock %}

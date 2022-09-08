@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-09-06 11:00+0200\n"
+"POT-Creation-Date: 2022-09-08 23:23+0200\n"
 "PO-Revision-Date: 2018-11-27 22:00+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sk\n"
@@ -22,20 +22,20 @@ msgstr ""
 msgid "PyCon SK 2022 | Bratislava, Slovakia"
 msgstr "PyCon SK 2022 | Bratislava"
 
-#: pycon.py:344 templates/body.html:126 templates/body.html:202
+#: pycon.py:344 templates/body.html:126 templates/body.html:208
 msgid "Friday"
 msgstr "Piatok"
 
-#: pycon.py:353 templates/body.html:129 templates/body.html:205
+#: pycon.py:353 templates/body.html:129 templates/body.html:211
 msgid "Saturday"
 msgstr "Sobota"
 
-#: pycon.py:360 templates/body.html:132 templates/body.html:208
+#: pycon.py:360 templates/body.html:132 templates/body.html:214
 msgid "Sunday"
 msgstr "Nedeľa"
 
 #: templates/aboutus.html:10 templates/aboutus.html:15
-#: templates/aboutus.html:29 templates/body.html:157 templates/body.html:231
+#: templates/aboutus.html:29 templates/body.html:163 templates/body.html:237
 #: templates/cfv.html:14
 msgid "About Us"
 msgstr "O nás"
@@ -100,7 +100,7 @@ msgstr ""
 msgid "Or visit our website"
 msgstr "alebo navštívte našu web stránku"
 
-#: templates/aboutus.html:53 templates/body.html:163 templates/body.html:237
+#: templates/aboutus.html:53 templates/body.html:169 templates/body.html:243
 msgid "Call for volunteers"
 msgstr "Pridaj sa k nám"
 
@@ -130,18 +130,18 @@ msgstr ""
 "Prosím, <a href=\"http://browsehappy.com/\">nainštalujte si novšiu verziu"
 " prehliadača</a>, aby ste si zlepšili zážitok z prehliadania stránok."
 
-#: templates/body.html:115 templates/body.html:191 templates/news.html:10
+#: templates/body.html:115 templates/body.html:197 templates/news.html:10
 #: templates/news.html:18
 msgid "Newsroom"
 msgstr "Novinky"
 
-#: templates/body.html:118 templates/body.html:194 templates/program.html:9
-#: templates/program.html:14 templates/schedule.html:9
+#: templates/body.html:118 templates/body.html:200 templates/livestream.html:17
+#: templates/program.html:9 templates/program.html:14 templates/schedule.html:9
 #: templates/schedule.html:14
 msgid "Program"
 msgstr "Program"
 
-#: templates/body.html:123 templates/body.html:199 templates/cfp.html:14
+#: templates/body.html:123 templates/body.html:205 templates/cfp.html:14
 #: templates/cfp_form.html:14 templates/includes/program_table.html:4
 #: templates/index.html:97 templates/recording.html:14
 #: templates/speaker.html:14 templates/speaker_list.html:14
@@ -149,64 +149,68 @@ msgstr "Program"
 msgid "Speakers"
 msgstr "Rečníci a rečníčky"
 
-#: templates/body.html:137 templates/body.html:214 templates/edusummit.html:10
+#: templates/body.html:135 templates/body.html:138 templates/livestream.html:20
+msgid "Livestream"
+msgstr "Živý prenos"
+
+#: templates/body.html:143 templates/body.html:220 templates/edusummit.html:10
 #: templates/edusummit.html:15
 msgid "EduSummit"
 msgstr "EduSummit"
 
-#: templates/body.html:140 templates/body.html:217
+#: templates/body.html:146 templates/body.html:223
 msgid "Sponsors"
 msgstr "Sponzori"
 
-#: templates/body.html:143 templates/body.html:220
+#: templates/body.html:149 templates/body.html:226
 msgid "Job Offers"
 msgstr "Pracovné pozície"
 
-#: templates/body.html:146
+#: templates/body.html:152
 #, python-format
 msgid "2%%"
 msgstr "2%%"
 
-#: templates/body.html:149 templates/body.html:223
+#: templates/body.html:155 templates/body.html:229
 msgid "About"
 msgstr "O nás"
 
-#: templates/body.html:154 templates/body.html:228
+#: templates/body.html:160 templates/body.html:234
 msgid "FAQ"
 msgstr "FAQ"
 
-#: templates/body.html:160 templates/body.html:234 templates/tickets.html:49
+#: templates/body.html:166 templates/body.html:240 templates/tickets.html:49
 #: templates/venue.html:35 templates/venue.html:40
 msgid "Venue"
 msgstr "Miesto konania"
 
-#: templates/body.html:166 templates/body.html:240 templates/coc.html:10
+#: templates/body.html:172 templates/body.html:246 templates/coc.html:10
 #: templates/coc.html:15
 msgid "Code of Conduct"
 msgstr "Kódex správania"
 
-#: templates/body.html:267 templates/body.html:268 templates/index.html:20
+#: templates/body.html:273 templates/body.html:274 templates/index.html:20
 #: templates/index.html:208
 msgid "Buy Tickets"
 msgstr "Kúp si lístok"
 
-#: templates/body.html:294
+#: templates/body.html:300
 msgid "Event Organiser"
 msgstr "Organizátor podujatia"
 
-#: templates/body.html:308
+#: templates/body.html:314
 msgid "General Queries"
 msgstr "Všeobecné otázky"
 
-#: templates/body.html:322
+#: templates/body.html:328
 msgid "Ticket Queries"
 msgstr "Otázky o vstupenkách"
 
-#: templates/body.html:336
+#: templates/body.html:342
 msgid "Sponsor Queries"
 msgstr "Otázky o sponzorovaní"
 
-#: templates/body.html:352
+#: templates/body.html:358
 msgid ""
 "The PyCon SK 2022 conference, which will be held in Bratislava, is the "
 "annual gathering for the community using and developing the open-source "
@@ -216,16 +220,16 @@ msgstr ""
 "každoročné stretnutie komunity využívajúcej a vyvíjajúcej open sourcový "
 "programovací jazyk Python."
 
-#: templates/body.html:354 templates/body.html:404 templates/countdown.html:98
+#: templates/body.html:360 templates/body.html:410 templates/countdown.html:98
 #, python-format
 msgid "PyCon SK is organized by volunteers from %(spy)s."
 msgstr "PyCon SK je organizovaný dobrovoľníkmi a dobrovoľníčkami z %(spy)s."
 
-#: templates/body.html:355 templates/body.html:405 templates/countdown.html:99
+#: templates/body.html:361 templates/body.html:411 templates/countdown.html:99
 msgid "SPy o.z."
 msgstr "SPy o.z."
 
-#: templates/body.html:407 templates/countdown.html:94
+#: templates/body.html:413 templates/countdown.html:94
 #, python-format
 msgid ""
 "%(pycontm)s is a trademark for worldwide conference activities claimed by"
@@ -234,11 +238,11 @@ msgstr ""
 "%(pycontm)s je ochranná známka %(psf)s pre celosvetové konferenčné "
 "aktivity."
 
-#: templates/body.html:409 templates/countdown.html:96
+#: templates/body.html:415 templates/countdown.html:96
 msgid "Python Software Foundation"
 msgstr "Python Software Foundation"
 
-#: templates/body.html:412 templates/countdown.html:102
+#: templates/body.html:418 templates/countdown.html:102
 #, python-format
 msgid ""
 "Found a bug? Missing some information? This is a community managed "
