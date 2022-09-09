@@ -115,6 +115,9 @@
                                                 <li{% if li_news %} class="menu-justify current"{% endif %}>
                                                   <a href="{{ url_for('news', lang_code=lang_code) }}">{{ _('Newsroom') }}</a>
                                                 </li>
+                                                <li{% if li_news %} class="menu-justify current"{% endif %}>
+                                                  <a href="{{ url_for('chat', lang_code=lang_code) }}">{{ _('Chat') }}</a>
+                                                </li>
                                                 <li class="dropdown{% if li_speakers or li_cfp or li_program %} current{% endif %}">
                                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">{{ _('Program') }}
     <!--                                                    <i class="fa fa-angle-down"></i>-->
@@ -197,6 +200,9 @@
                                                 <li{% if li_news %} class="menu-justify current"{% endif %}>
                                                   <a href="{{ url_for('news', lang_code=lang_code) }}">{{ _('Newsroom') }}</a>
                                                 </li>
+                                                <li{% if li_news %} class="menu-justify current"{% endif %}>
+                                                  <a href="{{ url_for('chat', lang_code=lang_code) }}">{{ _('Chat') }}</a>
+                                                </li>
                                                 <li{% if li_speakers or li_cfp or li_program %} class="current"{% endif %}>
                                                     <a href="#">{{ _('Program') }}
     <!--                                                    <i class="fa fa-angle-down"></i>-->
@@ -221,7 +227,6 @@
                                                             <a href="{{ url_for('livestream_spy_room', lang_code=lang_code) }}">{{ _('Livestream') }} SPy room</a>
                                                         </li>
                                                     </ul>
-
                                                 </li>
                                                 <li{% if li_edusummit %} class="menu-justify current"{% endif %}>
                                                   <a href="{{ url_for('edusummit', lang_code=lang_code) }}">{{ _('EduSummit') }}</a>
