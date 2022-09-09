@@ -77,6 +77,14 @@ def index():
     return render_template('index.html', **template_vars)
 
 
+@app.route('/chat')
+def chat_alternate():
+    template_vars = _get_template_variables(li_index='active', news=get_news(get_locale(), items=3),
+                                            categories=CATEGORIES, background_filename='img/about/header1.jpg',
+                                            speakers=SPEAKERS+EDU_SPEAKERS, redirect="https://discord.gg/zA3kc72N")
+    return render_template('index.html', **template_vars)
+
+
 @app.route('/chat.html')
 def chat():
     template_vars = _get_template_variables(li_index='active', news=get_news(get_locale(), items=3),
