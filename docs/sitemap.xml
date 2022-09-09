@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
     <url>
+      <loc>https://2022.pycon.sk/chat.html</loc>
+      <lastmod>2022-09-09</lastmod>
+    </url>
+  
+    <url>
       <loc>https://2022.pycon.sk/</loc>
       <lastmod>2022-09-09</lastmod>
     </url>
@@ -378,6 +383,11 @@
   
     <url>
       <loc>https://2022.pycon.sk/en/cfv.html</loc>
+      <lastmod>2022-09-09</lastmod>
+    </url>
+  
+    <url>
+      <loc>https://2022.pycon.sk/chat.html</loc>
       <lastmod>2022-09-09</lastmod>
     </url>
   

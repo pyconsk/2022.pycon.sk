@@ -24,6 +24,7 @@
   <meta name="twitter:url" content="{{ domain }}"/>
   <meta name="twitter:image"
         content="{{ domain }}{{ url_for('static', filename='img/pycon_logo_square_400x400.png') }}"/>
+{% if redirect %}<meta http-equiv="refresh" content="0; url={{ redirect }}">{% endif %}
   <title>{{ title }}</title>
 
   <!-- Favicon -->
