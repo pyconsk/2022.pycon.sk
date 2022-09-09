@@ -214,6 +214,12 @@
                                                         <li{% if li_sunday %} class="menu-justify current"{% endif %}>
                                                             <a href="{{ url_for('sunday', lang_code=lang_code) }}">{{ _('Sunday') }}</a>
                                                         </li>
+                                                        <li{% if li_livestream1 %} class="menu-justify current"{% endif %}>
+                                                            <a href="{{ url_for('livestream_titans_room', lang_code=lang_code) }}">{{ _('Livestream') }} Titans room</a>
+                                                        </li>
+                                                        <li{% if li_livestream2 %} class="menu-justify current"{% endif %}>
+                                                            <a href="{{ url_for('livestream_spy_room', lang_code=lang_code) }}">{{ _('Livestream') }} SPy room</a>
+                                                        </li>
                                                     </ul>
 
                                                 </li>
@@ -268,14 +274,24 @@
                                         <!-- Mobile Menu End -->
                                     </div>
                                 </div>
+
                                 <div class="col-lg-2 col-md-3">
                                     <ul class="header-action-items">
                                         <li>
-                                          <a href="{{ url_for('tickets', lang_code=lang_code) }}" title="{{ _('Buy Tickets') }}"
-                                             class="btn-fill size-xs color-yellow border-radius-5">{{ _('Buy Tickets') }}</a>
+                                          <a href="{{ url_for('livestream_titans_room', lang_code=lang_code) }}"
+                                             class="btn-fill size-xs color-yellow border-radius-5">{{ _('Livestream') }}</a>
                                         </li>
                                     </ul>
                                 </div>
+
+{#                                <div class="col-lg-2 col-md-3">#}
+{#                                    <ul class="header-action-items">#}
+{#                                        <li>#}
+{#                                          <a href="{{ url_for('tickets', lang_code=lang_code) }}" title="{{ _('Buy Tickets') }}"#}
+{#                                             class="btn-fill size-xs color-yellow border-radius-5">{{ _('Buy Tickets') }}</a>#}
+{#                                        </li>#}
+{#                                    </ul>#}
+{#                                </div>#}
                             </div>
                         </div>
                     </div>
