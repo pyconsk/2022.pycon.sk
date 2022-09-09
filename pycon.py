@@ -81,7 +81,7 @@ def index():
 def chat():
     template_vars = _get_template_variables(li_index='active', news=get_news(get_locale(), items=3),
                                             categories=CATEGORIES, background_filename='img/about/header1.jpg',
-                                            speakers=SPEAKERS+EDU_SPEAKERS, redirect="https://discord.gg/zA3kc72N")
+                                            speakers=SPEAKERS+EDU_SPEAKERS, redirect="https://discord.gg/pr2cE4uT")
     return render_template('index.html', **template_vars)
 
 @app.route('/<lang_code>/news.html')
