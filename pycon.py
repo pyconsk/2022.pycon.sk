@@ -392,7 +392,7 @@ def livestream_titans_room():
         li_livestream1='active',
         background='bkg-speaker',
         room_name='Titans room',
-        youtube_stream='cudKMpOGmS4',
+        youtube_stream='yvEUoTkUoiA',
         slido_link='https://app.sli.do/event/cEPd2DTRrEKybtAK6nget8/live/questions?section=a550b24c-5361-4dfd-af63-01f811f53da5',
     )
     return render_template('livestream.html', **template_vars)
@@ -404,7 +404,7 @@ def livestream_spy_room():
         li_livestream2='active',
         background='bkg-speaker',
         room_name='SPy room',
-        youtube_stream='wkqzkAros4Y',
+        youtube_stream='1ehAsXsyj9Y',
         slido_link='https://app.sli.do/event/cEPd2DTRrEKybtAK6nget8/live/questions?section=86fb8dd8-d3c9-42ba-8ac9-3fb165f421e1',
     )
     return render_template('livestream.html', **template_vars)
