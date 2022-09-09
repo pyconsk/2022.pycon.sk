@@ -1,5 +1,14 @@
 [
   {
+    "date": "2022-09-09",
+    "title_en": "Discord Chat",
+    "meta_en": "Join us at our official Discord chat: https://2022.pycon.sk/chat.html",
+    "title_sk": "Discord Chat",
+    "meta_sk": "Pripojte sa na náš oficialny Discord chat: https://2022.pycon.sk/chat.html",
+    "categories": ["conference"],
+    "url": "https://2022.pycon.sk/chat.html"
+  },
+  {
     "date": "2022-09-06",
     "title_en": "Health and safety guidelines at the conference",
     "meta_en": "Our goal is to create a safe environment at the conference venue and prevent the spread of COVID-19.\n \nAlthough there are currently (September 2022) no event capacity restrictions in Slovakia, we advise participants to wear face-masks inside the conference venue as well as have up-to-date vaccinations.\n \nWe expect attendees to be considerate to others and self-isolate in case of any respiratory disease symptoms.",
