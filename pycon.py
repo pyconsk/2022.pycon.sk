@@ -398,18 +398,6 @@ def livestream_titans_room():
     return render_template('livestream.html', **template_vars)
 
 
-@app.route('/<lang_code>/livestream-spy-room.html')
-def livestream_spy_room():
-    template_vars = _get_template_variables(
-        li_livestream2='active',
-        background='bkg-speaker',
-        room_name='SPy room',
-        youtube_stream='1ehAsXsyj9Y',
-        slido_link='https://app.sli.do/event/cEPd2DTRrEKybtAK6nget8/live/questions?section=86fb8dd8-d3c9-42ba-8ac9-3fb165f421e1',
-    )
-    return render_template('livestream.html', **template_vars)
-
-
 def get_speaker_url():
     pass
 
