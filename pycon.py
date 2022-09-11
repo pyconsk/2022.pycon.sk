@@ -392,7 +392,7 @@ def livestream_titans_room():
         li_livestream1='active',
         background='bkg-speaker',
         room_name='Titans room',
-        youtube_stream='yvEUoTkUoiA',
+        youtube_stream='1d83b19GIdM',
         slido_link='https://app.sli.do/event/cEPd2DTRrEKybtAK6nget8/live/questions?section=a550b24c-5361-4dfd-af63-01f811f53da5',
     )
     return render_template('livestream.html', **template_vars)
