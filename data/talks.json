@@ -6,7 +6,8 @@
     "type": "Talk",
     "lang": "en",
     "title": "Find happiness with Python",
-    "text": "Learning to program can make you feel like you've gained a magical power. In particular, Python, with its deceptive simplicity and massive ecosystem of tools and libraries, can give you the ability to automate, accelerate, analyse, combine, create... As the world moves faster and faster towards digital connectedness, developers gain influence, power and fortune. In this talk, Tom will suggest ways for you to use your powers wisely: to make a dent in global injustice, to help find solutions for society's most pressing problems and - ultimately - to find happiness."
+    "text": "Learning to program can make you feel like you've gained a magical power. In particular, Python, with its deceptive simplicity and massive ecosystem of tools and libraries, can give you the ability to automate, accelerate, analyse, combine, create... As the world moves faster and faster towards digital connectedness, developers gain influence, power and fortune. In this talk, Tom will suggest ways for you to use your powers wisely: to make a dent in global injustice, to help find solutions for society's most pressing problems and - ultimately - to find happiness.",
+    "youtube": "UHU_C7b9upQ"
   },
   {
     "speakers": [
@@ -15,16 +16,8 @@
     "type": "Talk",
     "lang": "en",
     "title": "Nowcasting financial crisis with deep learning techniques",
-    "text": "This tutorial shows how apply Regression Models and Deep Learning Models to \nnowcasting stock markets crisis events.\nSpecifically, we'll how the transmission mechanisms across stock markets can \nbe used to train machine learning models to predict crisis events. The tutorial'll show \nthe entire pipeline: from the preparation of the dataset,\nhow balance observations and how measure our performances."
-  },
-  {
-    "speakers": [
-      "Mauro Pelucchi"
-    ],
-    "type": "Workshop",
-    "lang": "en",
-    "title": "Data Ingestion and Big Data",
-    "text": "Web scraping, crawling and API are the first step to retrieve information to use for analysis and to start a new business. In this tutorial I'll show you how to use python to set up scraping and crawling processes, how to simulate users navigation and browser behavior with a ghost browser and how to hook up and use data APIs. I will also try to explain the technical and ethical aspects that we have to consider when we approach these kinds of challenges."
+    "text": "This tutorial shows how apply Regression Models and Deep Learning Models to \nnowcasting stock markets crisis events.\nSpecifically, we'll how the transmission mechanisms across stock markets can \nbe used to train machine learning models to predict crisis events. The tutorial'll show \nthe entire pipeline: from the preparation of the dataset,\nhow balance observations and how measure our performances.",
+    "youtube": "ONHIa1eXTNw"
   },
   {
     "speakers": [
@@ -33,7 +26,8 @@
     "type": "Talk",
     "lang": "en",
     "title": "Stop writing tests for your web API! Try to generate them first.",
-    "text": "Having a comprehensive test suite is a crucial part of modern software development. But often, writing tests at scale is a tiresome and error-prone process. \n\nYou will learn how to save time on testing web APIs, see real-life examples, and tools that will improve your web APIs with minimal effort. \n\nThere will be a showcase of the Hypothesis & Schemathesis libraries that bring property-based testing to the world of web applications. To illustrate its effectiveness I'll share the results from our recent research paper, where we evaluated 8 API fuzzers against 16 real-world open-source services and found over 100 internal server errors."
+    "text": "Having a comprehensive test suite is a crucial part of modern software development. But often, writing tests at scale is a tiresome and error-prone process. \n\nYou will learn how to save time on testing web APIs, see real-life examples, and tools that will improve your web APIs with minimal effort. \n\nThere will be a showcase of the Hypothesis & Schemathesis libraries that bring property-based testing to the world of web applications. To illustrate its effectiveness I'll share the results from our recent research paper, where we evaluated 8 API fuzzers against 16 real-world open-source services and found over 100 internal server errors.",
+    "cancelled": "True"
   },
   {
     "speakers": [
@@ -42,7 +36,8 @@
     "type": "Talk",
     "lang": "en",
     "title": "Dive into codebase like a pro",
-    "text": "How to get familiar with codebase you need to maintain with minimum suffering? How to leave codebase easier to deal with for your colleagues so they don’t have to suffer like you did? \nIf you are experienced developer or a junior just starting your journey, inheriting codebase can be a very challenging task. Especially if the codebase is not quite up to your standards, or it’s just huge and complex beast. \nI will convey my experience and tips and tricks on inheriting code I acquired during 12 years of software development on new and old projects. \nThe talk will provide guidelines to ease taking over code from somebody else, as well as remind developers of the importance that planning, preparation and documentation have in facilitating code change and project growth."
+    "text": "How to get familiar with codebase you need to maintain with minimum suffering? How to leave codebase easier to deal with for your colleagues so they don’t have to suffer like you did? \nIf you are experienced developer or a junior just starting your journey, inheriting codebase can be a very challenging task. Especially if the codebase is not quite up to your standards, or it’s just huge and complex beast. \nI will convey my experience and tips and tricks on inheriting code I acquired during 12 years of software development on new and old projects. \nThe talk will provide guidelines to ease taking over code from somebody else, as well as remind developers of the importance that planning, preparation and documentation have in facilitating code change and project growth.",
+    "youtube": "g3hpTzC_1QA"
   },
   {
     "speakers": [
@@ -51,7 +46,8 @@
     "type": "Talk",
     "lang": "en",
     "title": "It's Your Call(able): a tour of Python's callable (function) interface",
-    "text": "Functions are fundamental to python, and are amongst the first features of python that most users learn. We call a function with arguments, and it returns a value. However, there is more to this callable interface than meets the eye, and there are lots of useful and powerful things we can do with the callable interface. You may have come across many of these already: (anonymous) lambda functions, the call magic method, the decorator pattern, the doc property, and modules like functools and inspect which provide detailed about functions and allow us to alter functions at runtime. The now-retired Python 3.6 release added typing annotations to this mix, and opened up a new world of metadata to use alongside your callables.\n\nLots of libraries, particularly web frameworks like Flask, Django, and FastAPI, and testing toolkits like pytest, use this callable interface to implement their API. As developers, understanding these advanced features of python’s callable interface is particularly useful when writing generic, automation focused code, and understanding how such prominent libraries work.\n\nThis talk gives a deep-dive into python functions, and the associated callable interface. We’ll start with a quick tour of the basics, before covering python’s more advanced callable features, and exploring some examples about how, why, and when you may wish to use these features yourself."
+    "text": "Functions are fundamental to python, and are amongst the first features of python that most users learn. We call a function with arguments, and it returns a value. However, there is more to this callable interface than meets the eye, and there are lots of useful and powerful things we can do with the callable interface. You may have come across many of these already: (anonymous) lambda functions, the call magic method, the decorator pattern, the doc property, and modules like functools and inspect which provide detailed about functions and allow us to alter functions at runtime. The now-retired Python 3.6 release added typing annotations to this mix, and opened up a new world of metadata to use alongside your callables.\n\nLots of libraries, particularly web frameworks like Flask, Django, and FastAPI, and testing toolkits like pytest, use this callable interface to implement their API. As developers, understanding these advanced features of python’s callable interface is particularly useful when writing generic, automation focused code, and understanding how such prominent libraries work.\n\nThis talk gives a deep-dive into python functions, and the associated callable interface. We’ll start with a quick tour of the basics, before covering python’s more advanced callable features, and exploring some examples about how, why, and when you may wish to use these features yourself.",
+    "cancelled": "True"
   },
   {
     "speakers": [
@@ -60,7 +56,8 @@
     "type": "Talk",
     "lang": "en",
     "title": "Where good engineering practices would save the day",
-    "text": "As software engineers we’ve read about countless rules (SOLID, DRY, YAGNI, KISS, …), read many books (The Pragmatic Programmer, Clean Code, The DevOps Handbook, Refactoring, …) and we are sharpening our understanding of how the ideal code should look like every day during our job.\n\nBut the reality is not ideal, sometimes quite far from the ideal.\n\nLet’s look at a few examples where good engineering practices were ignored which caused massive damages to the companies that weren’t following them. We will look at practices that would prevent the situations from happening. Stories like this will hopefully remind us why good engineering practices are necessary and maybe even help us to recognize which are more important than the others."
+    "text": "As software engineers we’ve read about countless rules (SOLID, DRY, YAGNI, KISS, …), read many books (The Pragmatic Programmer, Clean Code, The DevOps Handbook, Refactoring, …) and we are sharpening our understanding of how the ideal code should look like every day during our job.\n\nBut the reality is not ideal, sometimes quite far from the ideal.\n\nLet’s look at a few examples where good engineering practices were ignored which caused massive damages to the companies that weren’t following them. We will look at practices that would prevent the situations from happening. Stories like this will hopefully remind us why good engineering practices are necessary and maybe even help us to recognize which are more important than the others.",
+    "youtube": "5ABTueEb5hs"
   },
   {
     "speakers": [
@@ -88,16 +85,18 @@
     "type": "Talk",
     "lang": "en",
     "title": "Understanding the evolution and spread of conspiracy theories using Twitter user network data",
-    "text": "In the beginning of 2020, the so-called \"Querdenken\" movement formed: a protest movement that critized government regulations concerning the containment of the COVID-19 pandemic. This movement reached popularity in Austria and radicalized as more and more right-wing extremist players appeared.\n\nI want to show you how I study the spatio-temporal evolution of the Querdenken movement in Austria by analyzing the social network of Twitter users. For this, I will briefly explain how social networks can be modeled with basic graph theory. This approach then allows to determine central players and learn about potential communities within the movement. Combining the user information with the geographic view, we can understand how the movement organized and spread across Central Europe. I will lay a particular focus on how I retrieve, store and handle the data needed for my analysis and talk about the Python libraries and database tools I considered and used."
+    "text": "In the beginning of 2020, the so-called \"Querdenken\" movement formed: a protest movement that critized government regulations concerning the containment of the COVID-19 pandemic. This movement reached popularity in Austria and radicalized as more and more right-wing extremist players appeared.\n\nI want to show you how I study the spatio-temporal evolution of the Querdenken movement in Austria by analyzing the social network of Twitter users. For this, I will briefly explain how social networks can be modeled with basic graph theory. This approach then allows to determine central players and learn about potential communities within the movement. Combining the user information with the geographic view, we can understand how the movement organized and spread across Central Europe. I will lay a particular focus on how I retrieve, store and handle the data needed for my analysis and talk about the Python libraries and database tools I considered and used.",
+    "cancelled": "True"
   },
   {
     "speakers": [
       "Štěpán Bechynský"
     ],
     "type": "Talk",
-    "lang": "cz",
+    "lang": "en",
     "title": "Python, Raspberry Pi a Grove",
-    "text": "Elektronická stavebnice Grove od společnosti Seeed https://wiki.seeedstudio.com/Grove_System/ je určena zejména začítečníkům bez znalosti elektroniky. V přednášce uvidíte, jak nainstalovat Python SDK, jak stavebnice vypadá a jak se připojuje k Raspberry Pi."
+    "text": "Elektronická stavebnice Grove od společnosti Seeed https://wiki.seeedstudio.com/Grove_System/ je určena zejména začítečníkům bez znalosti elektroniky. V přednášce uvidíte, jak nainstalovat Python SDK, jak stavebnice vypadá a jak se připojuje k Raspberry Pi.",
+    "youtube": "w2z63hEWFp4"
   },
   {
     "speakers": [
@@ -106,7 +105,8 @@
     "type": "Talk",
     "lang": "en",
     "title": "Your Name is Invalid!",
-    "text": "People have names. Most people do. People have first names and last names. Many people do. People have any sorts of names that often don’t fit fixed fields in the forms. These names may contain letters, accented letters, and other characters, that may cause problems to your code depending on the encoding you use. They may look differently in uppercase and lowercase, or may not be case foldable at all. Searching and sorting these names may be tricky too. And if you design an application, web form, and/or database dealing with personal names, you’ll have to take that into account."
+    "text": "People have names. Most people do. People have first names and last names. Many people do. People have any sorts of names that often don’t fit fixed fields in the forms. These names may contain letters, accented letters, and other characters, that may cause problems to your code depending on the encoding you use. They may look differently in uppercase and lowercase, or may not be case foldable at all. Searching and sorting these names may be tricky too. And if you design an application, web form, and/or database dealing with personal names, you’ll have to take that into account.",
+    "youtube": "rgZCg-G47cM"
   },
   {
     "speakers": [
@@ -115,7 +115,8 @@
     "type": "Talk",
     "lang": "en",
     "title": "Set up an interactive map in browser in a few steps",
-    "text": "Maps are popular means to visualise geospatial data. Companies often possess datapoints with latitute and longitude; nonetheless, data analysts typically lack skills to visualise this data as a map. This talk explains how to set up a map with your custom data in a web browser. We are going to talk about library `folium` that takes care of renderring the map, and how to feed your custom data into it. Optionally, we could extend the scope by geometries/methods to delimit areas and geojson format to record areas and the data layer in one file. The resulting map will be comparable to mapakriminality.cz or mapaexekuci.cz that gained on popularity over the past few years and contributed to society-wide discussion on important topics. I will show pieces of code to demonstrate key concepts at the journey towards getting the map, and eventually will demonstrate the concepts on a map I have been working on."
+    "text": "Maps are popular means to visualise geospatial data. Companies often possess datapoints with latitute and longitude; nonetheless, data analysts typically lack skills to visualise this data as a map. This talk explains how to set up a map with your custom data in a web browser. We are going to talk about library `folium` that takes care of renderring the map, and how to feed your custom data into it. Optionally, we could extend the scope by geometries/methods to delimit areas and geojson format to record areas and the data layer in one file. The resulting map will be comparable to mapakriminality.cz or mapaexekuci.cz that gained on popularity over the past few years and contributed to society-wide discussion on important topics. I will show pieces of code to demonstrate key concepts at the journey towards getting the map, and eventually will demonstrate the concepts on a map I have been working on.",
+    "youtube": "r2-n7HiPrrg"
   },
   {
     "speakers": [
@@ -124,7 +125,8 @@
     "type": "Talk",
     "lang": "en",
     "title": "Building an Open Source Threat Intelligence Platform with STIX",
-    "text": "Knowledge of cyber threats is a key focus in cyber security. In this talk, we present an open source threat intelligence platform to store and manage such knowledge built with Python and TypeDB. It enables cyber threat intelligence professionals to bring together their disparate threat intel into one database, enabling them to easily manage such data and discover new insights about cyber threats.\n\nWe describe how we used TypeDB to represent the STIX 2.1 specification and Python to load the MITRE ATT&CK dataset. We cover how we leverage modelling constructs such as type hierarchies, nested relations, hyper relations, unique attributes, and logical inference, to create the most accurate representation of CTI data."
+    "text": "Knowledge of cyber threats is a key focus in cyber security. In this talk, we present an open source threat intelligence platform to store and manage such knowledge built with Python and TypeDB. It enables cyber threat intelligence professionals to bring together their disparate threat intel into one database, enabling them to easily manage such data and discover new insights about cyber threats.\n\nWe describe how we used TypeDB to represent the STIX 2.1 specification and Python to load the MITRE ATT&CK dataset. We cover how we leverage modelling constructs such as type hierarchies, nested relations, hyper relations, unique attributes, and logical inference, to create the most accurate representation of CTI data.",
+    "youtube": "tQep6pFikTw"
   },
   {
     "speakers": [
@@ -133,7 +135,8 @@
     "type": "Talk",
     "lang": "en",
     "title": "Continuous Documentation for your Python code",
-    "text": "Do you document your code? Do you think it is important?\n\nImagine that you need to get back to your code in 6 month after you wrote it, there is always a big possibility that you will have to spend some time to find out how this code works. Or if someone else wrote some code, which is already in production and your task is to fix a bug in it and there is no documentation and no one actually knows what this code does.\n\nThere are more benefits of implementing continuous documentation for the code:\n\n- easy to onboard new team members,\n- easy to share knowledge,\n- if this code is open source - easy to start contributing,\n- easy to see purpose and motivation of each piece of code,\n- easy to keep versioning for each new release of the code.\n\nIt this talk I will show the difference between documentation types and will show a demo in the end of the talk."
+    "text": "Do you document your code? Do you think it is important?\n\nImagine that you need to get back to your code in 6 month after you wrote it, there is always a big possibility that you will have to spend some time to find out how this code works. Or if someone else wrote some code, which is already in production and your task is to fix a bug in it and there is no documentation and no one actually knows what this code does.\n\nThere are more benefits of implementing continuous documentation for the code:\n\n- easy to onboard new team members,\n- easy to share knowledge,\n- if this code is open source - easy to start contributing,\n- easy to see purpose and motivation of each piece of code,\n- easy to keep versioning for each new release of the code.\n\nIt this talk I will show the difference between documentation types and will show a demo in the end of the talk.",
+    "youtube": "jE0Rlxp5fpk"
   },
   {
     "speakers": [
@@ -142,7 +145,8 @@
     "type": "Talk",
     "lang": "en",
     "title": "Creating the Next Generation of Billionaires ",
-    "text": "Our generation of young people in school (aged 5-18) have noticed the connection between Computer pRogramming, Technology, Bitcoinism Success, Climate Change and Billionaires.\n\nOn mass young people are clamouring to master the skill of Computer pRogramming. It has been dubbed the ‘4th’ R’ (computer pRogramming) along with Reading, wRiting and aRithmetic. So, governments worldwide have launched initiatives to have it taught in schools from Kindergarten to all the way to high school. And now young people are successfully mastering this skill.\n\nThis talk will describe a case study whereby Computer Programming (Python) was introduced for the first time to a group of young people and how the young people are using it to explore and understand real world problems and data such as those relating to climate change, world population growth and carbon dioxide emissions with Python visualisation libraries such as Matplotlib, Numpy and Pandas. We will talk about the joys and challenges and discoveries made by the young people. We will conclude with suggestions on how to proceed in this area."
+    "text": "Our generation of young people in school (aged 5-18) have noticed the connection between Computer pRogramming, Technology, Bitcoinism Success, Climate Change and Billionaires.\n\nOn mass young people are clamouring to master the skill of Computer pRogramming. It has been dubbed the ‘4th’ R’ (computer pRogramming) along with Reading, wRiting and aRithmetic. So, governments worldwide have launched initiatives to have it taught in schools from Kindergarten to all the way to high school. And now young people are successfully mastering this skill.\n\nThis talk will describe a case study whereby Computer Programming (Python) was introduced for the first time to a group of young people and how the young people are using it to explore and understand real world problems and data such as those relating to climate change, world population growth and carbon dioxide emissions with Python visualisation libraries such as Matplotlib, Numpy and Pandas. We will talk about the joys and challenges and discoveries made by the young people. We will conclude with suggestions on how to proceed in this area.",
+    "youtube": "2WbEIXFoskI"
   },
   {
     "speakers": [
@@ -151,7 +155,8 @@
     "type": "Talk",
     "lang": "en",
     "title": "5 Things we've learned building large APIs with FastAPI",
-    "text": "FastAPI follows the UNIX philosophy of \"do one thing, and do it well\". By using Starlette and Pydantic, FastAPI \nprovides you with powerful tools to build a beautiful API. This gives you a lot of freedom to decide how you organize \nthe rest of your codebase. The level of freedom also comes with some challenges once a codebase grows.\n\nIn this talk we explore some of the common challenges in building FastAPI apps, and share how we solved them:\n\n1. Minimizing the global state with dependency injection\n2. Reducing the complexity of testing a FastAPI app\n3. Pitfalls of async FastAPI\n4. Supporting multiple authentication schemes\n5. Modeling the relations between patch, response, and database models"
+    "text": "FastAPI follows the UNIX philosophy of \"do one thing, and do it well\". By using Starlette and Pydantic, FastAPI \nprovides you with powerful tools to build a beautiful API. This gives you a lot of freedom to decide how you organize \nthe rest of your codebase. The level of freedom also comes with some challenges once a codebase grows.\n\nIn this talk we explore some of the common challenges in building FastAPI apps, and share how we solved them:\n\n1. Minimizing the global state with dependency injection\n2. Reducing the complexity of testing a FastAPI app\n3. Pitfalls of async FastAPI\n4. Supporting multiple authentication schemes\n5. Modeling the relations between patch, response, and database models",
+    "youtube": "HTSK6eRwyGM"
   },
   {
     "speakers": [
@@ -169,7 +174,8 @@
     "type": "Talk",
     "lang": "en",
     "title": "Choosing the right database for your next project - Looking at options beyond PostgreSQL and MySQL",
-    "text": "In the last few years, lots of new database engines have been developed and existing ones have been extended to cover new application spaces and features, making the selection process even more challenging than it was before, if you want to maintain an edge.\n\nThe talk will highlight the most important database engines to consider and their strengths when using them with Python applications, covering relational databases for general purpose tasks, data warehouse workloads, data analytics, machine learning, streaming data and massive scalability, to name a few aspects."
+    "text": "In the last few years, lots of new database engines have been developed and existing ones have been extended to cover new application spaces and features, making the selection process even more challenging than it was before, if you want to maintain an edge.\n\nThe talk will highlight the most important database engines to consider and their strengths when using them with Python applications, covering relational databases for general purpose tasks, data warehouse workloads, data analytics, machine learning, streaming data and massive scalability, to name a few aspects.",
+    "youtube": "7q6A_8ts4AQ"
   },
   {
     "speakers": [
@@ -178,7 +184,8 @@
     "type": "Talk",
     "lang": "en",
     "title": "Regex is Magic",
-    "text": "Do you know that moment, when the AI is sold, but all that is in the background is the regex? \n\nRegex is an old magical tool that can turn any kind of unstructured text file into something that can be used for further processing. As one of the more popular technical tools - it is the 30th most frequent tag on StackOverflow and imported in millions of GitHub public projects. Quite a versatile one, as there are cases this is sold as the AI. And it is also quite old, standing the decades of passing time. \n\nIn this talk, I will talk about what regex is and how it can be used. Then I am going to show some of the ways, so regex is used these days and finish with how we managed to sell the regex processing as the magical AI. "
+    "text": "Do you know that moment, when the AI is sold, but all that is in the background is the regex? \n\nRegex is an old magical tool that can turn any kind of unstructured text file into something that can be used for further processing. As one of the more popular technical tools - it is the 30th most frequent tag on StackOverflow and imported in millions of GitHub public projects. Quite a versatile one, as there are cases this is sold as the AI. And it is also quite old, standing the decades of passing time. \n\nIn this talk, I will talk about what regex is and how it can be used. Then I am going to show some of the ways, so regex is used these days and finish with how we managed to sell the regex processing as the magical AI. ",
+    "youtube": "bIjmc0UdmVQ"
   },
   {
     "speakers": [
@@ -187,7 +194,8 @@
     "type": "Talk",
     "lang": "en",
     "title": "Interactive 3D scientific data visualization and mesh analysis with PyVista",
-    "text": "In this talk we will cover visualization of 3D data in Python using PyVista and its companion libraries. We will see how to create interactive visualizations of 3D medical images and  surfaces,  display clouds of points, show terrain maps, make colourful animated meshes, visualize VR scenes, make pretty renders, or perform simple mesh manipulations.\n\nPyVista makes interactive 3D visualization in Python simple and fun.  All under a consistent and easy to learn imperative interface, making it perfect for iterative analysis in your shell / notebooks.\n\nData visualization libraries such as Matplotlib, Seaborn, Plotly, Bokeh, Altair have rightly established their places in our toolbelts for data science visualization in Python. The world has changed, the age of 3D and PyVista is here."
+    "text": "In this talk we will cover visualization of 3D data in Python using PyVista and its companion libraries. We will see how to create interactive visualizations of 3D medical images and  surfaces,  display clouds of points, show terrain maps, make colourful animated meshes, visualize VR scenes, make pretty renders, or perform simple mesh manipulations.\n\nPyVista makes interactive 3D visualization in Python simple and fun.  All under a consistent and easy to learn imperative interface, making it perfect for iterative analysis in your shell / notebooks.\n\nData visualization libraries such as Matplotlib, Seaborn, Plotly, Bokeh, Altair have rightly established their places in our toolbelts for data science visualization in Python. The world has changed, the age of 3D and PyVista is here.",
+    "youtube": "GkX4-cONtxg"
   },
   {
     "speakers": [
@@ -196,7 +204,8 @@
     "type": "Talk",
     "lang": "en",
     "title": "Writing Kubernetes operators in Python - Kopf",
-    "text": "Kopf is a library for Python that offers an easy way to create your own Kubernetes operators.\n\nLet's see how this is done and write your own operator."
+    "text": "Kopf is a library for Python that offers an easy way to create your own Kubernetes operators.\n\nLet's see how this is done and write your own operator.",
+    "youtube": "9qDzO3K9gUc"
   },
   {
     "speakers": [
@@ -205,7 +214,8 @@
     "type": "Talk",
     "lang": "en",
     "title": "Don’t use a lot where a little will do. A story of programming tricks you wish you invented.",
-    "text": "All of us, software developers, are taught to avoid complexity. And we try to do so - even the KISS principle is one of the only things we all truly believe in. But there are some people who brought the simplicity even to a higher level. Those great minds are also thought to be the laziest ones. This talk will be a story of the simplest programming tricks you may know or not, but definitely, you should and will regret not to have invented them before."
+    "text": "All of us, software developers, are taught to avoid complexity. And we try to do so - even the KISS principle is one of the only things we all truly believe in. But there are some people who brought the simplicity even to a higher level. Those great minds are also thought to be the laziest ones. This talk will be a story of the simplest programming tricks you may know or not, but definitely, you should and will regret not to have invented them before.",
+    "youtube": "WfkLstTbG5Q"
   },
   {
     "speakers": [
@@ -214,7 +224,8 @@
     "type": "Talk",
     "lang": "en",
     "title": "Automated Network Performance testing in Python",
-    "text": "LNST (Linux Network Stack Test) is a Python framework for writing multihost network tests. It allows user to automatically map the network, configure it to desired state, measure network performance and evaluate results.\n\nDuring the presentation we'll show how basic tests can be written and how the same framework is utilized in more complex scenarios where we test the Linux kernel, looking for performance regressions.\n\nFinally we'll shortly discuss how LNST is used at Red Hat with other tools to create an automated pipeline that tests and reports results for kernel and other package candidate builds."
+    "text": "LNST (Linux Network Stack Test) is a Python framework for writing multihost network tests. It allows user to automatically map the network, configure it to desired state, measure network performance and evaluate results.\n\nDuring the presentation we'll show how basic tests can be written and how the same framework is utilized in more complex scenarios where we test the Linux kernel, looking for performance regressions.\n\nFinally we'll shortly discuss how LNST is used at Red Hat with other tools to create an automated pipeline that tests and reports results for kernel and other package candidate builds.",
+    "youtube": "lRcPtD_WVkA"
   },
   {
     "speakers": [
@@ -223,7 +234,8 @@
     "type": "Talk",
     "lang": "en",
     "title": "Introduction to Text Analytics for Social Media Chatter",
-    "text": "A vast amount of textual content is available on the internet which is exponentially increasing every second. Text analytics and natural language processing (NLP) techniques allow us to analyze, evaluate and uncover actionable insights from such data. In this talk, I will discuss four key topics ~ 1. Why social media, and what kind of information does social media contain 2. Real-world applications of social media text analysis, 3. The challenges associated with social media data, and 4. Natural language processing techniques (using Python) for analyzing them for cleaning and pre-processing, semantic Analysis, and visualizations."
+    "text": "A vast amount of textual content is available on the internet which is exponentially increasing every second. Text analytics and natural language processing (NLP) techniques allow us to analyze, evaluate and uncover actionable insights from such data. In this talk, I will discuss four key topics ~ 1. Why social media, and what kind of information does social media contain 2. Real-world applications of social media text analysis, 3. The challenges associated with social media data, and 4. Natural language processing techniques (using Python) for analyzing them for cleaning and pre-processing, semantic Analysis, and visualizations.",
+    "youtube": "W-N8Azy5iCw"
   },
   {
     "speakers": [
@@ -233,7 +245,8 @@
     "type": "Talk",
     "lang": "en",
     "title": "Satellite Imagery Processing with Python",
-    "text": "What is satellite imagery? Can you zoom in to a car license plate like in the movies? Can you task a satellite to take a picture for you? How can the satellite data be automatically processed? What are the typical applications of automated satellite imagery processing at scale?\nIn our presentation, we will try to answer those questions with the help of Python and libraries such as GDAL, rasterio, shapely, numpy, and pandas. We will discuss the resolution, data size, GeoJSON and geolocalized TIFF processing, visualization, surface reflectance, orbits, or use cases for non-optical data such as synthetic aperture radar (SAR) imagery, and other interesting aspects of this domain."
+    "text": "What is satellite imagery? Can you zoom in to a car license plate like in the movies? Can you task a satellite to take a picture for you? How can the satellite data be automatically processed? What are the typical applications of automated satellite imagery processing at scale?\nIn our presentation, we will try to answer those questions with the help of Python and libraries such as GDAL, rasterio, shapely, numpy, and pandas. We will discuss the resolution, data size, GeoJSON and geolocalized TIFF processing, visualization, surface reflectance, orbits, or use cases for non-optical data such as synthetic aperture radar (SAR) imagery, and other interesting aspects of this domain.",
+    "youtube": "Ur7cDzEakIs"
   },
   {
     "speakers": [
@@ -242,7 +255,8 @@
     "type": "Talk",
     "lang": "en",
     "title": "Snakes and Birds: Daily Python Tip",
-    "text": "Which came first, the chicken or the egg? What happens if you reverse a British flag? Python has answers to almost all of your questions. \nFive years ago, together with Petr Šimeček, we created the @python_tip Twitter account as a space to share what we were learning in Python. The feedback sometimes surprised us. 35k followers later, we are still trying to find out what makes a good Python tweet.\nIn this talk, I would like to show you my favorite Python tips, both useful and crazy ones."
+    "text": "Which came first, the chicken or the egg? What happens if you reverse a British flag? Python has answers to almost all of your questions. \nFive years ago, together with Petr Šimeček, we created the @python_tip Twitter account as a space to share what we were learning in Python. The feedback sometimes surprised us. 35k followers later, we are still trying to find out what makes a good Python tweet.\nIn this talk, I would like to show you my favorite Python tips, both useful and crazy ones.",
+    "youtube": "sRtARHKxpEA"
   },
   {
     "speakers": [
@@ -261,7 +275,8 @@
     "type": "Talk",
     "lang": "en",
     "title": "The stories of Python features",
-    "text": "Python 3.11 is almost ready. The Release Candidate is available, all features are in, and fixes for serious bugs are the only changes allowed before the final release in October. So you can already play with better traceback inforrmation, exception groups, performance improvements, tomllib, and so on.\n\nBut have you ever wondered how these features get into the language? If you have an idea of an improvement, what needs to happen before it's implemented and released to the world? Who needs to be convinced that it's a good idea? What kind of questions do you need to ask and answer?\nFind out in this talk.\n\n"
+    "text": "Python 3.11 is almost ready. The Release Candidate is available, all features are in, and fixes for serious bugs are the only changes allowed before the final release in October. So you can already play with better traceback inforrmation, exception groups, performance improvements, tomllib, and so on.\n\nBut have you ever wondered how these features get into the language? If you have an idea of an improvement, what needs to happen before it's implemented and released to the world? Who needs to be convinced that it's a good idea? What kind of questions do you need to ask and answer?\nFind out in this talk.\n\n",
+    "youtube": "RXcCaxZf4jM"
   },
   {
     "speakers": [
@@ -271,7 +286,8 @@
     "type": "Talk",
     "lang": "en",
     "title": "Implementation of advanced analytics pipeline in solar energy industry and integration into AWS cloud environment",
-    "text": "Since its birth a couple decades ago, the solar energy industry has seen rapid growth - not just in market size, but also in data. The industry has become data-driven and Solargis has been on the forefront of working with solar data and addressing its main issues. In the first part of this talk, we briefly describe our approach to identifying the most common data quality issues found in solar ground measurement data. After the introduction, we share how we built an advanced analytics pipeline based on our approach, discuss its core components, implementation, evaluation, and outline its main strengths and weaknesses. In the second part, we show how we leverage the AWS cloud environment to deploy, scale and enhance our solutions such as the analytics pipeline. We also share a few technology recommendations, insights and tips on how to integrate, deploy and operate serverless data-flow on the cloud and how to handle data in a cloud-based data-lake."
+    "text": "Since its birth a couple decades ago, the solar energy industry has seen rapid growth - not just in market size, but also in data. The industry has become data-driven and Solargis has been on the forefront of working with solar data and addressing its main issues. In the first part of this talk, we briefly describe our approach to identifying the most common data quality issues found in solar ground measurement data. After the introduction, we share how we built an advanced analytics pipeline based on our approach, discuss its core components, implementation, evaluation, and outline its main strengths and weaknesses. In the second part, we show how we leverage the AWS cloud environment to deploy, scale and enhance our solutions such as the analytics pipeline. We also share a few technology recommendations, insights and tips on how to integrate, deploy and operate serverless data-flow on the cloud and how to handle data in a cloud-based data-lake.",
+    "youtube": "R7dBhHcSRb4"
   },
   {
     "speakers": [
@@ -280,7 +296,8 @@
     "type": "Talk",
     "lang": "en",
     "title": "Distributed-energy-resource simulation and optimization in the context of a transmission grid",
-    "text": "The currently ongoing large-scale adoption of distributed energy resources such as photovoltaic arrays, batteries, fuel cells and others has brought about a significant room for improvements in both cost and energy savings. The supply-demand nature of the power grid further increases the potential for energy-bill reduction. Robust simulations of DERs and their relationships are a paramount for any optimization effort.\nWe developed a framework which simplifies the simulation work and provides a useful abstraction for complex systems. An example simulation of a model city transmission grid will be presented.  "
+    "text": "The currently ongoing large-scale adoption of distributed energy resources such as photovoltaic arrays, batteries, fuel cells and others has brought about a significant room for improvements in both cost and energy savings. The supply-demand nature of the power grid further increases the potential for energy-bill reduction. Robust simulations of DERs and their relationships are a paramount for any optimization effort.\nWe developed a framework which simplifies the simulation work and provides a useful abstraction for complex systems. An example simulation of a model city transmission grid will be presented.",
+    "youtube": "gNNHZmhXD_I"
   },
   {
     "speakers": [
@@ -289,7 +306,8 @@
     "type": "Talk",
     "lang": "en",
     "title": "What I learned during my summer with a command line: confession of a non-tech person in tech",
-    "text": "Not everyone needs coding skills, but learning how to think like a programmer can be useful in almost any discipline. Join me for a story of how Slido motivated me to learn operating (not only) the command line and how I benefitted ever since."
+    "text": "Not everyone needs coding skills, but learning how to think like a programmer can be useful in almost any discipline. Join me for a story of how Slido motivated me to learn operating (not only) the command line and how I benefitted ever since.",
+    "youtube": "P7nSlYr1IS0"
   },
   {
     "speakers": [
@@ -298,7 +316,8 @@
     "type": "Talk",
     "lang": "en",
     "title": "Revolutionize Data Visulization with PyScript",
-    "text": "Since the announcement of PyScript, it has gained lots of attention and imagination about how we can run applications of Python in the browser. Out of everything that I have come across, most of the use cases are data visualisation. Let’s see how we can up our data viz game with PyScript."
+    "text": "Since the announcement of PyScript, it has gained lots of attention and imagination about how we can run applications of Python in the browser. Out of everything that I have come across, most of the use cases are data visualisation. Let’s see how we can up our data viz game with PyScript.",
+    "youtube": "figPq-gSb4A"
   },
   {
     "speakers": [
@@ -316,7 +335,8 @@
     "type": "Talk",
     "lang": "en",
     "title": "Scaling distributed workflow using Prefect",
-    "text": "In Ataccama, we looked for a way to deploy, manage, schedule and scale python-based workloads - data processing jobs or automated extraction of business intelligence. We are thrilled to share our experience with Prefect and Dask with you. This setup allowed us to seamlessly scale our workflows in Kubernetes environment. In this talk, we compare Prefect with other popular frameworks (ease of use, unit tests, observability, …), how we approach workload management and demonstrate dev-to-production path."
+    "text": "In Ataccama, we looked for a way to deploy, manage, schedule and scale python-based workloads - data processing jobs or automated extraction of business intelligence. We are thrilled to share our experience with Prefect and Dask with you. This setup allowed us to seamlessly scale our workflows in Kubernetes environment. In this talk, we compare Prefect with other popular frameworks (ease of use, unit tests, observability, …), how we approach workload management and demonstrate dev-to-production path.",
+    "youtube": "cpvQQK6oqa0"
   },
   {
     "speakers": [
@@ -325,7 +345,8 @@
     "type": "Talk",
     "lang": "sk",
     "title": "IT FREELANCING - trendy, štatistiky & Python v IT projektoch",
-    "text": "Dopyt po IT freelanceroch rastie. Je freelancing budúcnosť? Aké trendy a technológie dominujú IT projektom? A aké miesto má v tom celom Python? Odpovede vychádzajú z reálnych dát každoročných štatistík TITANS freelancers."
+    "text": "Dopyt po IT freelanceroch rastie. Je freelancing budúcnosť? Aké trendy a technológie dominujú IT projektom? A aké miesto má v tom celom Python? Odpovede vychádzajú z reálnych dát každoročných štatistík TITANS freelancers.",
+    "youtube": "gT1yFw3k0Rw"
   },
   {
     "speakers": [
@@ -334,7 +355,8 @@
     "type": "Talk",
     "lang": "en",
     "title": "Best practices for building Docker images for Python apps",
-    "text": "Docker is very popular among developers and many teams use it to deliver their software. I want to use it too, but my images are large and take forever to build. Does it have to be like that? Is there a better way to do it?\n\nIn this presentation, we will go through the whole process of building a docker image for a Python web app. How to select a base image, how to optimize the size, and how to decrease the speed of build. We will think about security, logging, and caching and see how to do it all in CI. You will end up with the set of applicable best practices in creating Docker images that you can use in your projects."
+    "text": "Docker is very popular among developers and many teams use it to deliver their software. I want to use it too, but my images are large and take forever to build. Does it have to be like that? Is there a better way to do it?\n\nIn this presentation, we will go through the whole process of building a docker image for a Python web app. How to select a base image, how to optimize the size, and how to decrease the speed of build. We will think about security, logging, and caching and see how to do it all in CI. You will end up with the set of applicable best practices in creating Docker images that you can use in your projects.",
+    "youtube": "GpGZ9bkqpF0"
   },
   {
     "speakers": [
@@ -343,7 +365,8 @@
     "type": "Talk",
     "lang": "en",
     "title": "How to build an indoor air quality monitoring and predictive system",
-    "text": "In the last couple of years, most people have been moved to a full working from home work-style, which made us realize benefits we were not aware of, but sadly some little inconveniences as well some health related issues.\n\nSome scientific studies show that we spend over 90% of our time indoors [1]. Furthermore, advances in construction technology have caused a much better isolation, so a good ventilation is necessary. However, overventilation results in higher energy consumption usage but inadequate ventilation leads to indoor air quality that affects a person's comfort, health and even our ability to be focused and work effectively.\n\nIn order to improve my quality of life working from home, I decided to monitor and evaluate  the air of my new working place (a.k.a living room). In this talk, we will explore how to build a functional system to track the air quality, collect our own data using different sensors and implement a predictive approach to avoid future health problems.\n\nWe are going to dive into the different setups to interact with air quality sensors using Python on microcontrollers and embedded systems (Raspberry pi), collecting your own data to evaluate different factors like humidity, temperature, CO2, particles, but that’s not all, also we will go into the implementation of a predictive machine learning (ML) model to predict Indoor CO2 levels and alerting us based on predictions before critical levels.\n\nAssistants will see how Python is a great option to indoor air quality monitoring complemented with a predictive ML model for Indoor CO2, while having fun building and monitoring your home."
+    "text": "In the last couple of years, most people have been moved to a full working from home work-style, which made us realize benefits we were not aware of, but sadly some little inconveniences as well some health related issues.\n\nSome scientific studies show that we spend over 90% of our time indoors [1]. Furthermore, advances in construction technology have caused a much better isolation, so a good ventilation is necessary. However, overventilation results in higher energy consumption usage but inadequate ventilation leads to indoor air quality that affects a person's comfort, health and even our ability to be focused and work effectively.\n\nIn order to improve my quality of life working from home, I decided to monitor and evaluate  the air of my new working place (a.k.a living room). In this talk, we will explore how to build a functional system to track the air quality, collect our own data using different sensors and implement a predictive approach to avoid future health problems.\n\nWe are going to dive into the different setups to interact with air quality sensors using Python on microcontrollers and embedded systems (Raspberry pi), collecting your own data to evaluate different factors like humidity, temperature, CO2, particles, but that’s not all, also we will go into the implementation of a predictive machine learning (ML) model to predict Indoor CO2 levels and alerting us based on predictions before critical levels.\n\nAssistants will see how Python is a great option to indoor air quality monitoring complemented with a predictive ML model for Indoor CO2, while having fun building and monitoring your home.",
+    "youtube": "X8LE61ezypY"
   },
   {
     "speakers": [
@@ -352,7 +375,8 @@
     "type": "Talk",
     "lang": "en",
     "title": "Stereotype: Data models pushing Python to the limits",
-    "text": "Stereotype is a performance-focused Python 3.8 library for providing a structure for your data and validating it. The models allow fast & easy conversion between primitive data and well-typed Python classes. In the talk we’ll cover these topics:\n- Why you should use data models for data conversion and validation\n- Stereotype vs. other libraries doing a similar thing\n- Pushing Python's limits - the optimizations and hacks behind stereotype"
+    "text": "Stereotype is a performance-focused Python 3.8 library for providing a structure for your data and validating it. The models allow fast & easy conversion between primitive data and well-typed Python classes. In the talk we’ll cover these topics:\n- Why you should use data models for data conversion and validation\n- Stereotype vs. other libraries doing a similar thing\n- Pushing Python's limits - the optimizations and hacks behind stereotype",
+    "youtube": "TgC6MZKd_Dc"
   },
   {
     "speakers": [
@@ -361,7 +385,8 @@
     "type": "Talk",
     "lang": "en",
     "title": "Working with Data-Scientits: Survival guide",
-    "text": "Ten years ago nobody knew, what data-scientists do and now they are everywhere. And they come and mess up your code-base with no regards for a coding style or DRY principle. They don’t understand why you need to refactor, if it already works. And when you ask, what data they need, they’ll tell you „all of them“.\n\nBut it doesn’t have to be this way. And I’ll show you how I solved some of the problems since I took over the team leader role in LMC 2 years ago. I’ll give you 10 tips on how organize work between data-scientists and developers and how to build a good and productive relationship."
+    "text": "Ten years ago nobody knew, what data-scientists do and now they are everywhere. And they come and mess up your code-base with no regards for a coding style or DRY principle. They don’t understand why you need to refactor, if it already works. And when you ask, what data they need, they’ll tell you „all of them“.\n\nBut it doesn’t have to be this way. And I’ll show you how I solved some of the problems since I took over the team leader role in LMC 2 years ago. I’ll give you 10 tips on how organize work between data-scientists and developers and how to build a good and productive relationship.",
+    "youtube": "t7Ot4EDUt04"
   },
   {
     "speakers": [
