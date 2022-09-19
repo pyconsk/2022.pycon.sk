@@ -28,6 +28,15 @@
   },
   {
     "company": "Titans",
+    "title": "Dátový inžinier",
+    "pay": "(6000 - 7000 €/mesačne)",
+    "desc": "Vyznáš sa v dátach a <b>Python</b> máš v malíčku? Hľadáme <b>dátového inžiniera</b> na dlhodobý\nOFFSITE projekt. Zodpovedať budeš za zefektívnenie procesov spracovania dát v\npoisťovacom sektore.",
+    "tags": "OFFSITE/Bratislava ǀ 12 mesiacov",
+    "lang": "SK",
+    "url": "https://www.titans.sk/sk/freelanceri/projekt/datovy-inzinier-220905A/?utm_source=URL&amp;utm_medium=inzercia&amp;utm_campaign=PYCON&amp;utm_id=13092022&amp;utm_term=projekt&amp;utm_content=data+engineer"
+  },
+  {
+    "company": "Titans",
     "title": "C++ [Designing microprocessors] developer",
     "pay": "(5000 - 6000 €/mesačne)",
     "desc": "Si <b>C++ programátor s #Python</b> skúsenosťami? Hľadáme freelancera na dlhodobý projekt dizajnovania mikroprocesorov, ktorý bude súčasťou vývoja a zlepšovania unikátnych svetových produktov.",
@@ -205,5 +214,14 @@
     "tags": "",
     "lang": "EN",
     "url": "https://jobs.ataccama.com/96e18909-c978-4942-9fe9-e3f35f4f83c4/prague/cloud-infrastructure/"
+  },
+  {
+    "company": "RedHat",
+    "title": "Red Hat Talent Community",
+    "pay": "",
+    "desc": "Chcete pracovať s inovatívnymi technológiami a presadiť sa vo svete open source? Zaregistrujte sa do komunity talentov spoločnosti Red Hat a získavajte informácie o našich najnovších vývojárskych pozíciach.",
+    "tags": "Brno, Česká Republika | Remote EMEA",
+    "lang": "SK",
+    "url": "https://redhat.avature.net/talentcommunity?source=Event+-+Other&tags=pycon"
   }
 ]
